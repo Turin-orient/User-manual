@@ -28,7 +28,7 @@ Understand and assign user roles with appropriate access levels.
 - ❌ Modify system settings
 - ❌ View other users' data
 
-###Administrator
+### Administrator
 **Can do everything Standard Users can, PLUS:**
 - ✅ Add/edit/remove users
 - ✅ Manage API keys
