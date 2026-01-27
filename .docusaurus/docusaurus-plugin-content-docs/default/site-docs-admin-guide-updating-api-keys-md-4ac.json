@@ -1,0 +1,27 @@
+{
+  "id": "admin-guide/updating-api-keys",
+  "title": "Updating API Keys",
+  "description": "Update existing API keys when credentials change.",
+  "source": "@site/docs/admin-guide/updating-api-keys.md",
+  "sourceDirName": "admin-guide",
+  "slug": "/admin-guide/updating-api-keys",
+  "permalink": "/docs/admin-guide/updating-api-keys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/updating-api-keys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Adding API Keys",
+    "permalink": "/docs/admin-guide/adding-api-keys"
+  },
+  "next": {
+    "title": "Rotating API Keys",
+    "permalink": "/docs/admin-guide/rotating-api-keys"
+  }
+}

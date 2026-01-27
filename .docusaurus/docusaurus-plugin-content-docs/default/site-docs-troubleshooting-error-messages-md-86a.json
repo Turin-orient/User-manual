@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting/error-messages",
+  "title": "Error Messages Explained",
+  "description": "Common error messages and what they mean in plain language.",
+  "source": "@site/docs/troubleshooting/error-messages.md",
+  "sourceDirName": "troubleshooting",
+  "slug": "/troubleshooting/error-messages",
+  "permalink": "/docs/troubleshooting/error-messages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/error-messages.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Common Issues and Solutions",
+    "permalink": "/docs/troubleshooting/common-issues"
+  },
+  "next": {
+    "title": "Performance Issues",
+    "permalink": "/docs/troubleshooting/performance-issues"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting/when-to-contact-support",
+  "title": "When to Contact Support",
+  "description": "Know when to troubleshoot yourself vs. when to contact IT support.",
+  "source": "@site/docs/troubleshooting/when-to-contact-support.md",
+  "sourceDirName": "troubleshooting",
+  "slug": "/troubleshooting/when-to-contact-support",
+  "permalink": "/docs/troubleshooting/when-to-contact-support",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/when-to-contact-support.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication Issues",
+    "permalink": "/docs/troubleshooting/authentication-issues"
+  },
+  "next": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "permalink": "/docs/troubleshooting/faq"
+  }
+}

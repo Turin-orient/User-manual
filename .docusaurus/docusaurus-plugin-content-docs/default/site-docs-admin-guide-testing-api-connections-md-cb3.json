@@ -1,0 +1,27 @@
+{
+  "id": "admin-guide/testing-api-connections",
+  "title": "Testing API Connections",
+  "description": "Verify that API keys are working correctly.",
+  "source": "@site/docs/admin-guide/testing-api-connections.md",
+  "sourceDirName": "admin-guide",
+  "slug": "/admin-guide/testing-api-connections",
+  "permalink": "/docs/admin-guide/testing-api-connections",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/testing-api-connections.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rotating API Keys",
+    "permalink": "/docs/admin-guide/rotating-api-keys"
+  },
+  "next": {
+    "title": "Environment Configuration",
+    "permalink": "/docs/admin-guide/environment-configuration"
+  }
+}

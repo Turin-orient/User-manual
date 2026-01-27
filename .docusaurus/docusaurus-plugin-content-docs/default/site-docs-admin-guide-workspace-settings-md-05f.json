@@ -1,0 +1,27 @@
+{
+  "id": "admin-guide/workspace-settings",
+  "title": "Workspace Settings",
+  "description": "Customize workspace-specific settings and preferences.",
+  "source": "@site/docs/admin-guide/workspace-settings.md",
+  "sourceDirName": "admin-guide",
+  "slug": "/admin-guide/workspace-settings",
+  "permalink": "/docs/admin-guide/workspace-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/workspace-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Environment Configuration",
+    "permalink": "/docs/admin-guide/environment-configuration"
+  },
+  "next": {
+    "title": "Usage Monitoring",
+    "permalink": "/docs/admin-guide/usage-monitoring"
+  }
+}

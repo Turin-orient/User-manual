@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/environment-variables",
+  "title": "Environment Variables",
+  "description": "Understanding and managing environment variables for Neurond Assistant.",
+  "source": "@site/docs/system-setup/environment-variables.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/environment-variables",
+  "permalink": "/docs/system-setup/environment-variables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/environment-variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vercel Deployment Guide",
+    "permalink": "/docs/system-setup/vercel-deployment"
+  },
+  "next": {
+    "title": "Updating and Redeploying",
+    "permalink": "/docs/system-setup/updating-deployment"
+  }
+}

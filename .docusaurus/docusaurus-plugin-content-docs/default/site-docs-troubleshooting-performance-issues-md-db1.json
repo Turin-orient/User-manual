@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting/performance-issues",
+  "title": "Performance Issues",
+  "description": "Troubleshoot slow response times and performance problems.",
+  "source": "@site/docs/troubleshooting/performance-issues.md",
+  "sourceDirName": "troubleshooting",
+  "slug": "/troubleshooting/performance-issues",
+  "permalink": "/docs/troubleshooting/performance-issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/performance-issues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Messages Explained",
+    "permalink": "/docs/troubleshooting/error-messages"
+  },
+  "next": {
+    "title": "Authentication Issues",
+    "permalink": "/docs/troubleshooting/authentication-issues"
+  }
+}

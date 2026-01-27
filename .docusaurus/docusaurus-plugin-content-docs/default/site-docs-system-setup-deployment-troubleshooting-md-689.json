@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/deployment-troubleshooting",
+  "title": "Deployment Troubleshooting",
+  "description": "Common deployment issues and their solutions.",
+  "source": "@site/docs/system-setup/deployment-troubleshooting.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/deployment-troubleshooting",
+  "permalink": "/docs/system-setup/deployment-troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/deployment-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rollback Procedures",
+    "permalink": "/docs/system-setup/rollback"
+  },
+  "next": {
+    "title": "Common Issues and Solutions",
+    "permalink": "/docs/troubleshooting/common-issues"
+  }
+}

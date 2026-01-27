@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/updating-deployment",
+  "title": "Updating and Redeploying",
+  "description": "How to update Neurond Assistant and redeploy changes.",
+  "source": "@site/docs/system-setup/updating-deployment.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/updating-deployment",
+  "permalink": "/docs/system-setup/updating-deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/updating-deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Environment Variables",
+    "permalink": "/docs/system-setup/environment-variables"
+  },
+  "next": {
+    "title": "Rollback Procedures",
+    "permalink": "/docs/system-setup/rollback"
+  }
+}

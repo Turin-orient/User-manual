@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/using-chat-interface",
+  "title": "Using the Chat Interface",
+  "description": "The chat interface is the main way you interact with Neurond Assistant. This guide teaches you how to use it effectively.",
+  "source": "@site/docs/user-guide/using-chat-interface.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/using-chat-interface",
+  "permalink": "/docs/user-guide/using-chat-interface",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/using-chat-interface.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logging Out",
+    "permalink": "/docs/getting-started/logging-out"
+  },
+  "next": {
+    "title": "Asking Questions Effectively",
+    "permalink": "/docs/user-guide/asking-questions"
+  }
+}

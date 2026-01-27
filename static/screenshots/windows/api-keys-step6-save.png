@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Main content box -->
+  <rect x="100" y="100" width="1000" height="600" fill="white" stroke="#dee2e6" stroke-width="2" rx="4"/>
+  
+  <!-- Header -->
+  <rect x="100" y="100" width="1000" height="60" fill="#e9ecef" rx="4"/>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="24" fill="#212529" text-anchor="middle" font-weight="bold">📸 Placeholder Screenshot - Windows</text>
+  
+  <!-- Icon -->
+  <circle cx="600" cy="350" r="80" fill="#dee2e6"/>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="60" fill="#6c757d" text-anchor="middle">🖼️</text>
+  
+  <!-- Instructions -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="20" fill="#495057" text-anchor="middle">Replace with actual screenshot</text>
+  <text x="600" y="520" font-family="Arial, sans-serif" font-size="16" fill="#6c757d" text-anchor="middle">Take screenshot on Windows: Win+Shift+S</text>
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="16" fill="#6c757d" text-anchor="middle">Save as PNG in: static/screenshots/windows/</text>
+  
+  <!-- Footer note -->
+  <rect x="300" y="620" width="600" height="50" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="600" y="652" font-family="Arial, sans-serif" font-size="14" fill="#6c757d" text-anchor="middle">This is a temporary placeholder image</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/overview",
+  "title": "System Setup Overview",
+  "description": "High-level overview of deploying and maintaining Neurond Assistant.",
+  "source": "@site/docs/system-setup/overview.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/overview",
+  "permalink": "/docs/system-setup/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Health",
+    "permalink": "/docs/admin-guide/system-health"
+  },
+  "next": {
+    "title": "Prerequisites",
+    "permalink": "/docs/system-setup/prerequisites"
+  }
+}

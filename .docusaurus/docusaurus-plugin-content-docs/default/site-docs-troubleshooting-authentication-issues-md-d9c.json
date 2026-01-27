@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting/authentication-issues",
+  "title": "Authentication Issues",
+  "description": "Troubleshoot login and authentication problems.",
+  "source": "@site/docs/troubleshooting/authentication-issues.md",
+  "sourceDirName": "troubleshooting",
+  "slug": "/troubleshooting/authentication-issues",
+  "permalink": "/docs/troubleshooting/authentication-issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/authentication-issues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Performance Issues",
+    "permalink": "/docs/troubleshooting/performance-issues"
+  },
+  "next": {
+    "title": "When to Contact Support",
+    "permalink": "/docs/troubleshooting/when-to-contact-support"
+  }
+}

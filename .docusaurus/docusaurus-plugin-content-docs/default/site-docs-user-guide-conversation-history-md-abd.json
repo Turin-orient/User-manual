@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/conversation-history",
+  "title": "Conversation History",
+  "description": "Access, manage, and continue your past conversations with Neurond Assistant.",
+  "source": "@site/docs/user-guide/conversation-history.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/conversation-history",
+  "permalink": "/docs/user-guide/conversation-history",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/conversation-history.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Content Drafting",
+    "permalink": "/docs/user-guide/content-drafting"
+  },
+  "next": {
+    "title": "Exporting Results",
+    "permalink": "/docs/user-guide/exporting-results"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/asking-questions",
+  "title": "Asking Questions Effectively",
+  "description": "Learn how to phrase questions to get the best answers from Neurond Assistant.",
+  "source": "@site/docs/user-guide/asking-questions.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/asking-questions",
+  "permalink": "/docs/user-guide/asking-questions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/asking-questions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using the Chat Interface",
+    "permalink": "/docs/user-guide/using-chat-interface"
+  },
+  "next": {
+    "title": "Uploading Documents",
+    "permalink": "/docs/user-guide/uploading-documents"
+  }
+}

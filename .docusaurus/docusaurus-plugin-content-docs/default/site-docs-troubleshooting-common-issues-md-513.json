@@ -1,0 +1,27 @@
+{
+  "id": "troubleshooting/common-issues",
+  "title": "Common Issues and Solutions",
+  "description": "Quick solutions to frequently encountered problems.",
+  "source": "@site/docs/troubleshooting/common-issues.md",
+  "sourceDirName": "troubleshooting",
+  "slug": "/troubleshooting/common-issues",
+  "permalink": "/docs/troubleshooting/common-issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/common-issues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment Troubleshooting",
+    "permalink": "/docs/system-setup/deployment-troubleshooting"
+  },
+  "next": {
+    "title": "Error Messages Explained",
+    "permalink": "/docs/troubleshooting/error-messages"
+  }
+}

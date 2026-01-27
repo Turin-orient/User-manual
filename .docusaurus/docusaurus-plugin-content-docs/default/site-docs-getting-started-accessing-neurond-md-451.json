@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/accessing-neurond",
+  "title": "Accessing Neurond Assistant",
+  "description": "This page explains how to access Neurond Assistant for the first time and what you need to get started.",
+  "source": "@site/docs/getting-started/accessing-neurond.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/accessing-neurond",
+  "permalink": "/docs/getting-started/accessing-neurond",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/getting-started/accessing-neurond.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Key Features Overview",
+    "permalink": "/docs/introduction/key-features"
+  },
+  "next": {
+    "title": "Logging In",
+    "permalink": "/docs/getting-started/logging-in"
+  }
+}

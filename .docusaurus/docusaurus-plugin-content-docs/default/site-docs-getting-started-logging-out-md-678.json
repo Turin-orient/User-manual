@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/logging-out",
+  "title": "Logging Out",
+  "description": "This guide explains how to safely log out of Neurond Assistant to protect your account and data.",
+  "source": "@site/docs/getting-started/logging-out.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/logging-out",
+  "permalink": "/docs/getting-started/logging-out",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/getting-started/logging-out.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dashboard Overview",
+    "permalink": "/docs/getting-started/dashboard-overview"
+  },
+  "next": {
+    "title": "Using the Chat Interface",
+    "permalink": "/docs/user-guide/using-chat-interface"
+  }
+}

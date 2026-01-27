@@ -1,0 +1,27 @@
+{
+  "id": "admin-guide/managing-users",
+  "title": "Managing Users",
+  "description": "Purpose",
+  "source": "@site/docs/admin-guide/managing-users.md",
+  "sourceDirName": "admin-guide",
+  "slug": "/admin-guide/managing-users",
+  "permalink": "/docs/admin-guide/managing-users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/managing-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Admin Dashboard Overview",
+    "permalink": "/docs/admin-guide/admin-dashboard"
+  },
+  "next": {
+    "title": "Permissions and Roles",
+    "permalink": "/docs/admin-guide/permissions-and-roles"
+  }
+}

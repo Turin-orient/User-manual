@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/document-processing",
+  "title": "Document Processing",
+  "description": "Process invoices, forms, receipts, and other documents to extract structured data.",
+  "source": "@site/docs/user-guide/document-processing.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/document-processing",
+  "permalink": "/docs/user-guide/document-processing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/document-processing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Knowledge Retrieval",
+    "permalink": "/docs/user-guide/knowledge-retrieval"
+  },
+  "next": {
+    "title": "Content Drafting",
+    "permalink": "/docs/user-guide/content-drafting"
+  }
+}

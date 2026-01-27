@@ -1,0 +1,27 @@
+{
+  "id": "system-setup/prerequisites",
+  "title": "Prerequisites",
+  "description": "What you need before deploying Neurond Assistant.",
+  "source": "@site/docs/system-setup/prerequisites.md",
+  "sourceDirName": "system-setup",
+  "slug": "/system-setup/prerequisites",
+  "permalink": "/docs/system-setup/prerequisites",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/prerequisites.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Setup Overview",
+    "permalink": "/docs/system-setup/overview"
+  },
+  "next": {
+    "title": "Vercel Deployment Guide",
+    "permalink": "/docs/system-setup/vercel-deployment"
+  }
+}
