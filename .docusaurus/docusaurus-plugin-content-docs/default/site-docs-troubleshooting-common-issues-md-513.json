@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Deployment Troubleshooting",
-    "permalink": "/docs/system-setup/deployment-troubleshooting"
+    "title": "Image Studio Guide",
+    "permalink": "/docs/user-manual/image-studio"
   },
   "next": {
     "title": "Error Messages Explained",

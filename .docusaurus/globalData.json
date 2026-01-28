@@ -218,6 +218,36 @@
               "id": "user-guide/using-chat-interface",
               "path": "/docs/user-guide/using-chat-interface",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/chat-ui",
+              "path": "/docs/user-manual/chat-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/collection",
+              "path": "/docs/user-manual/collection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/image-studio",
+              "path": "/docs/user-manual/image-studio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/login",
+              "path": "/docs/user-manual/login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/prompt-gallery",
+              "path": "/docs/user-manual/prompt-gallery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/workspace",
+              "path": "/docs/user-manual/workspace",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
