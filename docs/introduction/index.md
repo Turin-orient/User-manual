@@ -116,12 +116,12 @@ Your data security is our top priority:
 
 Now that you understand what Neurond Assistant is, let's get you started:
 
-1. [Access Neurond Assistant](../getting-started/accessing-neurond.md) - Learn how to log in
+1. [Access Neurond Assistant](../getting-started/accessing-neurond) - Learn how to log in
 2. [Dashboard Overview](../getting-started/dashboard-overview.md) - Understand the interface
-3. [Your First Query](../user-guide/asking-questions.md) - Start using the assistant
+3. [Your First Query](../user-guide/asking-questions) - Start using the assistant
 
 :::tip Need Help?
-If you have questions at any time, check our [FAQ section](../troubleshooting/faq.md) or contact your IT support team.
+If you have questions at any time, check our [FAQ section](../troubleshooting/faq) or contact your IT support team.
 :::
 
 ---

@@ -1,4 +1,8 @@
-# Collection Management Guide
+---
+id: collection
+title: Collection Management Guide
+sidebar_label: Collection
+---
 
 Collections in Neurond Assistant serve as a structured library for your documents, images, and other resources. This guide walks you through every detail of managing your centralized knowledge base.
 
@@ -66,8 +70,9 @@ If a collection is no longer needed, you can permanently remove it by clicking t
 
 ---
 **Guides in this section:**
-*   [Login Guide](./login.md)
-*   [Workspace Creation](./workspace.md)
-*   [Prompt Gallery Guide](./prompt-gallery.md)
-*   [Chat Interface Guide](./chat-ui.md)
-*   [Image Studio Guide](./image-studio.md)
+*   [Login Guide](./login)
+*   [Workspace Creation](./workspace)
+*   [Prompt Gallery Guide](./prompt-gallery)
+*   [Chat Interface Guide](./chat-ui)
+*   [Image Studio Guide](./image-studio)
+

@@ -20,8 +20,8 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'neurond', // Usually your GitHub org/user name.
-    projectName: 'neurond-assistant-docs', // Usually your repo name.
+    organizationName: 'Turin-orient', // Usually your GitHub org/user name.
+    projectName: 'User-manual', // Usually your repo name.
 
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/your-org/neurond-assistant-docs/tree/main/',
+                        'https://github.com/Turin-orient/User-manual/tree/main/',
                 },
                 blog: false, // Disable blog functionality
                 theme: {

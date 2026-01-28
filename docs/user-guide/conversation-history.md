@@ -121,5 +121,5 @@ Each conversation displays:
 
 ## Next Steps
 
-- [Export your results](exporting-results.md)
-- [Understand common errors](common-errors.md)
+- [Export your results](./exporting-results)
+- [Understand common errors](./common-errors)

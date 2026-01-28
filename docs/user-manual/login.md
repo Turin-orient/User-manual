@@ -1,4 +1,8 @@
-# Login Guide
+---
+id: login
+title: Login Guide
+sidebar_label: Login
+---
 
 This guide walks you through the process of accessing and logging into Neurond Assistant.
 
@@ -26,4 +30,5 @@ This is the most common method. Simply click the "Login with Company Account" bu
 *   If you forget your password, please contact your IT support team for assistance.
 
 ---
-**Next:** [Chat UI Guide](./chat-ui.md)
+**Next:** [Chat UI Guide](./chat-ui)
+

@@ -1,4 +1,8 @@
-# Chat Interface Guide
+---
+id: chat-ui
+title: Chat Interface Guide
+sidebar_label: Chat UI
+---
 
 The Chat Interface is where you interact directly with Neurond Assistant to ask questions, analyze documents, and perform various tasks.
 
@@ -43,4 +47,5 @@ You can copy, rate (Like/Dislike), or ask the Assistant to rewrite the response 
 ![Chat Output](/img/ui/chat/Output_chat.png)
 
 ---
-**Next:** [Image Studio Guide](./image-studio.md)
+**Next:** [Image Studio Guide](./image-studio)
+

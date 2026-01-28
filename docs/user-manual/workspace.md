@@ -1,4 +1,8 @@
-# Workspace Creation
+---
+id: workspace
+title: Workspace Creation Guide
+sidebar_label: Workspace
+---
 
 Workspaces are the core of your productivity with Neurond Assistant. They serve as specialized environments where you can configure specific AI behaviors, models, and data sources. This guide walks you through every detail of the creation process.
 
@@ -84,6 +88,7 @@ Use the integrated search bar to filter your workspaces by name or role. This en
 
 ---
 **Guides in this section:**
-*   [Login Guide](./login.md)
-*   [Chat Interface Guide](./chat-ui.md)
-*   [Image Studio Guide](./image-studio.md)
+*   [Login Guide](./login)
+*   [Chat Interface Guide](./chat-ui)
+*   [Image Studio Guide](./image-studio)
+

@@ -1,4 +1,8 @@
-# Prompt Gallery Guide
+---
+id: prompt-gallery
+title: Prompt Gallery Guide
+sidebar_label: Prompt Gallery
+---
 
 The Prompt Gallery is a powerful tool for managing and discovering AI prompts. It allows you to save your own creative prompts or use community-wide "Global" prompts to enhance your interaction with Neurond Assistant.
 
@@ -59,7 +63,9 @@ Upon successful deletion, you will receive a confirmation notification.
 
 ---
 **Guides in this section:**
-*   [Login Guide](./login.md)
-*   [Workspace Creation](./workspace.md)
-*   [Chat Interface Guide](./chat-ui.md)
-*   [Image Studio Guide](./image-studio.md)
+*   [Login Guide](./login)
+*   [Workspace Creation](./workspace)
+*   [Chat Interface Guide](./chat-ui)
+*   [Image Studio Guide](./image-studio)
+*   [Collection Guide](./collection)
+
