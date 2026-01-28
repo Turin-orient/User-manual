@@ -1,0 +1,89 @@
+# Workspace Creation
+
+Workspaces are the core of your productivity with Neurond Assistant. They serve as specialized environments where you can configure specific AI behaviors, models, and data sources. This guide walks you through every detail of the creation process.
+
+## 1. Getting Started
+
+When you first access the workspace list, it may be empty. This is your blank canvas for productivity.
+
+![Initial Empty Workspace List](/img/ui/workspace/Work_spaces_UI_empty.png)
+
+To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
+
+![Create New Workspace Button](/img/ui/workspace/click_to_create_new_workspace.png)
+
+## 2. Choosing Your Configuration Strategy
+
+Neurond Assistant provides two main paths to help you get started quickly or with full control.
+
+![Configuration Options Overview](/img/ui/workspace/Work_spaces_default_AI.png)
+
+### Option 1: Using Suggested Templates
+For common roles and tasks, you can select from "Suggested" templates. These come pre-configured with optimized models and relevant capability settings.
+
+### Option 2: Custom Creation (Self-Create)
+Choose this if you need a unique setup. You will be prompted to define the workspace's purpose, knowledge base, and specific AI parameters.
+
+---
+
+## 3. Step-by-Step Workspace Setup
+
+### Step A: Naming and Description
+Give your workspace a clear, descriptive name. This is crucial for identifying your assistants when you have multiple environments.
+
+![Defining Workspace Metadata](/img/ui/workspace/create_work_spce_ui.png)
+
+### Step B: Selecting and Uploading Knowledge
+A workspace is only as smart as the data you give it. You can select existing folders or upload new files to serve as the "Knowledge Base."
+
+![Knowledge Base Selection Interface](/img/ui/workspace/Choose_knowlege_for_workspace.png)
+
+**Monitoring Uploads:**
+When you upload files, the system provides a real-time status indicator.
+
+![Knowledge Upload in Progress](/img/ui/workspace/uploading_status.png)
+
+Once the indexing is complete, you will see a success confirmation, indicating the knowledge is ready for use.
+
+![Knowledge Upload Successful](/img/ui/workspace/display_upload_successfully.png)
+
+### Step C: Configuring AI Intelligence
+Select the underlying LLM (Large Language Model) and toggle specific capabilities. For example, you can enable web searching, advanced reasoning, or specific output formats.
+
+![Model and Capability Configuration](/img/ui/workspace/Choose_model_and_capablilities.png)
+
+---
+
+## 4. Understanding Functionality: Assistant vs. Agent
+
+The goal of your workspace determines whether it acts as a simple Assistant or a complex Agent.
+
+### The Assistant Layout
+Designed for conversational inquiry. It responds based on its provided knowledge.
+
+### The Agent Layout
+Designed for task execution. Agents can utilize tools to perform multi-step actions and proactive operations.
+
+![Detailed Agent View](/img/ui/workspace/Cv_agent_workspace_default.png)
+
+## 5. Post-Creation Management
+
+Once successful, your workspace is added to your operational list.
+
+![Successful Workspace Creation](/img/ui/workspace/After_create_space.png)
+
+### Real-world Example
+Here is how a populated workspace looks with active knowledge bases and customized configurations.
+
+![Populated Workspace Example](/img/ui/workspace/Sample_of_work_space_1.png)
+
+### Efficient Navigation
+Use the integrated search bar to filter your workspaces by name or role. This ensures quick access even with dozens of active AI agents.
+
+![Workspace Search Functionality](/img/ui/workspace/Can_search_workspace_in_search_bar.png)
+
+---
+**Guides in this section:**
+*   [Login Guide](./login.md)
+*   [Chat Interface Guide](./chat-ui.md)
+*   [Image Studio Guide](./image-studio.md)

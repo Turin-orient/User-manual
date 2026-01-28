@@ -88,7 +88,19 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '6. Troubleshooting & FAQ',
+            label: '6. User Manual (UI)',
+            items: [
+                'user-manual/login',
+                'user-manual/workspace',
+                'user-manual/prompt-gallery',
+                'user-manual/collection',
+                'user-manual/chat-ui',
+                'user-manual/image-studio',
+            ],
+        },
+        {
+            type: 'category',
+            label: '7. Troubleshooting & FAQ',
             items: [
                 'troubleshooting/common-issues',
                 'troubleshooting/error-messages',
