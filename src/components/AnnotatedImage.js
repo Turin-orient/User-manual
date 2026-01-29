@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 /**
- * AnnotatedImage component
+ * AnnotatedImage component with Coordinate Tracker
  * Usage:
  * <AnnotatedImage 
  *   src="/img/your-image.png" 
  *   annotations={[
- *     { type: 'circle', x: '50%', y: '50%', size: '40px', color: 'blue', label: 'Click here' },
- *     { type: 'border', x: '10%', y: '20%', width: '100px', height: '50px', color: 'blue' },
- *     { type: 'cursor', x: '52%', y: '55%' }
+ *     { type: 'border', x: '10%', y: '20%', width: '100px', height: '50px', color: 'blue', label: 'Feature' }
  *   ]} 
  * />
  */
 export default function AnnotatedImage({ src, alt, annotations = [] }) {
+    const [coord, setCoord] = useState({ x: 0, y: 0 });
+
+    const handleMouseMove = (e) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width * 100).toFixed(1);
+        const y = ((e.clientY - rect.top) / rect.height * 100).toFixed(1);
+        setCoord({ x, y });
+    };
+
     return (
-        <div className="image-annotation-wrapper">
+        <div
+            className="image-annotation-wrapper"
+            onMouseMove={handleMouseMove}
+        >
             <img src={src} alt={alt || ""} />
+
+            {/* Coordinate Debug Overlay (Visible in dev/hover) */}
+            <div className="coordinate-debug">
+                X: {coord.x}%, Y: {coord.y}%
+            </div>
+
             {annotations.map((ann, index) => (
                 <div
                     key={index}

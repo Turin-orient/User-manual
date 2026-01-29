@@ -16,16 +16,18 @@ When you first access the workspace list, it may be empty. This is your blank ca
 
 To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
 
-To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
-
 <AnnotatedImage 
   src="/img/ui/workspace/click_to_create_new_workspace.png" 
   alt="Create New Workspace Button"
   annotations={[
-    { type: 'border', x: '4.5%', y: '7.5%', width: '36.5%', height: '14%', color: 'blue', label: 'New Workspace' },
+    { type: 'border', x: '4.4%', y: '7.8%', width: '36.7%', height: '14.2%', color: 'blue', label: 'New Workspace' },
     { type: 'cursor', x: '10%', y: '12%' }
   ]} 
 />
+
+:::tip Coordinate Helper
+You can now find the exact X/Y percentages by hovering your mouse over any image in the manual. Look for the small tracker in the bottom-right corner!
+:::
 
 ## 2. Choosing Your Configuration Strategy
 
