@@ -57,5 +57,5 @@ In **My Media** mode, you can review all the images you've created, download the
 ![Manage Media](/img/ui/image-studio/in_my_media_mode_can_click_image_aand_adjust_prompt_or_image.png)
 
 ---
-**Back to:** [Introduction](../introduction)
+**Back to:** [Introduction](/)
 

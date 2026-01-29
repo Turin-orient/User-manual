@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/',
-    component: ComponentCreator('/', '125'),
+    component: ComponentCreator('/', '883'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '485'),
+        component: ComponentCreator('/', 'df0'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '61a'),
+            component: ComponentCreator('/', '85f'),
             routes: [
               {
                 path: '/admin-guide/adding-api-keys',
@@ -112,12 +112,6 @@ export default [
               {
                 path: '/getting-started/logging-out',
                 component: ComponentCreator('/getting-started/logging-out', 'c5f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/introduction/',
-                component: ComponentCreator('/introduction/', 'aad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -298,6 +292,12 @@ export default [
               {
                 path: '/user-manual/workspace',
                 component: ComponentCreator('/user-manual/workspace', '3be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/',
+                component: ComponentCreator('/', '331'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

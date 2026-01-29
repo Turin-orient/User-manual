@@ -96,7 +96,7 @@
             },
             {
               "id": "introduction/index",
-              "path": "/introduction/",
+              "path": "/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -254,7 +254,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/introduction/",
+                "path": "/",
                 "label": "introduction/index"
               }
             }
