@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Neurond Assistant User Manual',
+    title: 'User Manual - Neurond Assistant',
     tagline: 'Complete Guide for Business Users',
     favicon: 'img/favicon.ico',
 
@@ -63,19 +63,13 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'Neurond Assistant',
+                title: 'User Manual',
                 logo: {
                     alt: 'Neurond Assistant Logo',
                     src: 'img/logo.svg',
                     srcDark: 'img/logo-dark.svg', // Logo trắng cho dark mode
                 },
                 items: [
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
-                        position: 'left',
-                        label: 'User Manual',
-                    },
                     {
                         href: 'https://assistant.neurond.com/',
                         label: 'Neurond Assistant',

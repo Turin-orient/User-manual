@@ -28,8 +28,8 @@ To create a new prompt, click the **+ Add** button at the top of the interface.
   src="/img/ui/prompt-gallery/Click_add_to_create_prompt.png" 
   alt="Add New Prompt Button"
   annotations={[
-    { type: 'border', x: '38%', y: '75%', width: '100px', height: '40px', color: 'blue', label: 'Add Prompt' },
-    { type: 'cursor', x: '39%', y: '77%' }
+    { type: 'border', x: '36.5%', y: '72%', width: '130px', height: '60px', color: 'blue', label: 'Add Prompt' },
+    { type: 'cursor', x: '51.7%', y: '87.8%' }
   ]} 
 />
 

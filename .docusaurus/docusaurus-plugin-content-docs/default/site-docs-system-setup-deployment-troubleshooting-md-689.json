@@ -21,7 +21,7 @@
     "permalink": "/system-setup/rollback"
   },
   "next": {
-    "title": "Login",
-    "permalink": "/user-manual/login"
+    "title": "Common Issues and Solutions",
+    "permalink": "/troubleshooting/common-issues"
   }
 }

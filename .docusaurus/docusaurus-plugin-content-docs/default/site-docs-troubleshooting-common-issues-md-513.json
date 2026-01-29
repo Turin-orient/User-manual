@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Image Studio",
-    "permalink": "/user-manual/image-studio"
+    "title": "Deployment Troubleshooting",
+    "permalink": "/system-setup/deployment-troubleshooting"
   },
   "next": {
     "title": "Error Messages Explained",

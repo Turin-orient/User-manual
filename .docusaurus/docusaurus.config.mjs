@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Neurond Assistant User Manual",
+  "title": "User Manual - Neurond Assistant",
   "tagline": "Complete Guide for Business Users",
   "favicon": "img/favicon.ico",
   "url": "https://usermanual-ten.vercel.app",
@@ -48,19 +48,13 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Neurond Assistant",
+      "title": "User Manual",
       "logo": {
         "alt": "Neurond Assistant Logo",
         "src": "img/logo.svg",
         "srcDark": "img/logo-dark.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "User Manual"
-        },
         {
           "href": "https://assistant.neurond.com/",
           "label": "Neurond Assistant",

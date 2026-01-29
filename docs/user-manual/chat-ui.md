@@ -47,11 +47,11 @@ If you prefer not to type, you can click the microphone icon to use the voice in
   src="/img/ui/chat/Use%20voice%20input.png" 
   alt="Use Voice Input"
   annotations={[
-    { type: 'circle', x: '90%', y: '90%', size: '40px' },
-    { type: 'cursor', x: '92%', y: '92%' }
+    { type: 'circle', x: '16.4%', y: '9.8%', size: '40px' },
+    { type: 'cursor', x: '16.4%', y: '9.8%' }
   ]} 
 />
-
+  
 ## 3. Monitoring and Management
 
 ### Conversation History

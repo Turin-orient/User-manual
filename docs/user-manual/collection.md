@@ -39,7 +39,7 @@ The interface supports intuitive drag-and-drop actions. Simply drag files from y
   src="/img/ui/collection/Can-drag_files_to_collection.png" 
   alt="Drag and Drop Files"
   annotations={[
-    { type: 'border', x: '24.6%', y: '14.5%', width: '70%', height: '60%', color: 'blue', label: 'Drag and Drop Area' }
+    { type: 'border', x: '26.6%', y: '10.8%', width: '60%', height: '67%', color: 'blue', label: 'Drag and Drop Area' }
   ]} 
 />
 

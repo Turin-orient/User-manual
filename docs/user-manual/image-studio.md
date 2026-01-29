@@ -14,10 +14,7 @@ The Image Studio interface is designed to be intuitive, making it easy to create
 
 <AnnotatedImage 
   src="/img/ui/image-studio/Image_Studio_UI.png" 
-  alt="Image Studio UI"
-  annotations={[
-    { type: 'circle', x: '50%', y: '50%', size: '300px' }
-  ]} 
+  alt="Image Studio UI" 
 />
 
 ## 2. Creative Modes
@@ -28,8 +25,8 @@ You can choose to create entirely new images or edit based on an existing one.
   src="/img/ui/image-studio/Select_mode_new_or_exsit_image.png" 
   alt="Select Mode"
   annotations={[
-    { type: 'circle', x: '26.8%', y: '82.7%', size: '100px', label: 'Create from scratch' },
-    { type: 'circle', x: '70%', y: '50%', size: '100px', label: 'Edit existing image' }
+    { type: 'circle', x: '26.1%', y: '82%', size: '110px', color: 'blue', label: 'Create from scratch' },
+    { type: 'circle', x: '75.5%', y: '82.7%', size: '100px', color: 'blue', label: 'Edit existing image' }
   ]}  
 />
 

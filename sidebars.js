@@ -13,7 +13,6 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-    // By default, Docusaurus generates a sidebar from the docs folder structure
     tutorialSidebar: [
         {
             type: 'category',
@@ -36,41 +35,59 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '3. User Guide',
+            label: '3. User Manual (User & Admin Guide)',
             items: [
-                'user-guide/using-chat-interface',
-                'user-guide/asking-questions',
-                'user-guide/uploading-documents',
-                'user-guide/knowledge-retrieval',
-                'user-guide/document-processing',
-                'user-guide/content-drafting',
-                'user-guide/conversation-history',
-                'user-guide/exporting-results',
-                'user-guide/common-errors',
+                {
+                    type: 'category',
+                    label: 'User Guide',
+                    items: [
+                        'user-guide/using-chat-interface',
+                        'user-guide/asking-questions',
+                        'user-guide/uploading-documents',
+                        'user-guide/knowledge-retrieval',
+                        'user-guide/document-processing',
+                        'user-guide/content-drafting',
+                        'user-guide/conversation-history',
+                        'user-guide/exporting-results',
+                        'user-guide/common-errors',
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: 'Admin Guide',
+                    items: [
+                        'admin-guide/admin-dashboard',
+                        'admin-guide/managing-users',
+                        'admin-guide/permissions-and-roles',
+                        {
+                            type: 'category',
+                            label: 'API Key Management',
+                            items: [
+                                'admin-guide/api-keys-overview',
+                                'admin-guide/adding-api-keys',
+                                'admin-guide/updating-api-keys',
+                                'admin-guide/rotating-api-keys',
+                                'admin-guide/testing-api-connections',
+                            ],
+                        },
+                        'admin-guide/environment-configuration',
+                        'admin-guide/workspace-settings',
+                        'admin-guide/usage-monitoring',
+                        'admin-guide/system-health',
+                    ],
+                },
             ],
         },
         {
             type: 'category',
-            label: '4. Admin Guide',
+            label: '4. User Manual (UI Reference)',
             items: [
-                'admin-guide/admin-dashboard',
-                'admin-guide/managing-users',
-                'admin-guide/permissions-and-roles',
-                {
-                    type: 'category',
-                    label: 'API Key Management',
-                    items: [
-                        'admin-guide/api-keys-overview',
-                        'admin-guide/adding-api-keys',
-                        'admin-guide/updating-api-keys',
-                        'admin-guide/rotating-api-keys',
-                        'admin-guide/testing-api-connections',
-                    ],
-                },
-                'admin-guide/environment-configuration',
-                'admin-guide/workspace-settings',
-                'admin-guide/usage-monitoring',
-                'admin-guide/system-health',
+                'user-manual/login',
+                'user-manual/workspace',
+                'user-manual/prompt-gallery',
+                'user-manual/collection',
+                'user-manual/chat-ui',
+                'user-manual/image-studio',
             ],
         },
         {
@@ -88,19 +105,7 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '6. User Manual (UI)',
-            items: [
-                'user-manual/login',
-                'user-manual/workspace',
-                'user-manual/prompt-gallery',
-                'user-manual/collection',
-                'user-manual/chat-ui',
-                'user-manual/image-studio',
-            ],
-        },
-        {
-            type: 'category',
-            label: '7. Troubleshooting & FAQ',
+            label: '6. Troubleshooting & FAQ',
             items: [
                 'troubleshooting/common-issues',
                 'troubleshooting/error-messages',
