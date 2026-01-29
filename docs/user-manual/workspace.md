@@ -22,8 +22,8 @@ To initiate the creation of a new specialized AI environment, locate and click t
   src="/img/ui/workspace/click_to_create_new_workspace.png" 
   alt="Create New Workspace Button"
   annotations={[
-    { type: 'circle', x: '22%', y: '16%', size: '100px', color: 'blue', label: 'New Workspace' },
-    { type: 'cursor', x: '22%', y: '16%' }
+    { type: 'border', x: '4.5%', y: '7.5%', width: '36.5%', height: '14%', color: 'blue', label: 'New Workspace' },
+    { type: 'cursor', x: '10%', y: '12%' }
   ]} 
 />
 
