@@ -5,10 +5,10 @@
   "source": "@site/docs/getting-started/logging-out.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/logging-out",
-  "permalink": "/docs/getting-started/logging-out",
+  "permalink": "/getting-started/logging-out",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/getting-started/logging-out.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/getting-started/logging-out.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Dashboard Overview",
-    "permalink": "/docs/getting-started/dashboard-overview"
+    "permalink": "/getting-started/dashboard-overview"
   },
   "next": {
     "title": "Using the Chat Interface",
-    "permalink": "/docs/user-guide/using-chat-interface"
+    "permalink": "/user-guide/using-chat-interface"
   }
 }

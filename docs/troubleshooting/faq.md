@@ -175,7 +175,7 @@ Potentially! Contact Neurond AI (contact@neurond.com) about custom integrations.
 ### Where can I learn more?
 - This user manual
 - Your IT department
-- Neurond AI website: https://www.neurond.com
+- Neurond Assistant: https://assistant.neurond.com/
 
 ### Who do I contact for support?
 - **Technical issues:** Your IT help desk

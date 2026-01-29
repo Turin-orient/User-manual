@@ -4,6 +4,8 @@ title: Prompt Gallery Guide
 sidebar_label: Prompt Gallery
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 The Prompt Gallery is a powerful tool for managing and discovering AI prompts. It allows you to save your own creative prompts or use community-wide "Global" prompts to enhance your interaction with Neurond Assistant.
 
 ## 1. Overview of the Gallery
@@ -22,7 +24,14 @@ When you access the Prompt Gallery, you are presented with a library of prompts.
 
 To create a new prompt, click the **+ Add** button at the top of the interface.
 
-![Add New Prompt Button](/img/ui/prompt-gallery/Click_add_to_create_prompt.png)
+<AnnotatedImage 
+  src="/img/ui/prompt-gallery/Click_add_to_create_prompt.png" 
+  alt="Add New Prompt Button"
+  annotations={[
+    { type: 'border', x: '88%', y: '5%', width: '100px', height: '40px', color: 'blue', label: 'Add Prompt' },
+    { type: 'cursor', x: '92%', y: '8%' }
+  ]} 
+/>
 
 ### The Creation Process
 1.  **Name & Content**: Give your prompt a descriptive name and enter the detailed instructions for the AI.

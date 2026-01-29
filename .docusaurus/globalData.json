@@ -1,252 +1,252 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/",
           "mainDocId": "introduction/index",
           "docs": [
             {
               "id": "admin-guide/adding-api-keys",
-              "path": "/docs/admin-guide/adding-api-keys",
+              "path": "/admin-guide/adding-api-keys",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/adding-api-keys-NEW-FORMAT",
-              "path": "/docs/admin-guide/adding-api-keys-NEW-FORMAT"
+              "path": "/admin-guide/adding-api-keys-NEW-FORMAT"
             },
             {
               "id": "admin-guide/admin-dashboard",
-              "path": "/docs/admin-guide/admin-dashboard",
+              "path": "/admin-guide/admin-dashboard",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/api-keys-overview",
-              "path": "/docs/admin-guide/api-keys-overview",
+              "path": "/admin-guide/api-keys-overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/environment-configuration",
-              "path": "/docs/admin-guide/environment-configuration",
+              "path": "/admin-guide/environment-configuration",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/managing-users",
-              "path": "/docs/admin-guide/managing-users",
+              "path": "/admin-guide/managing-users",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/permissions-and-roles",
-              "path": "/docs/admin-guide/permissions-and-roles",
+              "path": "/admin-guide/permissions-and-roles",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/rotating-api-keys",
-              "path": "/docs/admin-guide/rotating-api-keys",
+              "path": "/admin-guide/rotating-api-keys",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/system-health",
-              "path": "/docs/admin-guide/system-health",
+              "path": "/admin-guide/system-health",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/testing-api-connections",
-              "path": "/docs/admin-guide/testing-api-connections",
+              "path": "/admin-guide/testing-api-connections",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/updating-api-keys",
-              "path": "/docs/admin-guide/updating-api-keys",
+              "path": "/admin-guide/updating-api-keys",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/usage-monitoring",
-              "path": "/docs/admin-guide/usage-monitoring",
+              "path": "/admin-guide/usage-monitoring",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/workspace-settings",
-              "path": "/docs/admin-guide/workspace-settings",
+              "path": "/admin-guide/workspace-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/accessing-neurond",
-              "path": "/docs/getting-started/accessing-neurond",
+              "path": "/getting-started/accessing-neurond",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/dashboard-overview",
-              "path": "/docs/getting-started/dashboard-overview",
+              "path": "/getting-started/dashboard-overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/logging-in",
-              "path": "/docs/getting-started/logging-in",
+              "path": "/getting-started/logging-in",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/logging-out",
-              "path": "/docs/getting-started/logging-out",
+              "path": "/getting-started/logging-out",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/index",
-              "path": "/docs/introduction/",
+              "path": "/introduction/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/key-features",
-              "path": "/docs/introduction/key-features",
+              "path": "/introduction/key-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction/who-should-use",
-              "path": "/docs/introduction/who-should-use",
+              "path": "/introduction/who-should-use",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/deployment-troubleshooting",
-              "path": "/docs/system-setup/deployment-troubleshooting",
+              "path": "/system-setup/deployment-troubleshooting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/environment-variables",
-              "path": "/docs/system-setup/environment-variables",
+              "path": "/system-setup/environment-variables",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/overview",
-              "path": "/docs/system-setup/overview",
+              "path": "/system-setup/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/prerequisites",
-              "path": "/docs/system-setup/prerequisites",
+              "path": "/system-setup/prerequisites",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/rollback",
-              "path": "/docs/system-setup/rollback",
+              "path": "/system-setup/rollback",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/updating-deployment",
-              "path": "/docs/system-setup/updating-deployment",
+              "path": "/system-setup/updating-deployment",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "system-setup/vercel-deployment",
-              "path": "/docs/system-setup/vercel-deployment",
+              "path": "/system-setup/vercel-deployment",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/authentication-issues",
-              "path": "/docs/troubleshooting/authentication-issues",
+              "path": "/troubleshooting/authentication-issues",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/common-issues",
-              "path": "/docs/troubleshooting/common-issues",
+              "path": "/troubleshooting/common-issues",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/error-messages",
-              "path": "/docs/troubleshooting/error-messages",
+              "path": "/troubleshooting/error-messages",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/faq",
-              "path": "/docs/troubleshooting/faq",
+              "path": "/troubleshooting/faq",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/performance-issues",
-              "path": "/docs/troubleshooting/performance-issues",
+              "path": "/troubleshooting/performance-issues",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/when-to-contact-support",
-              "path": "/docs/troubleshooting/when-to-contact-support",
+              "path": "/troubleshooting/when-to-contact-support",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/asking-questions",
-              "path": "/docs/user-guide/asking-questions",
+              "path": "/user-guide/asking-questions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/common-errors",
-              "path": "/docs/user-guide/common-errors",
+              "path": "/user-guide/common-errors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/content-drafting",
-              "path": "/docs/user-guide/content-drafting",
+              "path": "/user-guide/content-drafting",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/conversation-history",
-              "path": "/docs/user-guide/conversation-history",
+              "path": "/user-guide/conversation-history",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/document-processing",
-              "path": "/docs/user-guide/document-processing",
+              "path": "/user-guide/document-processing",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/exporting-results",
-              "path": "/docs/user-guide/exporting-results",
+              "path": "/user-guide/exporting-results",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/knowledge-retrieval",
-              "path": "/docs/user-guide/knowledge-retrieval",
+              "path": "/user-guide/knowledge-retrieval",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/uploading-documents",
-              "path": "/docs/user-guide/uploading-documents",
+              "path": "/user-guide/uploading-documents",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/using-chat-interface",
-              "path": "/docs/user-guide/using-chat-interface",
+              "path": "/user-guide/using-chat-interface",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/chat-ui",
-              "path": "/docs/user-manual/chat-ui",
+              "path": "/user-manual/chat-ui",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/collection",
-              "path": "/docs/user-manual/collection",
+              "path": "/user-manual/collection",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/image-studio",
-              "path": "/docs/user-manual/image-studio",
+              "path": "/user-manual/image-studio",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/login",
-              "path": "/docs/user-manual/login",
+              "path": "/user-manual/login",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/prompt-gallery",
-              "path": "/docs/user-manual/prompt-gallery",
+              "path": "/user-manual/prompt-gallery",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/workspace",
-              "path": "/docs/user-manual/workspace",
+              "path": "/user-manual/workspace",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -254,7 +254,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/introduction/",
+                "path": "/introduction/",
                 "label": "introduction/index"
               }
             }

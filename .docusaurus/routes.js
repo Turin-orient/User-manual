@@ -3,301 +3,301 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'adc'),
+    path: '/',
+    component: ComponentCreator('/', '125'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '62f'),
+        path: '/',
+        component: ComponentCreator('/', '485'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'fba'),
+            path: '/',
+            component: ComponentCreator('/', '61a'),
             routes: [
               {
-                path: '/docs/admin-guide/adding-api-keys',
-                component: ComponentCreator('/docs/admin-guide/adding-api-keys', '26d'),
+                path: '/admin-guide/adding-api-keys',
+                component: ComponentCreator('/admin-guide/adding-api-keys', '5ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/adding-api-keys-NEW-FORMAT',
-                component: ComponentCreator('/docs/admin-guide/adding-api-keys-NEW-FORMAT', 'd31'),
+                path: '/admin-guide/adding-api-keys-NEW-FORMAT',
+                component: ComponentCreator('/admin-guide/adding-api-keys-NEW-FORMAT', '9ee'),
                 exact: true
               },
               {
-                path: '/docs/admin-guide/admin-dashboard',
-                component: ComponentCreator('/docs/admin-guide/admin-dashboard', '696'),
+                path: '/admin-guide/admin-dashboard',
+                component: ComponentCreator('/admin-guide/admin-dashboard', 'e91'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/api-keys-overview',
-                component: ComponentCreator('/docs/admin-guide/api-keys-overview', '5d0'),
+                path: '/admin-guide/api-keys-overview',
+                component: ComponentCreator('/admin-guide/api-keys-overview', 'd65'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/environment-configuration',
-                component: ComponentCreator('/docs/admin-guide/environment-configuration', '9cc'),
+                path: '/admin-guide/environment-configuration',
+                component: ComponentCreator('/admin-guide/environment-configuration', '23a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/managing-users',
-                component: ComponentCreator('/docs/admin-guide/managing-users', '2e2'),
+                path: '/admin-guide/managing-users',
+                component: ComponentCreator('/admin-guide/managing-users', '3a6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/permissions-and-roles',
-                component: ComponentCreator('/docs/admin-guide/permissions-and-roles', '1e7'),
+                path: '/admin-guide/permissions-and-roles',
+                component: ComponentCreator('/admin-guide/permissions-and-roles', '22a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/rotating-api-keys',
-                component: ComponentCreator('/docs/admin-guide/rotating-api-keys', '6fa'),
+                path: '/admin-guide/rotating-api-keys',
+                component: ComponentCreator('/admin-guide/rotating-api-keys', '0f4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/system-health',
-                component: ComponentCreator('/docs/admin-guide/system-health', '31c'),
+                path: '/admin-guide/system-health',
+                component: ComponentCreator('/admin-guide/system-health', '141'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/testing-api-connections',
-                component: ComponentCreator('/docs/admin-guide/testing-api-connections', '84e'),
+                path: '/admin-guide/testing-api-connections',
+                component: ComponentCreator('/admin-guide/testing-api-connections', '58a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/updating-api-keys',
-                component: ComponentCreator('/docs/admin-guide/updating-api-keys', '172'),
+                path: '/admin-guide/updating-api-keys',
+                component: ComponentCreator('/admin-guide/updating-api-keys', '510'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/usage-monitoring',
-                component: ComponentCreator('/docs/admin-guide/usage-monitoring', '1a7'),
+                path: '/admin-guide/usage-monitoring',
+                component: ComponentCreator('/admin-guide/usage-monitoring', '48e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/admin-guide/workspace-settings',
-                component: ComponentCreator('/docs/admin-guide/workspace-settings', '9de'),
+                path: '/admin-guide/workspace-settings',
+                component: ComponentCreator('/admin-guide/workspace-settings', '103'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/accessing-neurond',
-                component: ComponentCreator('/docs/getting-started/accessing-neurond', '6d2'),
+                path: '/getting-started/accessing-neurond',
+                component: ComponentCreator('/getting-started/accessing-neurond', 'f08'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/dashboard-overview',
-                component: ComponentCreator('/docs/getting-started/dashboard-overview', '77c'),
+                path: '/getting-started/dashboard-overview',
+                component: ComponentCreator('/getting-started/dashboard-overview', 'ec9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/logging-in',
-                component: ComponentCreator('/docs/getting-started/logging-in', '0b4'),
+                path: '/getting-started/logging-in',
+                component: ComponentCreator('/getting-started/logging-in', '1a2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/logging-out',
-                component: ComponentCreator('/docs/getting-started/logging-out', 'b4b'),
+                path: '/getting-started/logging-out',
+                component: ComponentCreator('/getting-started/logging-out', 'c5f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/',
-                component: ComponentCreator('/docs/introduction/', 'aeb'),
+                path: '/introduction/',
+                component: ComponentCreator('/introduction/', 'aad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/key-features',
-                component: ComponentCreator('/docs/introduction/key-features', '631'),
+                path: '/introduction/key-features',
+                component: ComponentCreator('/introduction/key-features', '240'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction/who-should-use',
-                component: ComponentCreator('/docs/introduction/who-should-use', '169'),
+                path: '/introduction/who-should-use',
+                component: ComponentCreator('/introduction/who-should-use', 'ad2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/deployment-troubleshooting',
-                component: ComponentCreator('/docs/system-setup/deployment-troubleshooting', 'b78'),
+                path: '/system-setup/deployment-troubleshooting',
+                component: ComponentCreator('/system-setup/deployment-troubleshooting', 'a8f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/environment-variables',
-                component: ComponentCreator('/docs/system-setup/environment-variables', '6c0'),
+                path: '/system-setup/environment-variables',
+                component: ComponentCreator('/system-setup/environment-variables', '586'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/overview',
-                component: ComponentCreator('/docs/system-setup/overview', '421'),
+                path: '/system-setup/overview',
+                component: ComponentCreator('/system-setup/overview', '10e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/prerequisites',
-                component: ComponentCreator('/docs/system-setup/prerequisites', 'da5'),
+                path: '/system-setup/prerequisites',
+                component: ComponentCreator('/system-setup/prerequisites', '309'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/rollback',
-                component: ComponentCreator('/docs/system-setup/rollback', '22d'),
+                path: '/system-setup/rollback',
+                component: ComponentCreator('/system-setup/rollback', '0a7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/updating-deployment',
-                component: ComponentCreator('/docs/system-setup/updating-deployment', '9f8'),
+                path: '/system-setup/updating-deployment',
+                component: ComponentCreator('/system-setup/updating-deployment', '2f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/system-setup/vercel-deployment',
-                component: ComponentCreator('/docs/system-setup/vercel-deployment', '2c7'),
+                path: '/system-setup/vercel-deployment',
+                component: ComponentCreator('/system-setup/vercel-deployment', '4d6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/authentication-issues',
-                component: ComponentCreator('/docs/troubleshooting/authentication-issues', '7cc'),
+                path: '/troubleshooting/authentication-issues',
+                component: ComponentCreator('/troubleshooting/authentication-issues', '3ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/common-issues',
-                component: ComponentCreator('/docs/troubleshooting/common-issues', '944'),
+                path: '/troubleshooting/common-issues',
+                component: ComponentCreator('/troubleshooting/common-issues', 'f6f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/error-messages',
-                component: ComponentCreator('/docs/troubleshooting/error-messages', '003'),
+                path: '/troubleshooting/error-messages',
+                component: ComponentCreator('/troubleshooting/error-messages', '9ee'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/faq',
-                component: ComponentCreator('/docs/troubleshooting/faq', '8fb'),
+                path: '/troubleshooting/faq',
+                component: ComponentCreator('/troubleshooting/faq', 'f63'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/performance-issues',
-                component: ComponentCreator('/docs/troubleshooting/performance-issues', 'ce4'),
+                path: '/troubleshooting/performance-issues',
+                component: ComponentCreator('/troubleshooting/performance-issues', 'e5e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/troubleshooting/when-to-contact-support',
-                component: ComponentCreator('/docs/troubleshooting/when-to-contact-support', 'fcc'),
+                path: '/troubleshooting/when-to-contact-support',
+                component: ComponentCreator('/troubleshooting/when-to-contact-support', '147'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/asking-questions',
-                component: ComponentCreator('/docs/user-guide/asking-questions', 'cf4'),
+                path: '/user-guide/asking-questions',
+                component: ComponentCreator('/user-guide/asking-questions', '823'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/common-errors',
-                component: ComponentCreator('/docs/user-guide/common-errors', '671'),
+                path: '/user-guide/common-errors',
+                component: ComponentCreator('/user-guide/common-errors', '678'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/content-drafting',
-                component: ComponentCreator('/docs/user-guide/content-drafting', '6a0'),
+                path: '/user-guide/content-drafting',
+                component: ComponentCreator('/user-guide/content-drafting', '882'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/conversation-history',
-                component: ComponentCreator('/docs/user-guide/conversation-history', '27c'),
+                path: '/user-guide/conversation-history',
+                component: ComponentCreator('/user-guide/conversation-history', '024'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/document-processing',
-                component: ComponentCreator('/docs/user-guide/document-processing', '6cb'),
+                path: '/user-guide/document-processing',
+                component: ComponentCreator('/user-guide/document-processing', '626'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/exporting-results',
-                component: ComponentCreator('/docs/user-guide/exporting-results', '6b0'),
+                path: '/user-guide/exporting-results',
+                component: ComponentCreator('/user-guide/exporting-results', 'adc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/knowledge-retrieval',
-                component: ComponentCreator('/docs/user-guide/knowledge-retrieval', 'bbb'),
+                path: '/user-guide/knowledge-retrieval',
+                component: ComponentCreator('/user-guide/knowledge-retrieval', 'bd7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/uploading-documents',
-                component: ComponentCreator('/docs/user-guide/uploading-documents', '99a'),
+                path: '/user-guide/uploading-documents',
+                component: ComponentCreator('/user-guide/uploading-documents', '0fa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-guide/using-chat-interface',
-                component: ComponentCreator('/docs/user-guide/using-chat-interface', 'bcb'),
+                path: '/user-guide/using-chat-interface',
+                component: ComponentCreator('/user-guide/using-chat-interface', '91a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/chat-ui',
-                component: ComponentCreator('/docs/user-manual/chat-ui', '269'),
+                path: '/user-manual/chat-ui',
+                component: ComponentCreator('/user-manual/chat-ui', '295'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/collection',
-                component: ComponentCreator('/docs/user-manual/collection', '848'),
+                path: '/user-manual/collection',
+                component: ComponentCreator('/user-manual/collection', 'acb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/image-studio',
-                component: ComponentCreator('/docs/user-manual/image-studio', '630'),
+                path: '/user-manual/image-studio',
+                component: ComponentCreator('/user-manual/image-studio', 'f8d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/login',
-                component: ComponentCreator('/docs/user-manual/login', '2c9'),
+                path: '/user-manual/login',
+                component: ComponentCreator('/user-manual/login', 'bfd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/prompt-gallery',
-                component: ComponentCreator('/docs/user-manual/prompt-gallery', '57f'),
+                path: '/user-manual/prompt-gallery',
+                component: ComponentCreator('/user-manual/prompt-gallery', '357'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/user-manual/workspace',
-                component: ComponentCreator('/docs/user-manual/workspace', '228'),
+                path: '/user-manual/workspace',
+                component: ComponentCreator('/user-manual/workspace', '3be'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

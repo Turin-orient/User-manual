@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/environment-configuration.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/environment-configuration",
-  "permalink": "/docs/admin-guide/environment-configuration",
+  "permalink": "/admin-guide/environment-configuration",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/environment-configuration.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/environment-configuration.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 9,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Testing API Connections",
-    "permalink": "/docs/admin-guide/testing-api-connections"
+    "permalink": "/admin-guide/testing-api-connections"
   },
   "next": {
     "title": "Workspace Settings",
-    "permalink": "/docs/admin-guide/workspace-settings"
+    "permalink": "/admin-guide/workspace-settings"
   }
 }

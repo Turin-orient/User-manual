@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/uploading-documents.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/uploading-documents",
-  "permalink": "/docs/user-guide/uploading-documents",
+  "permalink": "/user-guide/uploading-documents",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/uploading-documents.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/uploading-documents.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Asking Questions Effectively",
-    "permalink": "/docs/user-guide/asking-questions"
+    "permalink": "/user-guide/asking-questions"
   },
   "next": {
     "title": "Knowledge Retrieval",
-    "permalink": "/docs/user-guide/knowledge-retrieval"
+    "permalink": "/user-guide/knowledge-retrieval"
   }
 }

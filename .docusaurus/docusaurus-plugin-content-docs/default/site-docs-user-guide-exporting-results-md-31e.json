@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/exporting-results.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/exporting-results",
-  "permalink": "/docs/user-guide/exporting-results",
+  "permalink": "/user-guide/exporting-results",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/exporting-results.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/exporting-results.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Conversation History",
-    "permalink": "/docs/user-guide/conversation-history"
+    "permalink": "/user-guide/conversation-history"
   },
   "next": {
     "title": "Common User Errors and Fixes",
-    "permalink": "/docs/user-guide/common-errors"
+    "permalink": "/user-guide/common-errors"
   }
 }

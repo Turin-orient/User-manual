@@ -5,10 +5,10 @@
   "source": "@site/docs/introduction/who-should-use.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/who-should-use",
-  "permalink": "/docs/introduction/who-should-use",
+  "permalink": "/introduction/who-should-use",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/introduction/who-should-use.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/introduction/who-should-use.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "What is Neurond Assistant?",
-    "permalink": "/docs/introduction/"
+    "permalink": "/introduction/"
   },
   "next": {
     "title": "Key Features Overview",
-    "permalink": "/docs/introduction/key-features"
+    "permalink": "/introduction/key-features"
   }
 }

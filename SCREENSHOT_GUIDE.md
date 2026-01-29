@@ -255,6 +255,38 @@ A: Không bắt buộc, nhưng có thể helpful để show "click here".
 
 ---
 
-**Ready to take screenshots!** 📸
+## 🚀 Advanced: Dynamic Annotations (New!)
 
-Sau khi có screenshots, thay thế placeholders trong file markdown và test lại qua `npm run start`.
+Instead of editing images manually, you can now add red circles and mouse cursors directly in your Markdown using the `AnnotatedImage` component. This is easier to update and maintain.
+
+### How to Use
+
+1. **Import the component** at the top of your `.md` file (one time):
+```javascript
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+```
+
+2. **Use the component** where you want to show a screenshot:
+```jsx
+<AnnotatedImage 
+  src="/img/ui/login/login_screen.png" 
+  alt="Login Screen"
+  annotations={[
+    { type: 'circle', x: '45%', y: '60%', size: '60px' }, // Red circle around Login button
+    { type: 'cursor', x: '47%', y: '62%' }               // Mouse cursor pointing to it
+  ]} 
+/>
+```
+
+### Prop Details:
+- **type**: `'circle'` (red ring) or `'cursor'` (mouse pointer).
+- **x, y**: Position from the top-left (0% to 100%).
+- **size**: (Optional) For circles, defaults to 50px.
+
+### When to use this?
+- When you want a consistent "look" for all screenshots.
+- When you want to easily move a highlight without recapturing the image.
+
+---
+
+**Ready to create high-quality, visual documentation!** 📸

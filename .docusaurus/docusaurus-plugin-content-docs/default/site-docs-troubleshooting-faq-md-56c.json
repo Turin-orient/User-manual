@@ -5,10 +5,10 @@
   "source": "@site/docs/troubleshooting/faq.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/faq",
-  "permalink": "/docs/troubleshooting/faq",
+  "permalink": "/troubleshooting/faq",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/faq.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/troubleshooting/faq.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "When to Contact Support",
-    "permalink": "/docs/troubleshooting/when-to-contact-support"
+    "permalink": "/troubleshooting/when-to-contact-support"
   }
 }

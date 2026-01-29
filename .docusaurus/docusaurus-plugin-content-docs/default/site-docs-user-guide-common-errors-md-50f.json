@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/common-errors.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/common-errors",
-  "permalink": "/docs/user-guide/common-errors",
+  "permalink": "/user-guide/common-errors",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/common-errors.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/common-errors.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 9,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Exporting Results",
-    "permalink": "/docs/user-guide/exporting-results"
+    "permalink": "/user-guide/exporting-results"
   },
   "next": {
     "title": "Admin Dashboard Overview",
-    "permalink": "/docs/admin-guide/admin-dashboard"
+    "permalink": "/admin-guide/admin-dashboard"
   }
 }

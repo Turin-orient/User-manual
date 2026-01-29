@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/usage-monitoring.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/usage-monitoring",
-  "permalink": "/docs/admin-guide/usage-monitoring",
+  "permalink": "/admin-guide/usage-monitoring",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/usage-monitoring.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/usage-monitoring.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 11,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Workspace Settings",
-    "permalink": "/docs/admin-guide/workspace-settings"
+    "permalink": "/admin-guide/workspace-settings"
   },
   "next": {
     "title": "System Health",
-    "permalink": "/docs/admin-guide/system-health"
+    "permalink": "/admin-guide/system-health"
   }
 }

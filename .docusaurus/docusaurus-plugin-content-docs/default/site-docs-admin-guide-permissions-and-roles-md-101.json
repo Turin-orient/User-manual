@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/permissions-and-roles.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/permissions-and-roles",
-  "permalink": "/docs/admin-guide/permissions-and-roles",
+  "permalink": "/admin-guide/permissions-and-roles",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/permissions-and-roles.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/permissions-and-roles.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Managing Users",
-    "permalink": "/docs/admin-guide/managing-users"
+    "permalink": "/admin-guide/managing-users"
   },
   "next": {
     "title": "API Keys Overview",
-    "permalink": "/docs/admin-guide/api-keys-overview"
+    "permalink": "/admin-guide/api-keys-overview"
   }
 }

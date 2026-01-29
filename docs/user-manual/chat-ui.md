@@ -4,6 +4,8 @@ title: Chat Interface Guide
 sidebar_label: Chat UI
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 The Chat Interface is where you interact directly with Neurond Assistant to ask questions, analyze documents, and perform various tasks.
 
 ## 1. Interface Overview
@@ -17,17 +19,38 @@ When you start a new conversation, you'll see a clean and intuitive default inte
 ### Entering Requests
 Type your question or request into the chat box at the bottom. You can use available suggestions to get started quickly.
 
-![Sample Prompts](/img/ui/chat/Sample_prompt.png)
+<AnnotatedImage 
+  src="/img/ui/chat/Sample_prompt.png" 
+  alt="Sample Prompts"
+  annotations={[
+    { type: 'circle', x: '50%', y: '80%', size: '300px' },
+    { type: 'cursor', x: '55%', y: '85%' }
+  ]} 
+/>
 
 ### Choosing a Model
 You can select different AI models depending on your needs (e.g., a fast model for simple questions or a smart model for complex analysis).
 
-![Choose Model](/img/ui/chat/Choose_Model_chat.png)
+<AnnotatedImage 
+  src="/img/ui/chat/Choose_Model_chat.png" 
+  alt="Choose Model"
+  annotations={[
+    { type: 'border', x: '35%', y: '40%', width: '30%', height: '20%', color: 'blue', label: 'Select AI Model' },
+    { type: 'cursor', x: '50%', y: '50%' }
+  ]} 
+/>
 
 ### Using Voice Input
 If you prefer not to type, you can click the microphone icon to use the voice input feature.
 
-![Use Voice Input](/img/ui/chat/Use%20voice%20input.png)
+<AnnotatedImage 
+  src="/img/ui/chat/Use%20voice%20input.png" 
+  alt="Use Voice Input"
+  annotations={[
+    { type: 'circle', x: '90%', y: '90%', size: '40px' },
+    { type: 'cursor', x: '92%', y: '92%' }
+  ]} 
+/>
 
 ## 3. Monitoring and Management
 

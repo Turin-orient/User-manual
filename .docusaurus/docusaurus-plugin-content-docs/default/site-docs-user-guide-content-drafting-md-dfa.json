@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/content-drafting.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/content-drafting",
-  "permalink": "/docs/user-guide/content-drafting",
+  "permalink": "/user-guide/content-drafting",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/content-drafting.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/content-drafting.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Document Processing",
-    "permalink": "/docs/user-guide/document-processing"
+    "permalink": "/user-guide/document-processing"
   },
   "next": {
     "title": "Conversation History",
-    "permalink": "/docs/user-guide/conversation-history"
+    "permalink": "/user-guide/conversation-history"
   }
 }

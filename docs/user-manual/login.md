@@ -4,13 +4,22 @@ title: Login Guide
 sidebar_label: Login
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 This guide walks you through the process of accessing and logging into Neurond Assistant.
 
 ## 1. Access the Login Page
 
 Open your web browser and navigate to the URL provided by your IT department. You will see the login interface as shown below.
 
-![Login Interface](/img/ui/login/Screenshot%202026-01-28%20140101.png)
+<AnnotatedImage 
+  src="/img/ui/login/Screenshot%202026-01-28%20140101.png" 
+  alt="Login Interface"
+  annotations={[
+    { type: 'circle', x: '80%', y: '63%', size: '150px' },
+    { type: 'cursor', x: '82%', y: '65%' }
+  ]} 
+/>
 
 ## 2. Login Methods
 
@@ -31,4 +40,5 @@ This is the most common method. Simply click the "Login with Company Account" bu
 
 ---
 **Next:** [Chat UI Guide](./chat-ui)
+
 

@@ -5,10 +5,10 @@
   "source": "@site/docs/troubleshooting/authentication-issues.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/authentication-issues",
-  "permalink": "/docs/troubleshooting/authentication-issues",
+  "permalink": "/troubleshooting/authentication-issues",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/authentication-issues.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/troubleshooting/authentication-issues.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Performance Issues",
-    "permalink": "/docs/troubleshooting/performance-issues"
+    "permalink": "/troubleshooting/performance-issues"
   },
   "next": {
     "title": "When to Contact Support",
-    "permalink": "/docs/troubleshooting/when-to-contact-support"
+    "permalink": "/troubleshooting/when-to-contact-support"
   }
 }

@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/prerequisites.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/prerequisites",
-  "permalink": "/docs/system-setup/prerequisites",
+  "permalink": "/system-setup/prerequisites",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/prerequisites.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/prerequisites.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "System Setup Overview",
-    "permalink": "/docs/system-setup/overview"
+    "permalink": "/system-setup/overview"
   },
   "next": {
     "title": "Vercel Deployment Guide",
-    "permalink": "/docs/system-setup/vercel-deployment"
+    "permalink": "/system-setup/vercel-deployment"
   }
 }

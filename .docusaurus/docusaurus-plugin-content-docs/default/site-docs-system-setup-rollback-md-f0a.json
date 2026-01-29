@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/rollback.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/rollback",
-  "permalink": "/docs/system-setup/rollback",
+  "permalink": "/system-setup/rollback",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/rollback.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/rollback.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Updating and Redeploying",
-    "permalink": "/docs/system-setup/updating-deployment"
+    "permalink": "/system-setup/updating-deployment"
   },
   "next": {
     "title": "Deployment Troubleshooting",
-    "permalink": "/docs/system-setup/deployment-troubleshooting"
+    "permalink": "/system-setup/deployment-troubleshooting"
   }
 }

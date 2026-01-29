@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/conversation-history.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/conversation-history",
-  "permalink": "/docs/user-guide/conversation-history",
+  "permalink": "/user-guide/conversation-history",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/conversation-history.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/conversation-history.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Content Drafting",
-    "permalink": "/docs/user-guide/content-drafting"
+    "permalink": "/user-guide/content-drafting"
   },
   "next": {
     "title": "Exporting Results",
-    "permalink": "/docs/user-guide/exporting-results"
+    "permalink": "/user-guide/exporting-results"
   }
 }

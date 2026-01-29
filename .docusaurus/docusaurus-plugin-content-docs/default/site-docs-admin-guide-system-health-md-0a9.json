@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/system-health.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/system-health",
-  "permalink": "/docs/admin-guide/system-health",
+  "permalink": "/admin-guide/system-health",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/system-health.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/system-health.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 12,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Usage Monitoring",
-    "permalink": "/docs/admin-guide/usage-monitoring"
+    "permalink": "/admin-guide/usage-monitoring"
   },
   "next": {
     "title": "System Setup Overview",
-    "permalink": "/docs/system-setup/overview"
+    "permalink": "/system-setup/overview"
   }
 }

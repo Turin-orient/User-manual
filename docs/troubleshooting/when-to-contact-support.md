@@ -129,7 +129,7 @@ Thanks,
 ### Neurond AI (For Admins)
 
 **Email:** contact@neurond.com  
-**Website:** https://www.neurond.com  
+**Website:** https://assistant.neurond.com/  
 **For:** Technical deployment issues, licensing, feature questions
 
 ---

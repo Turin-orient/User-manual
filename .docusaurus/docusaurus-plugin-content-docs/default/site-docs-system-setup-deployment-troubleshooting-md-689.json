@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/deployment-troubleshooting.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/deployment-troubleshooting",
-  "permalink": "/docs/system-setup/deployment-troubleshooting",
+  "permalink": "/system-setup/deployment-troubleshooting",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/deployment-troubleshooting.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/deployment-troubleshooting.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Rollback Procedures",
-    "permalink": "/docs/system-setup/rollback"
+    "permalink": "/system-setup/rollback"
   },
   "next": {
     "title": "Login",
-    "permalink": "/docs/user-manual/login"
+    "permalink": "/user-manual/login"
   }
 }

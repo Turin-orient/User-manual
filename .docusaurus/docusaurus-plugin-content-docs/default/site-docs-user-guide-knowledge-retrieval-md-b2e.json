@@ -5,10 +5,10 @@
   "source": "@site/docs/user-guide/knowledge-retrieval.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/knowledge-retrieval",
-  "permalink": "/docs/user-guide/knowledge-retrieval",
+  "permalink": "/user-guide/knowledge-retrieval",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/user-guide/knowledge-retrieval.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/user-guide/knowledge-retrieval.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Uploading Documents",
-    "permalink": "/docs/user-guide/uploading-documents"
+    "permalink": "/user-guide/uploading-documents"
   },
   "next": {
     "title": "Document Processing",
-    "permalink": "/docs/user-guide/document-processing"
+    "permalink": "/user-guide/document-processing"
   }
 }

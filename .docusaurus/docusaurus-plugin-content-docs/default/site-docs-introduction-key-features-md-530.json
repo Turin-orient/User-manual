@@ -5,10 +5,10 @@
   "source": "@site/docs/introduction/key-features.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/key-features",
-  "permalink": "/docs/introduction/key-features",
+  "permalink": "/introduction/key-features",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/introduction/key-features.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/introduction/key-features.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Who Should Use Neurond Assistant?",
-    "permalink": "/docs/introduction/who-should-use"
+    "permalink": "/introduction/who-should-use"
   },
   "next": {
     "title": "Accessing Neurond Assistant",
-    "permalink": "/docs/getting-started/accessing-neurond"
+    "permalink": "/getting-started/accessing-neurond"
   }
 }

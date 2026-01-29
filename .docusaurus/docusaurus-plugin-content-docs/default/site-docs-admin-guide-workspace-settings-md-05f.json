@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/workspace-settings.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/workspace-settings",
-  "permalink": "/docs/admin-guide/workspace-settings",
+  "permalink": "/admin-guide/workspace-settings",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/workspace-settings.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/workspace-settings.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Environment Configuration",
-    "permalink": "/docs/admin-guide/environment-configuration"
+    "permalink": "/admin-guide/environment-configuration"
   },
   "next": {
     "title": "Usage Monitoring",
-    "permalink": "/docs/admin-guide/usage-monitoring"
+    "permalink": "/admin-guide/usage-monitoring"
   }
 }

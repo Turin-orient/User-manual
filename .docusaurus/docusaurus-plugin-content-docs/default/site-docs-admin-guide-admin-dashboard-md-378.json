@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/admin-dashboard.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/admin-dashboard",
-  "permalink": "/docs/admin-guide/admin-dashboard",
+  "permalink": "/admin-guide/admin-dashboard",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/admin-dashboard.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/admin-dashboard.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Common User Errors and Fixes",
-    "permalink": "/docs/user-guide/common-errors"
+    "permalink": "/user-guide/common-errors"
   },
   "next": {
     "title": "Managing Users",
-    "permalink": "/docs/admin-guide/managing-users"
+    "permalink": "/admin-guide/managing-users"
   }
 }

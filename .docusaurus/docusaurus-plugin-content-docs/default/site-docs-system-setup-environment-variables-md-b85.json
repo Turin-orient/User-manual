@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/environment-variables.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/environment-variables",
-  "permalink": "/docs/system-setup/environment-variables",
+  "permalink": "/system-setup/environment-variables",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/environment-variables.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/environment-variables.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Vercel Deployment Guide",
-    "permalink": "/docs/system-setup/vercel-deployment"
+    "permalink": "/system-setup/vercel-deployment"
   },
   "next": {
     "title": "Updating and Redeploying",
-    "permalink": "/docs/system-setup/updating-deployment"
+    "permalink": "/system-setup/updating-deployment"
   }
 }

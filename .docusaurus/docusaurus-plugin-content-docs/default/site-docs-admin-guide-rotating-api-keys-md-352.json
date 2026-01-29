@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/rotating-api-keys.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/rotating-api-keys",
-  "permalink": "/docs/admin-guide/rotating-api-keys",
+  "permalink": "/admin-guide/rotating-api-keys",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/rotating-api-keys.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/rotating-api-keys.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Updating API Keys",
-    "permalink": "/docs/admin-guide/updating-api-keys"
+    "permalink": "/admin-guide/updating-api-keys"
   },
   "next": {
     "title": "Testing API Connections",
-    "permalink": "/docs/admin-guide/testing-api-connections"
+    "permalink": "/admin-guide/testing-api-connections"
   }
 }

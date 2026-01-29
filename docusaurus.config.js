@@ -26,12 +26,14 @@ const config = {
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
 
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
+    markdown: {
+        format: 'mdx',
+        mermaid: true,
+        mdx1Compat: {
+            comments: true,
+            admonitions: true,
+            headingIds: true,
+        },
     },
 
     presets: [
@@ -40,6 +42,7 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    routeBasePath: '/', // Serve the docs at the site's root
                     sidebarPath: './sidebars.js',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
@@ -74,8 +77,8 @@ const config = {
                         label: 'User Manual',
                     },
                     {
-                        href: 'https://www.neurond.com',
-                        label: 'Neurond AI',
+                        href: 'https://assistant.neurond.com/',
+                        label: 'Neurond Assistant',
                         position: 'right',
                     },
                 ],
@@ -88,15 +91,15 @@ const config = {
                         items: [
                             {
                                 label: 'Getting Started',
-                                to: '/docs/getting-started/accessing-neurond',
+                                to: '/getting-started/accessing-neurond',
                             },
                             {
                                 label: 'User Guide',
-                                to: '/docs/user-guide/using-chat-interface',
+                                to: '/user-guide/using-chat-interface',
                             },
                             {
                                 label: 'Admin Guide',
-                                to: '/docs/admin-guide/admin-dashboard',
+                                to: '/admin-guide/admin-dashboard',
                             },
                         ],
                     },
@@ -105,11 +108,11 @@ const config = {
                         items: [
                             {
                                 label: 'Troubleshooting',
-                                to: '/docs/troubleshooting/common-issues',
+                                to: '/troubleshooting/common-issues',
                             },
                             {
                                 label: 'FAQ',
-                                to: '/docs/troubleshooting/faq',
+                                to: '/troubleshooting/faq',
                             },
                         ],
                     },
@@ -117,8 +120,8 @@ const config = {
                         title: 'More',
                         items: [
                             {
-                                label: 'Neurond AI Website',
-                                href: 'https://www.neurond.com',
+                                label: 'Neurond Assistant App',
+                                href: 'https://assistant.neurond.com/',
                             },
                             {
                                 label: 'Contact Support',

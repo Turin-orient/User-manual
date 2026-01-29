@@ -5,10 +5,10 @@
   "source": "@site/docs/troubleshooting/common-issues.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/common-issues",
-  "permalink": "/docs/troubleshooting/common-issues",
+  "permalink": "/troubleshooting/common-issues",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/common-issues.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/troubleshooting/common-issues.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Image Studio",
-    "permalink": "/docs/user-manual/image-studio"
+    "permalink": "/user-manual/image-studio"
   },
   "next": {
     "title": "Error Messages Explained",
-    "permalink": "/docs/troubleshooting/error-messages"
+    "permalink": "/troubleshooting/error-messages"
   }
 }

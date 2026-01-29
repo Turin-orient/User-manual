@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/updating-deployment.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/updating-deployment",
-  "permalink": "/docs/system-setup/updating-deployment",
+  "permalink": "/system-setup/updating-deployment",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/updating-deployment.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/updating-deployment.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Environment Variables",
-    "permalink": "/docs/system-setup/environment-variables"
+    "permalink": "/system-setup/environment-variables"
   },
   "next": {
     "title": "Rollback Procedures",
-    "permalink": "/docs/system-setup/rollback"
+    "permalink": "/system-setup/rollback"
   }
 }

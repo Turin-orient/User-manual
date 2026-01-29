@@ -7,26 +7,36 @@ export default {
   "title": "Neurond Assistant User Manual",
   "tagline": "Complete Guide for Business Users",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://usermanual-ten.vercel.app",
   "baseUrl": "/",
-  "organizationName": "neurond",
-  "projectName": "neurond-assistant-docs",
+  "organizationName": "Turin-orient",
+  "projectName": "User-manual",
   "onBrokenLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
+  "markdown": {
+    "format": "mdx",
+    "mermaid": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "emoji": true,
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    }
   },
   "presets": [
     [
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/"
+          "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/"
         },
         "blog": false,
         "theme": {
@@ -52,8 +62,8 @@ export default {
           "label": "User Manual"
         },
         {
-          "href": "https://www.neurond.com",
-          "label": "Neurond AI",
+          "href": "https://assistant.neurond.com/",
+          "label": "Neurond Assistant",
           "position": "right"
         }
       ],
@@ -67,15 +77,15 @@ export default {
           "items": [
             {
               "label": "Getting Started",
-              "to": "/docs/getting-started/accessing-neurond"
+              "to": "/getting-started/accessing-neurond"
             },
             {
               "label": "User Guide",
-              "to": "/docs/user-guide/using-chat-interface"
+              "to": "/user-guide/using-chat-interface"
             },
             {
               "label": "Admin Guide",
-              "to": "/docs/admin-guide/admin-dashboard"
+              "to": "/admin-guide/admin-dashboard"
             }
           ]
         },
@@ -84,11 +94,11 @@ export default {
           "items": [
             {
               "label": "Troubleshooting",
-              "to": "/docs/troubleshooting/common-issues"
+              "to": "/troubleshooting/common-issues"
             },
             {
               "label": "FAQ",
-              "to": "/docs/troubleshooting/faq"
+              "to": "/troubleshooting/faq"
             }
           ]
         },
@@ -96,8 +106,8 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Neurond AI Website",
-              "href": "https://www.neurond.com"
+              "label": "Neurond Assistant App",
+              "href": "https://assistant.neurond.com/"
             },
             {
               "label": "Contact Support",
@@ -336,6 +346,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": false,
@@ -370,22 +388,5 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };

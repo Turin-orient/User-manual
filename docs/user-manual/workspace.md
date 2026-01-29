@@ -4,6 +4,8 @@ title: Workspace Creation Guide
 sidebar_label: Workspace
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 Workspaces are the core of your productivity with Neurond Assistant. They serve as specialized environments where you can configure specific AI behaviors, models, and data sources. This guide walks you through every detail of the creation process.
 
 ## 1. Getting Started
@@ -14,13 +16,27 @@ When you first access the workspace list, it may be empty. This is your blank ca
 
 To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
 
-![Create New Workspace Button](/img/ui/workspace/click_to_create_new_workspace.png)
+<AnnotatedImage 
+  src="/img/ui/workspace/click_to_create_new_workspace.png" 
+  alt="Create New Workspace Button"
+  annotations={[
+    { type: 'circle', x: '50%', y: '50%', size: '80px', color: 'blue', label: 'New Workspace' },
+    { type: 'cursor', x: '52%', y: '53%' }
+  ]} 
+/>
 
 ## 2. Choosing Your Configuration Strategy
 
 Neurond Assistant provides two main paths to help you get started quickly or with full control.
 
-![Configuration Options Overview](/img/ui/workspace/Work_spaces_default_AI.png)
+<AnnotatedImage 
+  src="/img/ui/workspace/Work_spaces_default_AI.png" 
+  alt="Configuration Options Overview"
+  annotations={[
+    { type: 'border', x: '18%', y: '30%', width: '25%', height: '40%', color: 'blue', label: 'Use Template' },
+    { type: 'border', x: '57%', y: '30%', width: '25%', height: '40%', color: 'blue', label: 'Custom Create' }
+  ]} 
+/>
 
 ### Option 1: Using Suggested Templates
 For common roles and tasks, you can select from "Suggested" templates. These come pre-configured with optimized models and relevant capability settings.
@@ -75,16 +91,6 @@ Designed for task execution. Agents can utilize tools to perform multi-step acti
 Once successful, your workspace is added to your operational list.
 
 ![Successful Workspace Creation](/img/ui/workspace/After_create_space.png)
-
-### Real-world Example
-Here is how a populated workspace looks with active knowledge bases and customized configurations.
-
-![Populated Workspace Example](/img/ui/workspace/Sample_of_work_space_1.png)
-
-### Efficient Navigation
-Use the integrated search bar to filter your workspaces by name or role. This ensures quick access even with dozens of active AI agents.
-
-![Workspace Search Functionality](/img/ui/workspace/Can_search_workspace_in_search_bar.png)
 
 ---
 **Guides in this section:**

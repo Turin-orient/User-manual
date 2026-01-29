@@ -5,10 +5,10 @@
   "source": "@site/docs/troubleshooting/error-messages.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/error-messages",
-  "permalink": "/docs/troubleshooting/error-messages",
+  "permalink": "/troubleshooting/error-messages",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/troubleshooting/error-messages.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/troubleshooting/error-messages.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Common Issues and Solutions",
-    "permalink": "/docs/troubleshooting/common-issues"
+    "permalink": "/troubleshooting/common-issues"
   },
   "next": {
     "title": "Performance Issues",
-    "permalink": "/docs/troubleshooting/performance-issues"
+    "permalink": "/troubleshooting/performance-issues"
   }
 }

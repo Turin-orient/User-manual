@@ -5,10 +5,10 @@
   "source": "@site/docs/admin-guide/api-keys-overview.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/api-keys-overview",
-  "permalink": "/docs/admin-guide/api-keys-overview",
+  "permalink": "/admin-guide/api-keys-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/admin-guide/api-keys-overview.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/admin-guide/api-keys-overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Permissions and Roles",
-    "permalink": "/docs/admin-guide/permissions-and-roles"
+    "permalink": "/admin-guide/permissions-and-roles"
   },
   "next": {
     "title": "Adding API Keys",
-    "permalink": "/docs/admin-guide/adding-api-keys"
+    "permalink": "/admin-guide/adding-api-keys"
   }
 }

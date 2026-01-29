@@ -5,10 +5,10 @@
   "source": "@site/docs/system-setup/vercel-deployment.md",
   "sourceDirName": "system-setup",
   "slug": "/system-setup/vercel-deployment",
-  "permalink": "/docs/system-setup/vercel-deployment",
+  "permalink": "/system-setup/vercel-deployment",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/system-setup/vercel-deployment.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/system-setup/vercel-deployment.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Prerequisites",
-    "permalink": "/docs/system-setup/prerequisites"
+    "permalink": "/system-setup/prerequisites"
   },
   "next": {
     "title": "Environment Variables",
-    "permalink": "/docs/system-setup/environment-variables"
+    "permalink": "/system-setup/environment-variables"
   }
 }

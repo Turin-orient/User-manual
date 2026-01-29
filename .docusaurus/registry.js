@@ -1,6 +1,5 @@
 export default {
   "00169d11": [() => import(/* webpackChunkName: "00169d11" */ "@site/docs/user-guide/asking-questions.md"), "@site/docs/user-guide/asking-questions.md", require.resolveWeak("@site/docs/user-guide/asking-questions.md")],
-  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
   "05f08d7c": [() => import(/* webpackChunkName: "05f08d7c" */ "@site/docs/admin-guide/workspace-settings.md"), "@site/docs/admin-guide/workspace-settings.md", require.resolveWeak("@site/docs/admin-guide/workspace-settings.md")],
   "0a9d82b8": [() => import(/* webpackChunkName: "0a9d82b8" */ "@site/docs/admin-guide/system-health.md"), "@site/docs/admin-guide/system-health.md", require.resolveWeak("@site/docs/admin-guide/system-health.md")],
   "101da60a": [() => import(/* webpackChunkName: "101da60a" */ "@site/docs/admin-guide/permissions-and-roles.md"), "@site/docs/admin-guide/permissions-and-roles.md", require.resolveWeak("@site/docs/admin-guide/permissions-and-roles.md")],
@@ -8,6 +7,7 @@ export default {
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "1cda0596": [() => import(/* webpackChunkName: "1cda0596" */ "@site/docs/introduction/index.md"), "@site/docs/introduction/index.md", require.resolveWeak("@site/docs/introduction/index.md")],
   "223d5786": [() => import(/* webpackChunkName: "223d5786" */ "@site/docs/admin-guide/environment-configuration.md"), "@site/docs/admin-guide/environment-configuration.md", require.resolveWeak("@site/docs/admin-guide/environment-configuration.md")],
+  "22dd74f7": [() => import(/* webpackChunkName: "22dd74f7" */ "@generated/docusaurus-plugin-content-docs/default/p/index-466.json"), "@generated/docusaurus-plugin-content-docs/default/p/index-466.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/index-466.json")],
   "29c3f15b": [() => import(/* webpackChunkName: "29c3f15b" */ "@site/docs/user-guide/using-chat-interface.md"), "@site/docs/user-guide/using-chat-interface.md", require.resolveWeak("@site/docs/user-guide/using-chat-interface.md")],
   "31e63814": [() => import(/* webpackChunkName: "31e63814" */ "@site/docs/user-guide/exporting-results.md"), "@site/docs/user-guide/exporting-results.md", require.resolveWeak("@site/docs/user-guide/exporting-results.md")],
   "352e42b3": [() => import(/* webpackChunkName: "352e42b3" */ "@site/docs/admin-guide/rotating-api-keys.md"), "@site/docs/admin-guide/rotating-api-keys.md", require.resolveWeak("@site/docs/admin-guide/rotating-api-keys.md")],

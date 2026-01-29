@@ -52,7 +52,7 @@
 }
 
 /* Make steps more visible */
-ol > li {
+ol>li {
   margin-bottom: 1em;
 }
 
@@ -68,4 +68,77 @@ ol > li {
 [data-theme='dark'] .expected-result {
   background-color: #111d2c;
   border-left-color: #177ddc;
+}
+
+/* Image Annotations */
+.image-annotation-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-annotation-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.annotation-marker {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.marker-circle {
+  border: 3px solid #ff4d4f;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(255, 77, 79, 0.6);
+}
+
+.marker-border {
+  border: 2px solid #ff4d4f;
+  border-radius: 4px;
+}
+
+/* Color Variants */
+.color-blue.marker-circle,
+.color-blue.marker-border {
+  border-color: #1890ff;
+  /* Light Blue */
+  box-shadow: 0 0 8px rgba(24, 144, 255, 0.6);
+}
+
+.marker-cursor {
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' stroke='black' stroke-width='1.5'%3E%3Cpath d='M5 3l14 9-5 2 4 7-3 1.5-4-7-5 4V3z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Labels / Tooltips */
+.annotation-label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-top: 8px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.annotation-label::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.8);
 }

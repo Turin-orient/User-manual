@@ -4,19 +4,34 @@ title: Image Studio Guide
 sidebar_label: Image Studio
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 Image Studio allows you to create artistic images or edit existing ones using artificial intelligence.
 
 ## 1. Image Studio Interface
 
 The Image Studio interface is designed to be intuitive, making it easy to create images using just text commands.
 
-![Image Studio UI](/img/ui/image-studio/Image_Studio_UI.png)
+<AnnotatedImage 
+  src="/img/ui/image-studio/Image_Studio_UI.png" 
+  alt="Image Studio UI"
+  annotations={[
+    { type: 'circle', x: '50%', y: '50%', size: '300px' }
+  ]} 
+/>
 
 ## 2. Creative Modes
 
 You can choose to create entirely new images or edit based on an existing one.
 
-![Select Mode](/img/ui/image-studio/Select_mode_new_or_exsit_image.png)
+<AnnotatedImage 
+  src="/img/ui/image-studio/Select_mode_new_or_exsit_image.png" 
+  alt="Select Mode"
+  annotations={[
+    { type: 'circle', x: '30%', y: '50%', size: '100px' },
+    { type: 'circle', x: '70%', y: '50%', size: '100px' }
+  ]} 
+/>
 
 ### Create New
 Enter a description for the image you want to create. You can select the image type (landscape, portrait, etc.) and your desired size.

@@ -5,10 +5,10 @@
   "source": "@site/docs/getting-started/dashboard-overview.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/dashboard-overview",
-  "permalink": "/docs/getting-started/dashboard-overview",
+  "permalink": "/getting-started/dashboard-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-org/neurond-assistant-docs/tree/main/docs/getting-started/dashboard-overview.md",
+  "editUrl": "https://github.com/Turin-orient/User-manual/tree/main/docs/getting-started/dashboard-overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Logging In",
-    "permalink": "/docs/getting-started/logging-in"
+    "permalink": "/getting-started/logging-in"
   },
   "next": {
     "title": "Logging Out",
-    "permalink": "/docs/getting-started/logging-out"
+    "permalink": "/getting-started/logging-out"
   }
 }

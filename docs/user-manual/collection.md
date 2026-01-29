@@ -4,6 +4,8 @@ title: Collection Management Guide
 sidebar_label: Collection
 ---
 
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 Collections in Neurond Assistant serve as a structured library for your documents, images, and other resources. This guide walks you through every detail of managing your centralized knowledge base.
 
 ## 1. Navigating the Collection Library
@@ -17,7 +19,14 @@ The Collection UI provides a clear overview of all your data groups. If you have
 
 To start organizing your data, click the **+ (Create New Collection)** button. This allows you to define a specific theme or project area for your files.
 
-![Create New Collection Button](/img/ui/collection/click_to-create_new_collection.png)
+<AnnotatedImage 
+  src="/img/ui/collection/click_to-create_new_collection.png" 
+  alt="Create New Collection Button"
+  annotations={[
+    { type: 'border', x: '45%', y: '45%', width: '10%', height: '10%', color: 'blue', label: 'New Collection' },
+    { type: 'cursor', x: '50%', y: '50%' }
+  ]} 
+/>
 
 ## 3. Adding and Uploading Content
 
@@ -26,7 +35,13 @@ You can populate your collection by bringing in external files.
 ### Drag and Drop Support
 The interface supports intuitive drag-and-drop actions. Simply drag files from your local computer directly into the collection area.
 
-![Drag and Drop Files](/img/ui/collection/Can-drag_files_to_collection.png)
+<AnnotatedImage 
+  src="/img/ui/collection/Can-drag_files_to_collection.png" 
+  alt="Drag and Drop Files"
+  annotations={[
+    { type: 'border', x: '20%', y: '20%', width: '60%', height: '60%', color: 'blue', label: 'Drop files here' }
+  ]} 
+/>
 
 ### Monitoring Progress
 During the upload and indexing process, you can monitor the status in real-time. Wait for the green "Success" indicator to ensure your files are optimized for AI retrieval.
