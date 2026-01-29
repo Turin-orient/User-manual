@@ -16,12 +16,14 @@ When you first access the workspace list, it may be empty. This is your blank ca
 
 To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
 
+To initiate the creation of a new specialized AI environment, locate and click the creation trigger button.
+
 <AnnotatedImage 
   src="/img/ui/workspace/click_to_create_new_workspace.png" 
   alt="Create New Workspace Button"
   annotations={[
-    { type: 'border', x: '4.5%', y: '8%', width: '36%', height: '14%', color: 'blue', label: 'New Workspace' },
-    { type: 'cursor', x: '6%', y: '12%' }
+    { type: 'circle', x: '22%', y: '16%', size: '100px', color: 'blue', label: 'New Workspace' },
+    { type: 'cursor', x: '22%', y: '16%' }
   ]} 
 />
 

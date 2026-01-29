@@ -74,7 +74,15 @@ ol>li {
 .image-annotation-wrapper {
   position: relative;
   display: inline-block;
-  width: 100%;
+  /* Shrink to fit image */
+  max-width: 100%;
+}
+
+.image-annotation-wrapper img {
+  display: block;
+  /* Remove bottom gap */
+  max-width: 100%;
+  height: auto;
 }
 
 .image-annotation-wrapper img {
@@ -87,6 +95,7 @@ ol>li {
   position: absolute;
   pointer-events: none;
   z-index: 5;
+  /* Positions (left/top) are relative to the wrapper/image */
 }
 
 .marker-circle {
@@ -94,7 +103,7 @@ ol>li {
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(255, 77, 79, 0.6);
   transform: translate(-50%, -50%);
-  /* Centered */
+  /* Centered on coordinates */
   animation: pulse-red 2s infinite;
 }
 

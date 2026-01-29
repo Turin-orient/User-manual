@@ -25,7 +25,6 @@ export default function AnnotatedImage({ src, alt, annotations = [] }) {
                         top: ann.y,
                         width: ann.width || ann.size || (ann.type === 'circle' ? '50px' : '24px'),
                         height: ann.height || ann.size || (ann.type === 'circle' ? '50px' : '24px'),
-                        ...(ann.type === 'border' ? { transform: 'none' } : {})
                     }}
                 >
                     {ann.label && <span className="annotation-label">{ann.label}</span>}
