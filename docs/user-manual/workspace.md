@@ -20,8 +20,8 @@ To initiate the creation of a new specialized AI environment, locate and click t
   src="/img/ui/workspace/click_to_create_new_workspace.png" 
   alt="Create New Workspace Button"
   annotations={[
-    { type: 'circle', x: '50%', y: '50%', size: '80px', color: 'blue', label: 'New Workspace' },
-    { type: 'cursor', x: '52%', y: '53%' }
+    { type: 'border', x: '4.5%', y: '8%', width: '36%', height: '14%', color: 'blue', label: 'New Workspace' },
+    { type: 'cursor', x: '6%', y: '12%' }
   ]} 
 />
 
@@ -33,8 +33,8 @@ Neurond Assistant provides two main paths to help you get started quickly or wit
   src="/img/ui/workspace/Work_spaces_default_AI.png" 
   alt="Configuration Options Overview"
   annotations={[
-    { type: 'border', x: '18%', y: '30%', width: '25%', height: '40%', color: 'blue', label: 'Use Template' },
-    { type: 'border', x: '57%', y: '30%', width: '25%', height: '40%', color: 'blue', label: 'Custom Create' }
+    { type: 'border', x: '17.8%', y: '28.5%', width: '24.5%', height: '38.5%', color: 'blue', label: 'Use Template' },
+    { type: 'border', x: '56.8%', y: '28.5%', width: '24.5%', height: '38.5%', color: 'blue', label: 'Custom Create' }
   ]} 
 />
 
