@@ -23,7 +23,7 @@ To start organizing your data, click the **+ (Create New Collection)** button. T
   src="/img/ui/collection/click_to-create_new_collection.png" 
   alt="Create New Collection Button"
   annotations={[
-    { type: 'circle', x: '50%', y: '50%', size: '80px', color: 'blue', label: 'New Collection' },
+    { type: 'circle', x: '50%', y: '50%', size: '90px', color: 'blue', label: 'New Collection' },
     { type: 'cursor', x: '52%', y: '52%' }
   ]} 
 />
@@ -39,7 +39,7 @@ The interface supports intuitive drag-and-drop actions. Simply drag files from y
   src="/img/ui/collection/Can-drag_files_to_collection.png" 
   alt="Drag and Drop Files"
   annotations={[
-    { type: 'border', x: '10%', y: '20%', width: '80%', height: '60%', color: 'blue', label: 'Drag and Drop Area' }
+    { type: 'border', x: '24.6%', y: '14.5%', width: '70%', height: '60%', color: 'blue', label: 'Drag and Drop Area' }
   ]} 
 />
 

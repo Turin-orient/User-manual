@@ -23,8 +23,8 @@ Type your question or request into the chat box at the bottom. You can use avail
   src="/img/ui/chat/Sample_prompt.png" 
   alt="Sample Prompts"
   annotations={[
-    { type: 'circle', x: '50%', y: '80%', size: '300px' },
-    { type: 'cursor', x: '55%', y: '85%' }
+    { type: 'circle', x: '50%', y: '48%', size: '200px' },
+    { type: 'cursor', x: '55%', y: '48%' }
   ]} 
 />
 
@@ -35,8 +35,8 @@ You can select different AI models depending on your needs (e.g., a fast model f
   src="/img/ui/chat/Choose_Model_chat.png" 
   alt="Choose Model"
   annotations={[
-    { type: 'border', x: '35%', y: '40%', width: '30%', height: '20%', color: 'blue', label: 'Select AI Model' },
-    { type: 'cursor', x: '50%', y: '50%' }
+    { type: 'border', x: '63.3%', y: '49.8%', width: '15%', height: '40%', color: 'blue', label: 'Select AI Model' },
+    { type: 'cursor', x: '78.3%', y: '59.8%' }
   ]} 
 />
 

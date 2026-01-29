@@ -28,9 +28,9 @@ You can choose to create entirely new images or edit based on an existing one.
   src="/img/ui/image-studio/Select_mode_new_or_exsit_image.png" 
   alt="Select Mode"
   annotations={[
-    { type: 'circle', x: '30%', y: '50%', size: '100px' },
-    { type: 'circle', x: '70%', y: '50%', size: '100px' }
-  ]} 
+    { type: 'circle', x: '26.8%', y: '82.7%', size: '100px', label: 'Create from scratch' },
+    { type: 'circle', x: '70%', y: '50%', size: '100px', label: 'Edit existing image' }
+  ]}  
 />
 
 ### Create New
