@@ -59,6 +59,7 @@ const sidebars = {
                         'admin-guide/admin-dashboard',
                         'admin-guide/managing-users',
                         'admin-guide/analytics',
+                        'admin-guide/user-usage',
                         'admin-guide/permissions-and-roles',
                         {
                             type: 'category',

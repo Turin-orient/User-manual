@@ -29,8 +29,8 @@ The system will display the analytics dashboard for the current tenant.
   src="/img/ui/admin/Admin_Dashboard.png" 
   alt="Accessing Analytics"
   annotations={[
-    { type: 'border', x: '1.5%', y: '25%', width: '13%', height: '4%', color: 'blue', label: '1. Click Reporting' },
-    { type: 'border', x: '1.5%', y: '29%', width: '13%', height: '4%', color: 'blue', label: '2. Click Analytics' }
+    { type: 'border', x: '0.9%', y: '25.6%', width: '13%', height: '4%', color: 'blue', label: '1. Click Reporting -> Analytics' },
+    
   ]}
 />
 

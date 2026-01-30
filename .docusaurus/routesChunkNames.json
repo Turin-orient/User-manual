@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/-f79": {
+  "/-053": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-ffc": {
+  "/-af4": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-443": {
+  "/-8d5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/admin-guide/adding-api-keys-5ac": {
@@ -106,6 +106,10 @@
   "/admin-guide/usage-monitoring-48e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---admin-guide-usage-monitoring-68-d-225"
+  },
+  "/admin-guide/user-usage-ac9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---admin-guide-user-usage-990-d98"
   },
   "/admin-guide/workspace-settings-103": {
     "__comp": "__comp---theme-doc-item-178-a40",
