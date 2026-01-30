@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
     title: 'User Manual - Neurond Assistant',
     tagline: 'Complete Guide for Business Users',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/neruond_logo.png',
 
     // Set the production url of your site here
     url: 'https://usermanual-ten.vercel.app',

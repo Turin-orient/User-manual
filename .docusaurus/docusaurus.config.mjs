@@ -6,7 +6,7 @@
 export default {
   "title": "User Manual - Neurond Assistant",
   "tagline": "Complete Guide for Business Users",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/neruond_logo.png",
   "url": "https://usermanual-ten.vercel.app",
   "baseUrl": "/",
   "organizationName": "Turin-orient",
