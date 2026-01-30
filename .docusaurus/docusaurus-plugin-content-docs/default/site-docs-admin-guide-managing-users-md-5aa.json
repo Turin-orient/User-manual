@@ -1,7 +1,7 @@
 {
   "id": "admin-guide/managing-users",
   "title": "User Management",
-  "description": "1. Accessing User Management",
+  "description": "This guide will help you manage all user accounts in your system. We have designed this \"step-by-step\" tutorial so that anyone, even without technical knowledge, can easily follow along.",
   "source": "@site/docs/admin-guide/managing-users.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/managing-users",

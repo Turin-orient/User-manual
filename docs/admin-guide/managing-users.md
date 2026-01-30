@@ -7,149 +7,171 @@ sidebar_position: 2
 
 import AnnotatedImage from '@site/src/components/AnnotatedImage';
 
-## 1. Accessing User Management
+# User Management Guide
 
-Admins can access the **User Management** section via:
-- The main **Navigation Bar**.
-- The **Admin Dashboard** (through "Quick Actions" or "Administration Sections").
+This guide will help you manage all user accounts in your system. We have designed this "step-by-step" tutorial so that anyone, even without technical knowledge, can easily follow along.
 
 ---
 
-## 2. The User Management Interface
+## 1. Accessing User Management
 
-Upon accessing this section, the system displays a comprehensive list of users along with configuration options to customize the view.
+To start managing users, you need to navigate to the correct screen.
+
+**Step 1:** Look at the **Navigation Bar** on the left side of your screen.
+**Step 2:** Find the section labeled **User Management**.
+**Step 3:** Click on **User Management**.
+
+<AnnotatedImage 
+  src="/img/ui/admin/Admin_Dashboard.png" 
+  alt="Navigation to User Management"
+  annotations={[
+    { type: 'border', x: '1.5%', y: '16.5%', width: '13%', height: '4%', color: 'blue', label: 'Click Here' },
+    { type: 'cursor', x: '8%', y: '18%' }
+  ]}
+/>
+
+---
+
+## 2. Understanding the Interface
+
+Once you are in, you will see the main **User Management Screen**. Let's get familiar with what you are seeing.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_management_overview.png" 
-  alt="User Management Interface"
+  alt="User Management Overview"
+  annotations={[
+    { type: 'border', x: '16%', y: '10%', width: '82%', height: '80%', color: 'blue', label: 'User List' }
+  ]}
 />
+
+- **User List (Center):** This is where all the accounts are shown.
+- **Search Bar (Top Right):** Used to find a specific person.
+- **Filter Options (Top Left):** Used to sort users by their status or role.
 
 ---
 
-## 3. Monitoring User Status
+## 3. Monitoring User Status (Active vs. Inactive)
 
-The system provides clear visual indicators for user account status, helping admins quickly identify active and inactive members.
+It is important to know who is currently using the system and who is not.
 
-### 3.1. Active Users
-Users who are currently enabled in the system are listed with an **Active** status. To view only these users, select the "Active users" checkbox in the filter.
+### 3.1. Viewing Active Users
+"Active" users are those who can currently log in.
+- **How to view:** Look for the **Status** column. Detailed green badges indicate valid accounts.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_list_active.png" 
-  alt="List of Active Users"
+  alt="Active Users"
 />
 
-### 3.2. Inactive Users
-Users who have been deactivated or haven't activated their accounts are shown as **Inactive**. This view is useful for auditing unused accounts.
+### 3.2. Viewing Inactive Users
+"Inactive" users are accounts that have been locked or haven't started yet.
+- **How to view:** Look for the grey badges. These users cannot access the system.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_list_inactive.png" 
-  alt="List of Inactive Users"
+  alt="Inactive Users"
 />
 
 ---
 
-## 4. Customizing the Display
+## 4. Customizing Your View
 
-You can customize which columns are visible in the user table to focus on the information that matters most.
+You can choose what information to see on your screen.
 
-### 4.1. Toggle Columns
-Admins can show or hide the following columns:
-- **Name**: Full name of the user.
-- **Email**: Contact email address.
-- **Status**: Current account state (Active/Inactive).
-- **Role**: Assigned system role (e.g., Admin, User).
+**Step 1:** Click on the **"Visible Columns"** icon (usually looks like an eye or a list).
+**Step 2:** A menu will appear. **Check** the boxes for information you want to see (like Name, Email).
+**Step 3:** **Uncheck** boxes for information you want to hide to make the screen cleaner.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_display_options.png" 
-  alt="Toggle Columns Option"
+  alt="Toggle Columns"
 />
 
 ---
 
-## 5. Managing Roles and Permissions
+## 5. Changing User Roles
 
-Role management is critical for security and access control.
+Sometimes a user needs more permissions (e.g., promoting a Staff member to Manager).
 
-### 5.1. Changing User Roles
-To change a user's role:
-1. Locate the user in the list.
-2. Click on their current **Role** in the Role column.
-3. Select the new role from the dropdown menu (e.g., changing from *User* to *Admin*).
-4. The system will update the permissions immediately.
+**Step 1:** Find the user in the list.
+**Step 2:** Click directly on their current role name (e.g., "User").
+**Step 3:** A list of roles will pop up. Click on the new role you want to assign.
+**Step 4:** The system saves automatically!
 
 <AnnotatedImage 
   src="/img/ui/admin/user_change_role.png" 
-  alt="Changing User Role"
+  alt="Change Role Step"
+  annotations={[
+    { type: 'border', x: '65%', y: '40%', width: '15%', height: '15%', color: 'blue', label: 'Select Role' }
+  ]}
 />
 
 ---
 
-## 6. Detailed User Actions
+## 6. Managing User Details
 
-Admins can perform specific actions on individual user accounts.
+To see more about a person or change their settings:
 
-### 6.1. Viewing and Editing User Details
-To view full details or edit specific attributes of a user, click directly on the **User Name**. This will open the detailed profile view where you can update information or settings specific to that user.
+**Step 1:** Hove your mouse over the **Name** of the user.
+**Step 2:** Click on their name.
+**Step 3:** A detailed profile will open where you can edit specific information.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_click_name.png" 
-  alt="Click Name to Edit"
+  alt="Click Name"
   annotations={[
     { type: 'cursor', x: '15%', y: '50%' }
   ]}
 />
 
-### 6.2. Changing User Status (Deactivate/Activate)
-To quickly change a user's access status:
-1. Locate the **Status** column for the target user.
-2. Click the status toggle button.
-3. Confirm the action to Deactivate (lock) or Activate (unlock) the account.
-
-<AnnotatedImage 
-  src="/img/ui/admin/user_filter_status.png" 
-  alt="Status Toggle Interaction"
-/>
-
 ---
 
-## 7. Filtering and Search
+## 7. Filtering and Searching
 
-Efficiently locate specific user groups using the filtering tools.
+If you have hundreds of users, don't scroll! Use these tools:
 
-### 7.1. Advanced Filtering through Roles
-- Click on the **Role filter** dropdown.
-- You can select **multiple roles** simultaneously (e.g., view both Admins and Managers).
-- The tag counter will indicate how many roles are currently applied to the filter.
+### 7.1. Finding by Role
+**Goal:** Show only "Admins".
+1. Click the **Role Filter**.
+2. Select **"Admin"**.
+3. The list surely updates to show only Admins.
 
-### 7.2. Search Functionality
-- Use the **Search Bar** to find specific users.
-- Supports searching by **Name** or **Email**.
+### 7.2. Searching by Name
+**Goal:** Find "John Doe".
+1. Click into the **Search Bar**.
+2. Type "John".
+3. Press Enter or wait a moment.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_search.png" 
-  alt="Search Users"
+  alt="Search User"
+  annotations={[
+    { type: 'border', x: '70%', y: '10%', width: '25%', height: '8%', color: 'blue', label: 'Type Name Here' }
+  ]}
 />
 
 ---
 
 ## 8. Creating a New User Account
 
-### 8.1. Account Creation Flow
-To onboard a new user:
-1. Click the **Create Account** button.
-2. Enter the new user's information (Name, Email).
-3. Assign the appropriate **Role**.
-4. Click **Save** to create the account. An invitation email will be sent to the user.
+Follow these exact steps to invite a new colleague.
+
+### 8.1. Step-by-Step Creation
+
+1.  **Click Create:** Find and click the **"Create Account"** button at the top right.
+2.  **Fill Form:** A window appears. Type their **Email** and **Name**.
+3.  **Assign Role:** Choose what they can do (e.g., "User").
+4.  **Confirm:** Click **Save**.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_create_account.png" 
-  alt="Create New Account Form"
+  alt="Create Account Form"
 />
 
----
+### 8.2. What Happens Next? (Sample)
+Here is an example of the successful creation notification and the email the user will receive.
 
-## 9. Operational Notes
-
-- **Audit Regularly**: Use the "Inactive Users" filter periodically to clean up unused accounts.
-- **Role Security**: Only assign "Admin" roles to trusted personnel. Use the Role filter to double-check who has administrative privileges.
-- **Bulk Management**: The interface is optimized for high-volume paging, ensuring performance even with thousands of users.
+<AnnotatedImage 
+  src="/img/ui/admin/user_create_sample.png" 
+  alt="Account Creation Sample"
+/>
