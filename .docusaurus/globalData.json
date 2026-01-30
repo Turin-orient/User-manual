@@ -25,6 +25,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "admin-guide/ai-management",
+              "path": "/admin-guide/ai-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "admin-guide/analytics",
               "path": "/admin-guide/analytics",
               "sidebar": "tutorialSidebar"

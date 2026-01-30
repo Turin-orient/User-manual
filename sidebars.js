@@ -66,6 +66,7 @@ const sidebars = {
                                 'admin-guide/user-usage',
                             ],
                         },
+                        'admin-guide/ai-management',
                         'admin-guide/permissions-and-roles',
                         {
                             type: 'category',
