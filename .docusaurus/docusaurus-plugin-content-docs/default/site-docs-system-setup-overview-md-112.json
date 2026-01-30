@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Image Studio",
-    "permalink": "/user-manual/image-studio"
+    "title": "System Health",
+    "permalink": "/admin-guide/system-health"
   },
   "next": {
     "title": "Prerequisites",

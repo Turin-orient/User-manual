@@ -14,14 +14,5 @@
   "sidebarPosition": 7,
   "frontMatter": {
     "sidebar_position": 7
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Content Drafting",
-    "permalink": "/user-guide/content-drafting"
-  },
-  "next": {
-    "title": "Exporting Results",
-    "permalink": "/user-guide/exporting-results"
   }
 }

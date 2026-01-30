@@ -14,14 +14,5 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Uploading Documents",
-    "permalink": "/user-guide/uploading-documents"
-  },
-  "next": {
-    "title": "Document Processing",
-    "permalink": "/user-guide/document-processing"
   }
 }

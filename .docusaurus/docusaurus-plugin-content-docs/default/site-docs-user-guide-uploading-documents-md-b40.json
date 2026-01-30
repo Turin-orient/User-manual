@@ -14,14 +14,5 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Asking Questions Effectively",
-    "permalink": "/user-guide/asking-questions"
-  },
-  "next": {
-    "title": "Knowledge Retrieval",
-    "permalink": "/user-guide/knowledge-retrieval"
   }
 }

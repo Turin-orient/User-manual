@@ -196,48 +196,39 @@
             },
             {
               "id": "user-guide/asking-questions",
-              "path": "/user-guide/asking-questions",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/asking-questions"
             },
             {
               "id": "user-guide/common-errors",
-              "path": "/user-guide/common-errors",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/common-errors"
             },
             {
               "id": "user-guide/content-drafting",
-              "path": "/user-guide/content-drafting",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/content-drafting"
             },
             {
               "id": "user-guide/conversation-history",
-              "path": "/user-guide/conversation-history",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/conversation-history"
             },
             {
               "id": "user-guide/document-processing",
-              "path": "/user-guide/document-processing",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/document-processing"
             },
             {
               "id": "user-guide/exporting-results",
-              "path": "/user-guide/exporting-results",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/exporting-results"
             },
             {
               "id": "user-guide/knowledge-retrieval",
-              "path": "/user-guide/knowledge-retrieval",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/knowledge-retrieval"
             },
             {
               "id": "user-guide/uploading-documents",
-              "path": "/user-guide/uploading-documents",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/uploading-documents"
             },
             {
               "id": "user-guide/using-chat-interface",
-              "path": "/user-guide/using-chat-interface",
-              "sidebar": "tutorialSidebar"
+              "path": "/user-guide/using-chat-interface"
             },
             {
               "id": "user-manual/chat-ui",

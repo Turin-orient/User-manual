@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '20a'),
+    component: ComponentCreator('/', 'a54'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '803'),
+        component: ComponentCreator('/', '9c6'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'aa2'),
+            component: ComponentCreator('/', '962'),
             routes: [
               {
                 path: '/admin-guide/adding-api-keys',
@@ -266,57 +266,48 @@ export default [
               },
               {
                 path: '/user-guide/asking-questions',
-                component: ComponentCreator('/user-guide/asking-questions', '823'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/asking-questions', '057'),
+                exact: true
               },
               {
                 path: '/user-guide/common-errors',
-                component: ComponentCreator('/user-guide/common-errors', '678'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/common-errors', '469'),
+                exact: true
               },
               {
                 path: '/user-guide/content-drafting',
-                component: ComponentCreator('/user-guide/content-drafting', '882'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/content-drafting', '324'),
+                exact: true
               },
               {
                 path: '/user-guide/conversation-history',
-                component: ComponentCreator('/user-guide/conversation-history', '024'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/conversation-history', '51f'),
+                exact: true
               },
               {
                 path: '/user-guide/document-processing',
-                component: ComponentCreator('/user-guide/document-processing', '626'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/document-processing', '91d'),
+                exact: true
               },
               {
                 path: '/user-guide/exporting-results',
-                component: ComponentCreator('/user-guide/exporting-results', 'adc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/exporting-results', 'eb4'),
+                exact: true
               },
               {
                 path: '/user-guide/knowledge-retrieval',
-                component: ComponentCreator('/user-guide/knowledge-retrieval', 'bd7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/knowledge-retrieval', '2e1'),
+                exact: true
               },
               {
                 path: '/user-guide/uploading-documents',
-                component: ComponentCreator('/user-guide/uploading-documents', '0fa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/uploading-documents', 'a07'),
+                exact: true
               },
               {
                 path: '/user-guide/using-chat-interface',
-                component: ComponentCreator('/user-guide/using-chat-interface', '91a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/user-guide/using-chat-interface', 'de1'),
+                exact: true
               },
               {
                 path: '/user-manual/chat-ui',

@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Logging Out",
-    "permalink": "/getting-started/logging-out"
-  },
-  "next": {
-    "title": "Asking Questions Effectively",
-    "permalink": "/user-guide/asking-questions"
   }
 }

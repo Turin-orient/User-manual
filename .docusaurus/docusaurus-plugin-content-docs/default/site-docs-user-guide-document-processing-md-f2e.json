@@ -14,14 +14,5 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Knowledge Retrieval",
-    "permalink": "/user-guide/knowledge-retrieval"
-  },
-  "next": {
-    "title": "Content Drafting",
-    "permalink": "/user-guide/content-drafting"
   }
 }

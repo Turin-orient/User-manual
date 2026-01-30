@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Using the Chat Interface",
-    "permalink": "/user-guide/using-chat-interface"
-  },
-  "next": {
-    "title": "Uploading Documents",
-    "permalink": "/user-guide/uploading-documents"
   }
 }
