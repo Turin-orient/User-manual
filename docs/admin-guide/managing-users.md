@@ -61,6 +61,10 @@ It is important to know who is currently using the system and who is not.
 <AnnotatedImage 
   src="/img/ui/admin/user_list_active.png" 
   alt="Active Users"
+  annotations={[
+    { type: 'border', x: '68%', y: '16%', width: '15%', height: '55%', color: 'green', label: 'Active Status' },
+    { type: 'cursor', x: '75%', y: '45%' }
+  ]}
 />
 
 ### 3.2. Viewing Inactive Users
