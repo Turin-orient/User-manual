@@ -6,6 +6,7 @@ sidebar_position: 2
 ---
 
 import AnnotatedImage from '@site/src/components/AnnotatedImage';
+import MouseTracker from '@site/src/components/MouseTracker';
 
 # User Management Guide
 
@@ -179,3 +180,11 @@ Here is an example of the successful creation notification and the email the use
   src="/img/ui/admin/user_create_sample.png" 
   alt="Account Creation Sample"
 />
+
+---
+
+## 🔧 Developer Tool: Coordinate Finder
+
+Use this interactive tool to find the exact **x%** and **y%** for your annotations. Hover over the image below!
+
+<MouseTracker src="/img/ui/admin/user_list_active.png" />
