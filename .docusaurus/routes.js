@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '883'),
+    component: ComponentCreator('/', '3db'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'df0'),
+        component: ComponentCreator('/', 'ac4'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '85f'),
+            component: ComponentCreator('/', '0db'),
             routes: [
               {
                 path: '/admin-guide/adding-api-keys',
@@ -65,6 +65,11 @@ export default [
                 component: ComponentCreator('/admin-guide/admin-dashboard', 'e91'),
                 exact: true,
                 sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/admin-guide/analytics',
+                component: ComponentCreator('/admin-guide/analytics', 'b18'),
+                exact: true
               },
               {
                 path: '/admin-guide/api-keys-overview',

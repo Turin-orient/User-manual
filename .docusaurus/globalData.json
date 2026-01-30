@@ -25,6 +25,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "admin-guide/analytics",
+              "path": "/admin-guide/analytics"
+            },
+            {
               "id": "admin-guide/api-keys-overview",
               "path": "/admin-guide/api-keys-overview",
               "sidebar": "tutorialSidebar"
