@@ -17,9 +17,9 @@ This guide will help you manage all user accounts in your system. We have design
 
 To start managing users, you need to navigate to the correct screen.
 
-**Step 1:** Look at the **Navigation Bar** on the left side of your screen.
-**Step 2:** Find the section labeled **User Management**.
-**Step 3:** Click on **User Management**.
+1. **Step 1:** Look at the **Navigation Bar** on the left side of your screen.
+2. **Step 2:** Find the section labeled **User Management**.
+3. **Step 3:** Click on **User Management**.
 
 <AnnotatedImage 
   src="/img/ui/admin/Admin_Dashboard.png" 
@@ -78,9 +78,9 @@ It is important to know who is currently using the system and who is not.
 
 You can choose what information to see on your screen.
 
-**Step 1:** Click on the **"Visible Columns"** icon (usually looks like an eye or a list).
-**Step 2:** A menu will appear. **Check** the boxes for information you want to see (like Name, Email).
-**Step 3:** **Uncheck** boxes for information you want to hide to make the screen cleaner.
+1. **Step 1:** Click on the **"Visible Columns"** icon (usually looks like an eye or a list).
+2. **Step 2:** A menu will appear. **Check** the boxes for information you want to see (like Name, Email).
+3. **Step 3:** **Uncheck** boxes for information you want to hide to make the screen cleaner.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_display_options.png" 
@@ -93,10 +93,10 @@ You can choose what information to see on your screen.
 
 Sometimes a user needs more permissions (e.g., promoting a Staff member to Manager).
 
-**Step 1:** Find the user in the list.
-**Step 2:** Click directly on their current role name (e.g., "User").
-**Step 3:** A list of roles will pop up. Click on the new role you want to assign.
-**Step 4:** The system saves automatically!
+1. **Step 1:** Find the user in the list.
+2. **Step 2:** Click directly on their current role name (e.g., "User").
+3. **Step 3:** A list of roles will pop up. Click on the new role you want to assign.
+4. **Step 4:** The system saves automatically!
 
 <AnnotatedImage 
   src="/img/ui/admin/user_change_role.png" 
@@ -112,9 +112,9 @@ Sometimes a user needs more permissions (e.g., promoting a Staff member to Manag
 
 To see more about a person or change their settings:
 
-**Step 1:** Hove your mouse over the **Name** of the user.
-**Step 2:** Click on their name.
-**Step 3:** A detailed profile will open where you can edit specific information.
+1. **Step 1:** Hover your mouse over the **Name** of the user.
+2. **Step 2:** Click on their name.
+3. **Step 3:** A detailed profile will open where you can edit specific information.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_click_name.png" 
