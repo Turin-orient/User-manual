@@ -67,6 +67,7 @@ const sidebars = {
                             ],
                         },
                         'admin-guide/ai-management',
+                        'admin-guide/governance',
                         'admin-guide/permissions-and-roles',
                         {
                             type: 'category',
