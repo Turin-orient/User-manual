@@ -238,7 +238,7 @@ By default, it displays the list of models currently in use.
   src="/img/ui/ai-management/11_model_default.png" 
   alt="Model Management – Default View"
   annotations={[
-    { type: 'cursor', x: '50%', y: '50%', label: 'View Models' }
+    { type: 'cursor', x: '94.1%', y: '99.4%', label: 'View Models' }
   ]}
 />
 
@@ -252,7 +252,7 @@ Models can be displayed by **Provider**, **Model Type**, **Features**, or **Role
   src="/img/ui/ai-management/12_model_filter.png" 
   alt="Model Filters"
   annotations={[
-    { type: 'cursor', x: '50%', y: '50%', label: 'Apply Filters' }
+    { type: 'cursor', x: '22.8%', y: '20.2%', label: 'Apply Filters' }
   ]}
 />
 
@@ -268,7 +268,7 @@ Models can be displayed by **Provider**, **Model Type**, **Features**, or **Role
   src="/img/ui/ai-management/13_add_model.png" 
   alt="Add New Model Button"
   annotations={[
-    { type: 'cursor', x: '50%', y: '50%', label: 'Click Add Model' }
+    { type: 'cursor', x: '90.7%', y: '13.8%', label: 'Click Add Model' }
   ]}
 />
 
@@ -323,7 +323,7 @@ Select the model type (e.g., Chat, Embedding, Image…).
 - Assign **one or more roles** to the model.
 
 <AnnotatedImage 
-  src="/img/ui/ai-management/17_set_role.png" 
+  src="/img/ui/ai-management/17b_role_configure.png" 
   alt="Set Role for Model"
   annotations={[
     { type: 'cursor', x: '50%', y: '50%', label: 'Assign Roles' }
