@@ -26,7 +26,8 @@
             },
             {
               "id": "admin-guide/analytics",
-              "path": "/admin-guide/analytics"
+              "path": "/admin-guide/analytics",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "admin-guide/api-keys-overview",

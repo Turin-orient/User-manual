@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/-3db": {
+  "/-f79": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-ac4": {
+  "/-ffc": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-0db": {
+  "/-443": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/admin-guide/adding-api-keys-5ac": {
@@ -67,7 +67,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---admin-guide-admin-dashboard-378-728"
   },
-  "/admin-guide/analytics-b18": {
+  "/admin-guide/analytics-e1e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---admin-guide-analytics-58-e-5c8"
   },

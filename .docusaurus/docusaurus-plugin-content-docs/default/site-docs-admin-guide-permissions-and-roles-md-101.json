@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "User Management",
-    "permalink": "/admin-guide/managing-users"
+    "title": "Analytics",
+    "permalink": "/admin-guide/analytics"
   },
   "next": {
     "title": "API Keys Overview",
