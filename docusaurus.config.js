@@ -66,8 +66,7 @@ const config = {
                 title: 'User Manual',
                 logo: {
                     alt: 'Neurond Assistant Logo',
-                    src: 'img/logo.svg',
-                    srcDark: 'img/logo-dark.svg', // Logo trắng cho dark mode
+                    src: 'img/neruond_logo.png',
                 },
                 items: [
                     {

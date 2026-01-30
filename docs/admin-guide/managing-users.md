@@ -41,7 +41,7 @@ Once you are in, you will see the main **User Management Screen**. Let's get fam
   src="/img/ui/admin/user_management_overview.png" 
   alt="User Management Overview"
   annotations={[
-    { type: 'border', x: '16%', y: '10%', width: '82%', height: '80%', color: 'blue', label: 'User List' }
+    { type: 'border', x: '1.2%', y: '20.9%', width: '99%', height: '75%', color: 'blue', label: 'User List' }
   ]}
 />
 
@@ -76,8 +76,8 @@ It is important to know who is currently using the system and who is not.
   src="/img/ui/admin/user_list_inactive.png" 
   alt="Inactive Users"
   annotations={[
-    { type: 'border', x: '16.3%', y: '19.2%', width: '7%', height: '3.5%', color: 'red', label: 'Inactive Status' },
-    { type: 'cursor', x: '18.1%', y: '23.8%', size: '20px' }
+    { type: 'border', x: '16.3%', y: '22.7%', width: '7%', height: '3.5%', color: 'red', label: 'Inactive Status' },
+    { type: 'cursor', x: '18%', y: '25.5%', size: '20px' }
   ]}
 />
 
@@ -155,7 +155,7 @@ If you have hundreds of users, don't scroll! Use these tools:
   src="/img/ui/admin/user_search.png" 
   alt="Search User"
   annotations={[
-    { type: 'border', x: '0.6%', y: '14.5%', width: '16%', height: '8%', color: 'blue', label: 'Type Name Here' }
+    { type: 'border', x: '0.6%', y: '14.5%', width: '16%', height: '6%', color: 'blue', label: 'Type Name Here' }
   ]}
 />
 
@@ -184,7 +184,7 @@ Here is an example of the successful creation notification and the email the use
   src="/img/ui/admin/user_create_sample.png" 
   alt="Account Creation Sample"
   annotations={[
-    { type: 'blur', x: '5%', y: '40%', width: '90%', height: '55%' }
+    { type: 'blur', x: '31.4%', y: '40.7%', width: '15%', height: '5%' }
   ]}
 />
 

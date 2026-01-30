@@ -51,8 +51,7 @@ export default {
       "title": "User Manual",
       "logo": {
         "alt": "Neurond Assistant Logo",
-        "src": "img/logo.svg",
-        "srcDark": "img/logo-dark.svg"
+        "src": "img/neruond_logo.png"
       },
       "items": [
         {
