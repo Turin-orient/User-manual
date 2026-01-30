@@ -26,16 +26,38 @@ Upon accessing this section, the system displays a comprehensive list of users a
 
 ---
 
-## 3. Customizing the Display
+## 3. Monitoring User Status
+
+The system provides clear visual indicators for user account status, helping admins quickly identify active and inactive members.
+
+### 3.1. Active Users
+Users who are currently enabled in the system are listed with an **Active** status. To view only these users, select the "Active users" checkbox in the filter.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_list_active.png" 
+  alt="List of Active Users"
+/>
+
+### 3.2. Inactive Users
+Users who have been deactivated or haven't activated their accounts are shown as **Inactive**. This view is useful for auditing unused accounts.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_list_inactive.png" 
+  alt="List of Inactive Users"
+/>
+
+---
+
+## 4. Customizing the Display
 
 You can customize which columns are visible in the user table to focus on the information that matters most.
 
-### 3.1. Toggle Columns
+### 4.1. Toggle Columns
 Admins can show or hide the following columns:
-- **Name**
-- **Email**
-- **Status**
-- **Role**
+- **Name**: Full name of the user.
+- **Email**: Contact email address.
+- **Status**: Current account state (Active/Inactive).
+- **Role**: Assigned system role (e.g., Admin, User).
 
 <AnnotatedImage 
   src="/img/ui/admin/user_display_options.png" 
@@ -44,35 +66,62 @@ Admins can show or hide the following columns:
 
 ---
 
-## 4. Filtering Users
+## 5. Managing Roles and Permissions
 
-Efficiently locate specific user groups using the filtering tools.
+Role management is critical for security and access control.
 
-### 4.1. Filter by Status
-- Check the box to display **Active users**.
-- Check the box to display **Inactive users**.
-- Click **Clear Filter** to reset the view.
+### 5.1. Changing User Roles
+To change a user's role:
+1. Locate the user in the list.
+2. Click on their current **Role** in the Role column.
+3. Select the new role from the dropdown menu (e.g., changing from *User* to *Admin*).
+4. The system will update the permissions immediately.
 
 <AnnotatedImage 
-  src="/img/ui/admin/user_filter_status.png" 
-  alt="Filter by Status"
+  src="/img/ui/admin/user_change_role.png" 
+  alt="Changing User Role"
 />
-
-### 4.2. Filter by Role
-- Click on the **Role filter** dropdown.
-- You can select **multiple roles** simultaneously.
-- The system will indicate the number of users currently hidden by the active filter.
 
 ---
 
-## 5. Search and Pagination
+## 6. Detailed User Actions
 
-### 5.1. Pagination
-Navigate through large lists of users:
-- **< (Previous Page)**: Return to the previous page.
-- **> (Next Page)**: Move to the next page.
+Admins can perform specific actions on individual user accounts.
 
-### 5.2. Search Functionality
+### 6.1. Viewing and Editing User Details
+To view full details or edit specific attributes of a user, click directly on the **User Name**. This will open the detailed profile view where you can update information or settings specific to that user.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_click_name.png" 
+  alt="Click Name to Edit"
+  annotations={[
+    { type: 'cursor', x: '15%', y: '50%' }
+  ]}
+/>
+
+### 6.2. Changing User Status (Deactivate/Activate)
+To quickly change a user's access status:
+1. Locate the **Status** column for the target user.
+2. Click the status toggle button.
+3. Confirm the action to Deactivate (lock) or Activate (unlock) the account.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_filter_status.png" 
+  alt="Status Toggle Interaction"
+/>
+
+---
+
+## 7. Filtering and Search
+
+Efficiently locate specific user groups using the filtering tools.
+
+### 7.1. Advanced Filtering through Roles
+- Click on the **Role filter** dropdown.
+- You can select **multiple roles** simultaneously (e.g., view both Admins and Managers).
+- The tag counter will indicate how many roles are currently applied to the filter.
+
+### 7.2. Search Functionality
 - Use the **Search Bar** to find specific users.
 - Supports searching by **Name** or **Email**.
 
@@ -83,16 +132,14 @@ Navigate through large lists of users:
 
 ---
 
-## 6. Creating a New User Account
+## 8. Creating a New User Account
 
-### 6.1. Account Creation Flow
+### 8.1. Account Creation Flow
 To onboard a new user:
 1. Click the **Create Account** button.
-2. Enter the new user's information.
+2. Enter the new user's information (Name, Email).
 3. Assign the appropriate **Role**.
-4. Click **Save** to create the account.
-
-### 6.2. Creation Form Example
+4. Click **Save** to create the account. An invitation email will be sent to the user.
 
 <AnnotatedImage 
   src="/img/ui/admin/user_create_account.png" 
@@ -101,8 +148,8 @@ To onboard a new user:
 
 ---
 
-## 7. Operational Notes
+## 9. Operational Notes
 
-- The User Management interface is optimized for handling **large numbers of users**.
-- Combine **filters** and **search** for the fastest results.
-- Designed to support **multi-tenant** environments effectively.
+- **Audit Regularly**: Use the "Inactive Users" filter periodically to clean up unused accounts.
+- **Role Security**: Only assign "Admin" roles to trusted personnel. Use the Role filter to double-check who has administrative privileges.
+- **Bulk Management**: The interface is optimized for high-volume paging, ensuring performance even with thousands of users.
