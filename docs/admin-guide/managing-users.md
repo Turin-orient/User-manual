@@ -6,7 +6,7 @@ sidebar_position: 2
 ---
 
 import AnnotatedImage from '@site/src/components/AnnotatedImage';
-import AnnotatedImage from '@site/src/components/AnnotatedImage';
+
 
 # User Management Guide
 
