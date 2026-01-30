@@ -6,7 +6,7 @@ sidebar_position: 2
 ---
 
 import AnnotatedImage from '@site/src/components/AnnotatedImage';
-import MouseTracker from '@site/src/components/MouseTracker';
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
 
 # User Management Guide
 
@@ -63,8 +63,8 @@ It is important to know who is currently using the system and who is not.
   src="/img/ui/admin/user_list_active.png" 
   alt="Active Users"
   annotations={[
-    { type: 'border', x: '68%', y: '16%', width: '15%', height: '55%', color: 'green', label: 'Active Status' },
-    { type: 'cursor', x: '75%', y: '45%' }
+    { type: 'border', x: '16.3%', y: '19.2%', width: '6.5%', height: '3.5%', color: 'green', label: 'Active Status' },
+    { type: 'cursor', x: '17.9%', y: '20.8%' }
   ]}
 />
 
@@ -181,10 +181,4 @@ Here is an example of the successful creation notification and the email the use
   alt="Account Creation Sample"
 />
 
----
 
-## 🔧 Developer Tool: Coordinate Finder
-
-Use this interactive tool to find the exact **x%** and **y%** for your annotations. Hover over the image below!
-
-<MouseTracker src="/img/ui/admin/user_list_active.png" />
