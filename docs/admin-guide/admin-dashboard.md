@@ -1,124 +1,87 @@
 ---
+id: admin-dashboard
+title: Admin Dashboard
+sidebar_label: Admin Dashboard
 sidebar_position: 1
 ---
 
-# Admin Dashboard Overview
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
 
-Overview of the administrative interface for managing Neurond Assistant.
+## 1. Overview
 
-## Purpose
+The Admin Dashboard is the central hub for users with **Admin** privileges, allowing them to:
+- Quickly access frequently used administrative tasks.
+- Manage users, workspaces, AI assistants, APIs, models, and access rights.
+- Monitor system activity and reports.
 
-Understand the admin-specific features and how to access system management functions.
-
-## Who Can Access This
-
-✅ **System Administrators only**
-
----
-
-## Accessing Admin Dashboard
-
-**1. Log in with admin credentials**
-
-**2. Navigate to Admin Panel**
-- Look for "Admin," "Settings," or ⚙️ icon
-- May be in top navigation or sidebar
-- Labeled "Administration" or "System Management"
-
-[Screenshot: Admin dashboard access]
+<AnnotatedImage 
+  src="/img/ui/admin/Admin_Dashboard.png" 
+  alt="Admin Dashboard Overview"
+/>
 
 ---
 
-## Admin Dashboard Components
+## 2. Layout Structure
 
-### 1. User Management
-- Add/edit/remove user accounts
-- Manage permissions and roles
-- View user activity
+### 2.1. Quick Actions Section
 
-### 2. API Configuration
-- Manage OpenAI, Azure, Google API keys
-- Test connections
-- Monitor API usage
+Displays frequently used tasks for rapid access.
 
-### 3. System Settings
-- Workspace configuration
-- Environment variables
-- Feature toggles
+**Each item includes:**
+- **Name**: The name of the task.
+- **Short Description**: A brief explanation of the function.
+- **Action Button**: Direct navigation button to the corresponding section.
 
-### 4. Monitoring & Analytics
-- Usage statistics
-- Performance metrics
-- System health status
+### 2.2. Administration Sections
 
-### 5. Security & Compliance
-- Access logs
-- Audit trails
-- Data retention policies
+A list of the main administrative areas of the system.
 
-[Screenshot: Admin dashboard layout with sections labeled]
+**Each section includes:**
+- **Name**: The name of the management area.
+- **Short Description**: A brief description.
+- **View Details**: Link to navigate to the detailed page of that section.
 
 ---
 
-## Admin vs User View
+## 3. Top Right Information
 
-| Feature | Regular Users | Administrators |
-|---------|--------------|----------------|
-| Chat interface | ✅ | ✅ |
-| Upload documents | ✅ | ✅ |
-| User management | ❌ | ✅ |
-| API keys | ❌ | ✅ |
-| System settings | ❌ | ✅ |
-| Usage analytics | ❌ | ✅ |
+- Displays the **Unit / Tenant Name** currently under administration.
+- Helps Admins identify the correct environment they are managing.
 
 ---
 
-## Key Admin Responsibilities
+## 4. Navigation Bar Structure
 
-**Daily:**
-- Monitor system health
-- Review error logs
-- Address user access requests
+The navigation bar is categorized into clear functional groups:
 
-**Weekly:**
-- Review usage statistics
-- Check API quotas
-- Update user permissions as needed
+### 4.1. General
+- **Dashboard**: The main overview page.
 
-**Monthly:**
-- Rotate API keys (security best practice)
-- Review and archive old data
-- Update system configuration
+### 4.2. User Management
+- **User Management**: Manage individual user accounts.
+- **Tenant Management**: Manage organizational units.
 
-**As Needed:**
-- Add/remove users
-- Troubleshoot issues
-- Update documentation
+### 4.3. Reporting
+- **Analytics**: System performance and usage analysis.
+- **User Usage**: Individual user activity tracking.
 
----
+### 4.4. AI Management
+- **Assistant Management**: Configure global AI assistants.
+- **Workspace Management**: oversee all workspaces.
 
-## Quick Access Menu
+### 4.5. API & Model Management
+- **API Key Management**: Manage connections to LLM providers.
+- **Models Management**: Configure available AI models.
+- **Prompt Management**: Manage system-level prompts.
 
-Common admin tasks accessible from dashboard:
-
-- 👥 **Add User** - Create new account
-- 🔑 **Manage API Keys** - Update credentials
-- 📊 **View Reports** - Usage and performance  
-- ⚙️ **System Settings** - Configuration options
-- 🔍 **Audit Logs** - Review system activity
+### 4.6. Governance
+- **Role Model Configuration**: Define role structures.
+- **Roles & Permissions**: Assign permissions to roles.
+- **Activity Logs**: Audit system actions.
 
 ---
 
-## Expected Result
+## 5. Notes
 
-✅ Understanding of admin interface layout  
-✅ Knowledge of available admin functions  
-✅ Ability to navigate to specific admin tasks  
-
----
-
-## Next Steps
-
-- [Managing Users](managing-users.md)
-- [API Key Management](api-keys-overview.md)
-- [System Configuration](environment-configuration.md)
+- Sections are grouped by **Administration – Operations – Governance**.
+- The design is focused on **fast manipulation and centralized control** for Admins.
