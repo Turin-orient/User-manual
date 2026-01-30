@@ -111,7 +111,7 @@ Sometimes a user needs more permissions (e.g., promoting a Staff member to Manag
   src="/img/ui/admin/user_change_role.png" 
   alt="Change Role Step"
   annotations={[
-    { type: 'border', x: '65%', y: '40%', width: '15%', height: '15%', color: 'blue', label: 'Select Role' }
+    { type: 'border', x: '74.8%', y: '66.9%', width: '15%', height: '20%', color: 'blue', label: 'Select Role' }
   ]}
 />
 
@@ -155,7 +155,7 @@ If you have hundreds of users, don't scroll! Use these tools:
   src="/img/ui/admin/user_search.png" 
   alt="Search User"
   annotations={[
-    { type: 'border', x: '70%', y: '10%', width: '25%', height: '8%', color: 'blue', label: 'Type Name Here' }
+    { type: 'border', x: '0.6%', y: '14.5%', width: '16%', height: '8%', color: 'blue', label: 'Type Name Here' }
   ]}
 />
 
@@ -183,6 +183,9 @@ Here is an example of the successful creation notification and the email the use
 <AnnotatedImage 
   src="/img/ui/admin/user_create_sample.png" 
   alt="Account Creation Sample"
+  annotations={[
+    { type: 'blur', x: '5%', y: '40%', width: '90%', height: '55%' }
+  ]}
 />
 
 
