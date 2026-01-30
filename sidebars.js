@@ -39,17 +39,14 @@ const sidebars = {
             items: [
                 {
                     type: 'category',
-                    label: 'User Guide',
+                    label: 'User Manual (UI Reference)',
                     items: [
-                        'user-guide/using-chat-interface',
-                        'user-guide/asking-questions',
-                        'user-guide/uploading-documents',
-                        'user-guide/knowledge-retrieval',
-                        'user-guide/document-processing',
-                        'user-guide/content-drafting',
-                        'user-guide/conversation-history',
-                        'user-guide/exporting-results',
-                        'user-guide/common-errors',
+                        'user-manual/login',
+                        'user-manual/workspace',
+                        'user-manual/prompt-gallery',
+                        'user-manual/collection',
+                        'user-manual/chat-ui',
+                        'user-manual/image-studio',
                     ],
                 },
                 {
@@ -90,19 +87,7 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '4. User Manual (UI Reference)',
-            items: [
-                'user-manual/login',
-                'user-manual/workspace',
-                'user-manual/prompt-gallery',
-                'user-manual/collection',
-                'user-manual/chat-ui',
-                'user-manual/image-studio',
-            ],
-        },
-        {
-            type: 'category',
-            label: '5. System Setup & Deployment',
+            label: '4. System Setup & Deployment',
             items: [
                 'system-setup/overview',
                 'system-setup/prerequisites',
@@ -115,7 +100,7 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '6. Troubleshooting & FAQ',
+            label: '5. Troubleshooting & FAQ',
             items: [
                 'troubleshooting/common-issues',
                 'troubleshooting/error-messages',
