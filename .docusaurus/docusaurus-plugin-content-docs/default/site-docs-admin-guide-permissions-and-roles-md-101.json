@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "AI Management",
-    "permalink": "/admin-guide/ai-management"
+    "title": "Governance",
+    "permalink": "/admin-guide/governance"
   },
   "next": {
     "title": "API Keys Overview",
