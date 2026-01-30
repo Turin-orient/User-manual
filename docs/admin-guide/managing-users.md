@@ -64,7 +64,7 @@ It is important to know who is currently using the system and who is not.
   alt="Active Users"
   annotations={[
     { type: 'border', x: '16.3%', y: '19.2%', width: '6.5%', height: '3.5%', color: 'green', label: 'Active Status' },
-    { type: 'cursor', x: '17.9%', y: '20.8%' }
+    { type: 'cursor', x: '18.1%', y: '23.8%', size: '20px' }
   ]}
 />
 
@@ -75,6 +75,10 @@ It is important to know who is currently using the system and who is not.
 <AnnotatedImage 
   src="/img/ui/admin/user_list_inactive.png" 
   alt="Inactive Users"
+  annotations={[
+    { type: 'border', x: '16.3%', y: '19.2%', width: '7%', height: '3.5%', color: 'red', label: 'Inactive Status' },
+    { type: 'cursor', x: '18.1%', y: '23.8%', size: '20px' }
+  ]}
 />
 
 ---
