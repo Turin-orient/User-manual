@@ -1,85 +1,108 @@
 ---
+id: managing-users
+title: User Management
+sidebar_label: User Management
 sidebar_position: 2
 ---
 
-# Managing Users
+import AnnotatedImage from '@site/src/components/AnnotatedImage';
 
-## Purpose
-Add, edit, and manage user accounts for Neurond Assistant.
+## 1. Accessing User Management
 
-## Who Can Perform This
-✅ **System Administrators only**
-
----
-
-## Adding a New User
-
-### Step 1: Access User Management
-1. Go to Admin Dashboard
-2. Click "Users" or "User Management"
-
-[Screenshot: User Management page]
-
-### Step 2: Create User Account
-1. Click "Add User" or "+ New User"
-2. Fill in required fields:
-   - **Full Name**
-   - **Email Address** (*must be unique*)
-   - **Role** (User / Admin)
-   - **Department** (optional)
-3. Click "Create User"
-
-[Screenshot: Add User form]
-
-### Step 3: Send Credentials
-- User receives email with login link
-- Or manually provide credentials to user
+Admins can access the **User Management** section via:
+- The main **Navigation Bar**.
+- The **Admin Dashboard** (through "Quick Actions" or "Administration Sections").
 
 ---
 
-## Editing User Information
+## 2. The User Management Interface
 
-**1. Find the User**
-- Search by name or email
-- Or browse user list
+Upon accessing this section, the system displays a comprehensive list of users along with configuration options to customize the view.
 
-**2. Click "Edit" or user name**
-
-**3. Modify fields:**
-- Name, email, role, department
-- Reset password (if applicable)
-
-**4. Save Changes**
+<AnnotatedImage 
+  src="/img/ui/admin/user_management_overview.png" 
+  alt="User Management Interface"
+/>
 
 ---
 
-## Deactivating/Removing Users
+## 3. Customizing the Display
 
-**When to deactivate:**
-- Employee leaves company
-- Extended leave
-- Security concern
+You can customize which columns are visible in the user table to focus on the information that matters most.
 
-**Steps:**
-1. Find user in list
-2. Click "..." → "Deactivate" or "Delete"
-3. Confirm action
-4. User loses access immediately
+### 3.1. Toggle Columns
+Admins can show or hide the following columns:
+- **Name**
+- **Email**
+- **Status**
+- **Role**
 
-:::warning Deletion vs Deactivation
-- **Deactivate:**Data retained, can reactivate later
-- **Delete:** Permanent removal, cannot undo
-:::
+<AnnotatedImage 
+  src="/img/ui/admin/user_display_options.png" 
+  alt="Toggle Columns Option"
+/>
 
 ---
 
-## Expected Result
-✅ New users can log in and access NA  
-✅ User information accurately updated  
-✅ Deactivated users cannot access system  
+## 4. Filtering Users
+
+Efficiently locate specific user groups using the filtering tools.
+
+### 4.1. Filter by Status
+- Check the box to display **Active users**.
+- Check the box to display **Inactive users**.
+- Click **Clear Filter** to reset the view.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_filter_status.png" 
+  alt="Filter by Status"
+/>
+
+### 4.2. Filter by Role
+- Click on the **Role filter** dropdown.
+- You can select **multiple roles** simultaneously.
+- The system will indicate the number of users currently hidden by the active filter.
 
 ---
 
-## Next Steps
-- [Manage Permissions and Roles](permissions-and-roles.md)
-- [Monitor User Activity](usage-monitoring.md)
+## 5. Search and Pagination
+
+### 5.1. Pagination
+Navigate through large lists of users:
+- **< (Previous Page)**: Return to the previous page.
+- **> (Next Page)**: Move to the next page.
+
+### 5.2. Search Functionality
+- Use the **Search Bar** to find specific users.
+- Supports searching by **Name** or **Email**.
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_search.png" 
+  alt="Search Users"
+/>
+
+---
+
+## 6. Creating a New User Account
+
+### 6.1. Account Creation Flow
+To onboard a new user:
+1. Click the **Create Account** button.
+2. Enter the new user's information.
+3. Assign the appropriate **Role**.
+4. Click **Save** to create the account.
+
+### 6.2. Creation Form Example
+
+<AnnotatedImage 
+  src="/img/ui/admin/user_create_account.png" 
+  alt="Create New Account Form"
+/>
+
+---
+
+## 7. Operational Notes
+
+- The User Management interface is optimized for handling **large numbers of users**.
+- Combine **filters** and **search** for the fastest results.
+- Designed to support **multi-tenant** environments effectively.

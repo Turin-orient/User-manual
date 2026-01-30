@@ -1,7 +1,7 @@
 {
   "id": "admin-guide/managing-users",
-  "title": "Managing Users",
-  "description": "Purpose",
+  "title": "User Management",
+  "description": "1. Accessing User Management",
   "source": "@site/docs/admin-guide/managing-users.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/managing-users",
@@ -13,11 +13,14 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
+    "id": "managing-users",
+    "title": "User Management",
+    "sidebar_label": "User Management",
     "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Admin Dashboard Overview",
+    "title": "Admin Dashboard",
     "permalink": "/admin-guide/admin-dashboard"
   },
   "next": {

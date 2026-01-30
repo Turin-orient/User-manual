@@ -1,7 +1,7 @@
 {
   "id": "admin-guide/admin-dashboard",
-  "title": "Admin Dashboard Overview",
-  "description": "Overview of the administrative interface for managing Neurond Assistant.",
+  "title": "Admin Dashboard",
+  "description": "1. Overview",
   "source": "@site/docs/admin-guide/admin-dashboard.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/admin-dashboard",
@@ -13,6 +13,9 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "id": "admin-dashboard",
+    "title": "Admin Dashboard",
+    "sidebar_label": "Admin Dashboard",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
@@ -21,7 +24,7 @@
     "permalink": "/user-guide/common-errors"
   },
   "next": {
-    "title": "Managing Users",
+    "title": "User Management",
     "permalink": "/admin-guide/managing-users"
   }
 }
