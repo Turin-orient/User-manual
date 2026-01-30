@@ -123,7 +123,7 @@ The User Usage table displays:
   src="/img/ui/user-usage/06_export_button.png" 
   alt="Export to CSV Button"
   annotations={[
-    { type: 'border', x: '89.4%', y: '13.9%', width: '9%', height: '70%', color: 'blue', label: 'Click to Export' }
+    { type: 'border', x: '60.1%', y: '21.4%', width: '45%', height: '40%', color: 'blue', label: 'Click to Export' }
   ]}
 />
 
