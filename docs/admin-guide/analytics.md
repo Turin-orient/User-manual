@@ -25,6 +25,15 @@ The Analytics Tab is a key part of the **Reporting** module, allowing Admins to:
 
 The system will display the analytics dashboard for the current tenant.
 
+<AnnotatedImage 
+  src="/img/ui/admin/Admin_Dashboard.png" 
+  alt="Accessing Analytics"
+  annotations={[
+    { type: 'border', x: '1.5%', y: '25%', width: '13%', height: '4%', color: 'blue', label: '1. Click Reporting' },
+    { type: 'border', x: '1.5%', y: '29%', width: '13%', height: '4%', color: 'blue', label: '2. Click Analytics' }
+  ]}
+/>
+
 ---
 
 ## 3. Analytics Structure
