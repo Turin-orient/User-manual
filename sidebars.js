@@ -39,6 +39,21 @@ const sidebars = {
             items: [
                 {
                     type: 'category',
+                    label: 'User Guide',
+                    items: [
+                        'user-guide/using-chat-interface',
+                        'user-guide/asking-questions',
+                        'user-guide/uploading-documents',
+                        'user-guide/knowledge-retrieval',
+                        'user-guide/document-processing',
+                        'user-guide/content-drafting',
+                        'user-guide/conversation-history',
+                        'user-guide/exporting-results',
+                        'user-guide/common-errors',
+                    ],
+                },
+                {
+                    type: 'category',
                     label: 'User Manual (UI Reference)',
                     items: [
                         'user-manual/login',
@@ -47,6 +62,7 @@ const sidebars = {
                         'user-manual/collection',
                         'user-manual/chat-ui',
                         'user-manual/image-studio',
+                        'user-guide/personalization',
                     ],
                 },
                 {
@@ -87,20 +103,7 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '4. System Setup & Deployment',
-            items: [
-                'system-setup/overview',
-                'system-setup/prerequisites',
-                'system-setup/vercel-deployment',
-                'system-setup/environment-variables',
-                'system-setup/updating-deployment',
-                'system-setup/rollback',
-                'system-setup/deployment-troubleshooting',
-            ],
-        },
-        {
-            type: 'category',
-            label: '5. Troubleshooting & FAQ',
+            label: '4. Troubleshooting & FAQ',
             items: [
                 'troubleshooting/common-issues',
                 'troubleshooting/error-messages',
