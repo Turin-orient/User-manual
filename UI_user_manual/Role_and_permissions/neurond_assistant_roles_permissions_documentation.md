@@ -1,14 +1,5 @@
----
-sidebar_position: 3
----
-
-# Permissions and Roles
-
-## Purpose
-Understand and manage user roles with Role-Based Access Control (RBAC) to ensure secure, scalable access management.
-
-## Who Can Perform This
-✅ **System Administrators only**
+# Neurond Assistant
+## Roles & Permissions (RBAC) – Full Documentation
 
 ---
 
@@ -23,7 +14,7 @@ Neurond Assistant implements a **Role-Based Access Control (RBAC)** system to ma
 - **Permission**: An atomic rule that grants an action on a resource
 - **Resource**: A system entity (User, Workspace, Model, etc.)
 
-**Relationship model:**
+Relationship model:
 
 ```
 User → Role → Permission → (Action + Resource)
@@ -42,7 +33,7 @@ Each permission follows a strict naming and behavior model:
 ### Standard Actions
 
 | Action | Description |
-|--------|-------------|
+|------|------------|
 | View | Read-only access |
 | Create | Create new entities |
 | Update | Modify existing entities |
@@ -93,21 +84,21 @@ Neurond Assistant uses **permission dependency resolution**.
 
 ---
 
-## 5. Resource-Level Permissions
+## 5. Resource-Level Permission Definitions
+
+---
 
 ### 5.1 User
 
 **Description:** Manages platform user accounts.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Users | View user list and profile details |
 | Create User | Create new user accounts |
 | Update User | Edit user information |
 | Soft Delete User | Deactivate users |
 | Manage Users | Full user management |
-
-![User permissions](../../UI_user_manual/Role_and_permissions/User.png)
 
 ---
 
@@ -116,14 +107,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Defines collections of permissions.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Roles | View existing roles |
 | Create Role | Create new roles |
 | Update Role | Modify roles |
 | Soft Delete Role | Disable roles |
 | Manage Roles | Full role control |
-
-![Role permissions](../../UI_user_manual/Role_and_permissions/Role.png)
 
 ---
 
@@ -132,14 +121,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Controls permission definitions themselves.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Permissions | View permission catalog |
 | Create Permission | Define new permissions |
 | Update Permission | Modify permissions |
 | Soft Delete Permission | Disable permissions |
 | Manage Permissions | Full permission system control |
-
-![Permission management](../../UI_user_manual/Role_and_permissions/Permission.png)
 
 ---
 
@@ -148,10 +135,8 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Grants access to administrative UI.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Admin Panel | Access admin interface |
-
-![Admin panel access](../../UI_user_manual/Role_and_permissions/Admin_panel.png)
 
 ---
 
@@ -160,10 +145,8 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Platform metrics and reporting.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Analytics | View dashboards and reports |
-
-![Analytics permissions](../../UI_user_manual/Role_and_permissions/Analytics.png)
 
 ---
 
@@ -172,10 +155,8 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Tracks usage and consumption.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View User Usage | View usage statistics |
-
-![User usage permissions](../../UI_user_manual/Role_and_permissions/User_Usage.png)
 
 ---
 
@@ -184,14 +165,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** AI / LLM models registered in the system.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Models | View models |
 | Create Model | Register models |
 | Update Model | Modify model settings |
 | Soft Delete Model | Disable models |
 | Manage Models | Full model lifecycle |
-
-![Model permissions](../../UI_user_manual/Role_and_permissions/Model.png)
 
 ---
 
@@ -200,14 +179,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** AI Assistants (Agents).
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Assistants | View assistants |
 | Create Assistant | Create assistants |
 | Update Assistant | Edit assistants |
 | Soft Delete Assistant | Disable assistants |
 | Manage AI Agents | Full assistant control |
-
-![Assistant permissions](../../UI_user_manual/Role_and_permissions/Assitant.png)
 
 ---
 
@@ -216,14 +193,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Knowledge sources attached to assistants.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Assistant Knowledge | View knowledge |
 | Create Assistant Knowledge | Add knowledge |
 | Update Assistant Knowledge | Edit knowledge |
 | Hard Delete Assistant Knowledge | Permanently delete |
 | Manage Assistant Knowledge | Full knowledge control |
-
-![Assistant knowledge permissions](../../UI_user_manual/Role_and_permissions/Assistant_Knowledege.png)
 
 ---
 
@@ -232,15 +207,13 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Collaborative environments.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Workspaces | View workspaces |
 | Create Workspace | Create workspaces |
 | Update Workspaces | Modify workspaces |
 | Soft Delete Workspace | Disable workspaces |
 | Share Workspace (Tenant-wide) | Share across tenant |
 | Manage Workspaces | Full workspace admin |
-
-![Workspace permissions](../../UI_user_manual/Role_and_permissions/work_space.png)
 
 ---
 
@@ -249,14 +222,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Shared knowledge across a workspace.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Workspace Knowledge | View shared knowledge |
 | Create Workspace Knowledge | Add knowledge |
 | Update Workspace Knowledge | Edit knowledge |
 | Hard Delete Workspace Knowledge | Permanent deletion |
 | Manage Workspace Knowledge | Full control |
-
-![Workspace knowledge permissions](../../UI_user_manual/Role_and_permissions/Workspace_knowledge.png)
 
 ---
 
@@ -265,11 +236,9 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Controls quotas and rate limits.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Model Access Limit | View limits |
 | Update Model Access Limit | Modify limits |
-
-![Model access limit permissions](../../UI_user_manual/Role_and_permissions/Modle_Access_limit.png)
 
 ---
 
@@ -278,11 +247,9 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Platform visual identity.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Branding | View branding settings |
 | Update Branding | Modify branding |
-
-![Branding permissions](../../UI_user_manual/Role_and_permissions/Branding.png)
 
 ---
 
@@ -291,10 +258,8 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** System audit trail.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Activity Log | View audit logs |
-
-![Activity log permissions](../../UI_user_manual/Role_and_permissions/Activity_log.png)
 
 ---
 
@@ -303,14 +268,12 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Programmatic access credentials.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View API Keys | View keys |
 | Create API Key | Generate keys |
 | Update API Key | Rotate keys |
 | Soft Delete API Key | Revoke keys |
 | Manage API Keys | Full API key control |
-
-![API key management permissions](../../UI_user_manual/Role_and_permissions/Api_key_management.png)
 
 ---
 
@@ -319,10 +282,8 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Assistant development environment.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Studio | Access Studio |
-
-![Studio permissions](../../UI_user_manual/Role_and_permissions/Studio.png)
 
 ---
 
@@ -331,21 +292,19 @@ Neurond Assistant uses **permission dependency resolution**.
 **Description:** Repository of reusable prompts.
 
 | Permission | Description |
-|------------|-------------|
+|----------|------------|
 | View Prompts | View prompts |
 | Create Prompt | Create prompts |
 | Update Prompt | Edit prompts |
 | Hard Delete Prompt | Permanently delete |
 | Manage Prompts | Full prompt control |
 
-![Prompt gallery permissions](../../UI_user_manual/Role_and_permissions/Prompt_galerry.png)
-
 ---
 
 ## 6. Default Role Examples
 
 | Role | Scope |
-|------|-------|
+|----|-----|
 | Super Admin | All permissions |
 | System Admin | Users, Roles, Permissions, API Keys |
 | Workspace Admin | Workspace & Knowledge |
@@ -355,100 +314,17 @@ Neurond Assistant uses **permission dependency resolution**.
 
 ---
 
-## 7. Creating and Managing Roles
+## 7. Design Principles
 
-### Creating a New Role
-
-1. Navigate to **Admin Panel** → **Roles & Permissions**
-2. Click **Add New Role** button
-3. Enter role name and description
-4. Select permissions for each resource category
-5. Review permission counts and dependencies
-6. Click **Apply Changes** to save
-7. Confirmation alert will appear
-
-![Add new role button with click annotation](../../UI_user_manual/Role_and_permissions/Add_new_role_annotated.png)
-
-![Save button with click annotation](../../UI_user_manual/Role_and_permissions/Save_role_annotated.png)
-
-### Editing Existing Roles
-
-1. Go to **Roles & Permissions** section
-2. Find the role you want to edit
-3. Toggle permissions as needed
-4. Review pending changes indicator
-5. Click **Apply Changes** to save or **Discard** to revert
-
-### Assigning Roles to Users
-
-**When creating user:**
-1. Select role from dropdown during user creation
-2. Choose from available role options
-
-**For existing user:**
-1. Go to **User Management**
-2. Find user → Edit
-3. Change "Role" field
-4. Save
-5. Changes take effect immediately
-
-![Click to edit Demo User role](../../UI_user_manual/Role_and_permissions/Demo_user_annotated.png)
+- Least-privilege access
+- Explicit confirmation for changes
+- Full auditability
+- Tenant-safe operations
+- Enterprise compliance readiness
 
 ---
 
-## 8. Best Practices
+## 8. Summary
 
-### Principle of Least Privilege
+The Neurond Assistant Roles & Permissions system is a **staged, dependency-aware RBAC implementation** designed for secure enterprise-scale AI platforms.
 
-- Grant minimum access needed for job function
-- Default to restrictive roles
-- Only assign elevated permissions when necessary
-
-### Regular Review
-
-- Audit user roles quarterly
-- Remove admin access when no longer needed
-- Check for inactive accounts
-- Review permission changes in Activity Log
-
-### Staged Changes
-
-- Always review pending changes before applying
-- Use the pending changes indicator to track modifications
-- Discard changes if uncertain about impact
-
-### Security Considerations
-
-- Limit the number of Super Admin accounts
-- Use specific roles instead of granting broad permissions
-- Monitor Activity Log for unauthorized access attempts
-- Regularly verify role assignments align with current job functions
-
----
-
-## 9. Design Principles
-
-- **Least-privilege access**: Users receive only the minimum permissions required
-- **Explicit confirmation for changes**: Staged changes prevent accidental modifications
-- **Full auditability**: All permission changes are logged in Activity Log
-- **Tenant-safe operations**: Multi-tenant isolation is enforced
-- **Enterprise compliance readiness**: Built for security and regulatory requirements
-
----
-
-## 10. Expected Result
-
-✅ Users have appropriate access levels based on their roles  
-✅ No unauthorized access to admin functions  
-✅ Clear separation of regular vs admin capabilities  
-✅ Full audit trail of permission changes  
-✅ Scalable permission management across the organization  
-
----
-
-## Next Steps
-
-- [User Management](user-management.md)
-- [API Key Management](api-keys-overview.md)
-- [Usage Monitoring](usage-monitoring.md)
-- [Activity Logs](governance.md)
