@@ -186,7 +186,8 @@ Click the context menu (**⋯**) on any workspace to:
   src="/img/ui/ai-management/Workspace_management_list.png" 
   alt="Workspace List and Actions"
   annotations={[
-    { type: 'cursor', x: '50%', y: '50%', label: 'Manage Workspaces' }
+    { type: 'cursor', x: '50%', y: '50%', label: 'Manage Workspaces' },
+    { type: 'border', x: '91.8%', y: '28.4%', width: '2.2%', height: '2%', color: 'blue', label: 'Click to View Detail' }
   ]}
 />
 
@@ -380,7 +381,7 @@ Select the model type (e.g., Chat, Embedding, Image…).
   src="/img/ui/ai-management/16_view_model.png" 
   alt="View Model on Provider"
   annotations={[
-    { type: 'border', x: '50%', y: '50%', width: '20%', height: '10%', color: 'blue', label: 'Click to View Detail' }
+    { type: 'border', x: '70.4%', y: '29.8%', width: '25%', height: '30%', color: 'blue', label: 'Click to View Detail' }
   ]}
 />
 
