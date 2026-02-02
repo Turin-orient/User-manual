@@ -157,22 +157,97 @@ Click to add a new file to the assistant.
 
 ## II. Workspace Management
 
-### Overview
+The **Workspace Management** module allows administrators to oversee and manage all collaborative environments within the tenant.
 
-Workspace Management features:
-- Functionality
-- UI
-- Flow
+### 1. Overview
 
-**Similar to other workspaces in the system.**
+Administrators can control visibility, sharing permissions, and the knowledge base of each workspace to ensure secure collaboration.
+
+---
+
+### 2. Accessing Workspace Management
+
+1. Navigate to **Admin Dashboard**.
+2. Select **Workspace Management** from the sidebar.
+
+![Workspace Management Screen](/img/ui/ai-management/Admin_dashboard_access.png)
+
+*Note: Use the User Menu in the bottom-left to access the Admin Dashboard.*
+
+---
+
+### 3. Workspace Management Interface
+
+#### List View
+The table displays all workspaces in the current tenant with details:
+- **Workspace Name & Icon**
+- **Owner Information**
+- **Sharing Scope** (Private or shared with X users)
+- **Creation Date**
+
+#### Actions Menu
+Click the context menu (**⋯**) on any workspace to:
+* **Edit** - Modify name, description, or icons.
+* **Share** - Manage who can access the workspace.
+* **Delete** - Remove the workspace permanently.
 
 <AnnotatedImage 
-  src="/img/ui/ai-management/07_workspace_ui.png" 
-  alt="Workspace Management UI"
+  src="/img/ui/ai-management/Workspace_management_list.png" 
+  alt="Workspace List and Actions"
   annotations={[
-    { type: 'cursor', x: '50%', y: '50%', label: 'Explore Workspace' }
+    { type: 'cursor', x: '50%', y: '50%', label: 'Manage Workspaces' }
   ]}
 />
+
+---
+
+### 4. Sharing Workspaces
+
+#### 4.1. Sharing Workflow
+1. Locate the target workspace in the list.
+2. Select **Share** from the Actions menu.
+3. Choose the sharing scope in the modal.
+
+#### 4.2. Share Scope Options
+Administrators can choose to share with:
+- **Specific user**: Select individual users by searching their email.
+- **Everyone in organization**: Grant access to all users within the tenant.
+
+<AnnotatedImage 
+  src="/img/ui/ai-management/Share_workspace_modal.png" 
+  alt="Share Modal Options"
+/>
+
+#### 4.3. Adding Users
+When sharing with specific users, use the search dialog to filter by email.
+
+<AnnotatedImage 
+  src="/img/ui/ai-management/Search_user_dialog.png" 
+  alt="Search User by Email"
+/>
+
+---
+
+### 5. Knowledge Base & Customization
+
+#### 5.1. Knowledge Base Management
+Administrators can manage the shared knowledge within each workspace:
+- **Upload Documents**: PDF, Word, etc.
+- **Organize**: Categorize by department or topic.
+- **Auditing**: Review and update outdated content.
+
+#### 5.2. Branding & Experience
+Customize the workspace appearance for end-users:
+- **Logos & Colors**: Set organizational visual identity.
+- **Welcome Messages**: Define the initial greeting and AI instructions.
+
+---
+
+### 6. Best Practices & Rules
+
+- **Principle of Least Privilege**: Share only with necessary users.
+- **Ownership**: The original owner retains control; sharing does not transfer ownership.
+- **Governance**: Periodically review shared workspaces in the Admin Panel to prevent unauthorized access.
 
 ---
 

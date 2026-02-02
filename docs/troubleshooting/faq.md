@@ -125,7 +125,7 @@ See [Managing Users](../admin-guide/managing-users.md) guide.
 See [Adding API Keys](../admin-guide/adding-api-keys.md) for step-by-step instructions.
 
 ### How do I add documents to the knowledge base?
-See [Workspace Settings](../admin-guide/workspace-settings.md).
+See [Workspace Management](../admin-guide/ai-management.md#ii-workspace-management).
 
 ### What are the costs?
 Costs vary based on usage and AI provider. Estimate $50-$500+ monthly for small-medium teams. See [System Setup Overview](../system-setup/overview.md).

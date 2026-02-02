@@ -79,7 +79,18 @@ const sidebars = {
                                 'admin-guide/user-usage',
                             ],
                         },
-                        'admin-guide/ai-management',
+                        {
+                            type: 'category',
+                            label: 'AI Management',
+                            items: [
+                                'admin-guide/ai-management',
+                                {
+                                    type: 'doc',
+                                    id: 'admin-guide/workspace-settings',
+                                    label: 'Workspace Management',
+                                },
+                            ],
+                        },
                         'admin-guide/governance',
                         'admin-guide/permissions-and-roles',
                         {
@@ -94,7 +105,6 @@ const sidebars = {
                             ],
                         },
                         'admin-guide/environment-configuration',
-                        'admin-guide/workspace-settings',
                         'admin-guide/usage-monitoring',
                         'admin-guide/system-health',
                     ],

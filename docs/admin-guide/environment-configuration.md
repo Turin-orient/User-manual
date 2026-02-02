@@ -110,6 +110,6 @@ DATABASE_URL=your-database-connection-string
 ---
 
 ## Next Steps
-- [Workspace Settings](workspace-settings.md)
+- [Workspace Management](ai-management.md#ii-workspace-management)
 - [Usage Monitoring](usage-monitoring.md)
 - [System Health](system-health.md)
