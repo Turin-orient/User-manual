@@ -84,11 +84,6 @@ const sidebars = {
                             label: 'AI Management',
                             items: [
                                 'admin-guide/ai-management',
-                                {
-                                    type: 'doc',
-                                    id: 'admin-guide/workspace-settings',
-                                    label: 'Workspace Management',
-                                },
                             ],
                         },
                         'admin-guide/governance',
