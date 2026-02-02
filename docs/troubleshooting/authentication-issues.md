@@ -2,92 +2,49 @@
 sidebar_position: 4
 ---
 
-# Authentication Issues
+# Help with Logging In
 
-Troubleshoot login and authentication problems.
-
-## Purpose
-Resolve login, password, and access issues.
-
-## Who Can Use This
-✅ All users
+Sometimes "opening the door" to get into the app (logging in) can be a little tricky. Here is how to fix the most common issues so you can get back to work quickly.
 
 ---
 
-## Can't Log In
+## 1. I can't get into the app
 
-### Wrong Password
-- Verify Caps Lock is OFF
-- Copy/paste carefully (no extra spaces)
-- Use "Forgot Password" if available
-- Contact admin to reset
+### Typing the wrong password
+- **What to do:**
+  - Check if **Caps Lock** is turned on.
+  - Try typing your password very slowly, one letter at a time.
+  - If it still doesn't work, look for the "Forgot Password" button or ask your manager to help you get a new one.
 
-### SSO Not Working
-- Clear browser cookies for SSO domain
-- Try incognito/private mode
-- Allow pop-ups from SSO provider
-- Check with IT if SSO service is down
+### Trouble with your company account
+- **What it means:** You are trying to use your normal work email to log in, but it's not working.
+- **What to do:**
+  - Close your browser completely and try opening the link again.
+  - Try using a different browser (like switching from Chrome to Edge).
+  - If it says "You don't have permission," ask your IT team if they have "invited" you to use the assistant yet.
 
-### Account Locked
-- Wait 15-30 minutes (auto-unlock)
-- Contact admin to unlock manually
-- Review password policy
-
----
-
-## Session Problems
-
-### Keeps Logging Me Out
-- Check session timeout setting
-- Close duplicate browser tabs
-- Don't use "Back" button after logout
-- Ask admin to extend timeout
-
-### "Session Expired"
-- Normal after ~30-60 min inactivity
-- Log back in (work is saved)
-- Stay active to maintain session
+### Your account is "Locked"
+- **What it means:** You typed the wrong password too many times, and the system is keeping you out for safety.
+- **What to do:** Just take a 15-30 minute break. The system will automatically "unlock" the door for you after a short wait!
 
 ---
 
-## SSO-Specific Issues
+## 2. Problems while using the app
 
-### Redirect Loop
-- Clear all cookies
-- Try different browser
-- Disable browser extensions
-- Contact IT support
+### "Why do I keep getting kicked out?"
+- **The Cause:** 
+  1. You might have too many browser windows or tabs open at once.
+  2. You haven't used the computer for a long time, and it "fell asleep."
+- **What to do:** Don't use the "Back" button on your browser to log out. Just log back in normally. Don't worry—all your old conversations are still safe!
 
-### "Not Authorized"
-- Verify account is created in Neurond Assistant
-- Check assigned correct permission/role
-- Confirm SSO is configured properly
+### "The screen says my 'Session Expired'"
+- This is completely normal! To keep the company's information safe, the system will automatically log you out if you haven't been active for about 30-60 minutes. Just log back in and continue where you left off.
 
 ---
 
-## For Administrators
+## Friendly Advice
 
-### Users Can't Access
-- Verify user account created
-- Check role/permissions assigned
-- Test SSO configuration
-- Review access logs
+✅ **DO:** Keep your password in a safe place where only you can find it.
+❌ **DONT:** Share your password with anyone else or leave your computer open in a public place.
 
-### SSO Configuration Issues
-- Verify callback URLs
-- Check SSO provider settings
-- Test with test account
-- Review integration documentation
-
----
-
-## Expected Result
-✅ Successful login  
-✅ Session remains active  
-✅ Authentication works smoothly  
-
----
-
-## Next Steps
-- [Common issues](common-issues.md)
-- [When to contact support](when-to-contact-support.md)
+**Still having trouble?** Check out our [Common Problems](common-issues.md) or [When to Call Support](when-to-contact-support.md) guides!

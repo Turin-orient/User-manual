@@ -2,121 +2,46 @@
 sidebar_position: 3
 ---
 
-# Performance Issues
+# Why is the app running slow?
 
-Troubleshoot slow response times and performance problems.
-
-## Purpose
-Improve Neurond Assistant performance and responsiveness.
-
-## Who Can Use This
-✅ All users  
-✅ Administrators
+Sometimes you might notice the assistant is taking a bit longer to answer, or the page itself is taking a while to load. Don't worry, it's usually a very simple fix! Here are a few things you can check.
 
 ---
 
-## For Users
+## 1. For You (The User)
 
-### Slow Page Loading
+### The page won't load
+- **The Cause:** Your internet might be weak, or your computer is trying to do too many things at once.
+- **What to do:**
+  1. Check if other websites (like Google or YouTube) are working normally.
+  2. Close any extra browser tabs you aren't using.
+  3. Close your browser and open it again.
 
-**Possible causes:**
-- Slow internet connection
-- Browser overloaded with tabs
-- Cache needs clearing
-
-**Solutions:**
-1. Test internet speed
-2. Close unused browser tabs
-3. Clear browser cache
-4. Try during off-peak hours
-5. Use wired connection vs WiFi
-
-### Long Wait for Responses
-
-**Possible causes:**
-- Complex query
-- High system load
-- API provider slow
-- Large document processing
-
-**Solutions:**
-1. Simplify question
-2. Break into smaller queries
-3. Wait during peak times (lunch, morning)
-4. Try smaller documents
-
-### Upload Takes Forever
-
-**Solutions:**
-1. Check file size (compress if large)
-2. Test internet upload speed
-3. Try smaller file first
-4. Use wired connection
+### Waiting a long time for an answer
+- **The Cause:** Your question might be very complex, you sent a giant file, or many people are using the assistant at the same time.
+- **What to do:**
+  1. **Split your question:** instead of one giant question, ask two or three smaller ones.
+  2. **Use smaller files:** If your document is very heavy, try splitting it into smaller parts.
+  3. **Be patient during "rush hour":** Just like traffic, the app can be slightly slower in the morning or right after lunch when everyone is logging in.
 
 ---
 
-## For Administrators
+## 2. Best Browser Tips
 
-### High Response Times
-
-**Check:**
-- [ ] API provider dashboard - any issues?
-- [ ] Vercel analytics - build time normal?
-- [ ] Check active users - spike in usage?
-- [ ] Review error logs
-
-**Solutions:**
-- Scale up API tier/plan
-- Implement caching (if available)
-- Optimize knowledge base
-- Distribute load (usage limits)
-
-### Deployment Slow
-
-**Solutions:**
-- Check Vercel status page
-- Review build logs for bottlenecks
-- Optimize dependencies
-- Clear build cache
+To keep the assistant running fast and smooth:
+- **Use a modern browser:** Make sure your **Google Chrome** or **Microsoft Edge** is up to date.
+- **Turn off heavy apps:** If you are downloading a movie or in a big video meeting, your internet might slow down the assistant.
+- **Fresh start:** Every now and then, restart your computer to clear out any digital "cobwebs."
 
 ---
 
-## Browser-Specific Issues
+## 3. When to tell the IT Team
 
-### Chrome/Edge
-- Clear cache: Ctrl+Shift+Delete
-- Disable extensions temporarily
-- Try incognito mode
-
-### Firefox
-- Clear cache: Ctrl+Shift+Delete
-- Check for browser updates
-- Disable add-ons
-
-### Safari
-- Clear cache: Cmd+Option+E
-- Check for macOS/iOS updates
-- Try private browsing
+You should tell the IT department if:
+- The website won't load at all, even though your internet is fine.
+- The assistant is **always** slow (taking several minutes for every answer) all day long.
+- You see a message saying "The system is too busy" over and over again.
 
 ---
 
-## Network Optimization
-
-**For best performance:**
-- Wired ethernet > WiFi
-- Close bandwidth-heavy apps
-- Check corporate network not throttling
-- Use during off-peak hours
-
----
-
-## Expected Result
-✅ Improved response times  
-✅ Faster uploads and processing  
-✅ Better user experience  
-
----
-
-## Next Steps
-- [System health monitoring](../admin-guide/system-health.md)
-- [Common issues](common-issues.md)
+**Top Tip:** Starting your day with a fresh browser window helps your assistant stay "awake" and fast! 🚀

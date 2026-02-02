@@ -2,170 +2,50 @@
 sidebar_position: 1
 ---
 
-# Common Issues and Solutions
+# Common Problems and Easy Solutions
 
-Quick solutions to frequently encountered problems.
-
-## Purpose
-Resolve common issues without contacting support.
-
-## Who Can Use This
-✅ All users  
-✅ Administrators
+Sometimes we all run into a little trouble with technology. Most of the time, the fix is very simple! Here are the most common problems and how you can fix them yourself in seconds.
 
 ---
 
-## Login & Access Issues
+## 🔑 Login Problems
 
-### Can't Log In - "Invalid Credentials"
-
-**Solutions:**
-1. ✓ Check username spelling (case-sensitive)
-2. ✓ Verify password (Caps Lock off)
-3. ✓ Use "Forgot Password" if available
-4. ✓ Contact admin to reset account
-
-### Can't Find Login Page
-
-**Solutions:**
-1. ✓ Verify URL with IT department
-2. ✓ Check if VPN is required
-3. ✓ Clear browser cache
-4. ✓ Try different browser
+**Problem:** "I typed my password, but the door won't open."
+- **Solution:**
+  1. Check if your **Caps Lock** is on (passwords care about BIG letters!).
+  2. Make sure you didn't accidentally add a space at the end of your email.
+  3. If you still can't get in, click **"Forgot Password"** to get a new one sent to your email.
 
 ---
 
-## Chat & Response Issues
+## 🐌 The Assistant is Slow
 
-### No Response / "Thinking..." Forever
-
-**Solutions:**
-1. ✓ Wait 30-60 seconds
-2. ✓ Refresh page
-3. ✓ Check internet connection
-4. ✓ Try simpler question
-5. ✓ Contact admin if persists
-
-### "I Don't Have Information About That"
-
-**Solutions:**
-1. ✓ Rephrase question
-2. ✓ Be more specific
-3. ✓ Try related keywords
-4. ✓ Document may not be in knowledge base
-
-### Response is Irrelevant or Wrong
-
-**Solutions:**
-1. ✓ Click "Regenerate"
-2. ✓ Clarify question with more context
-3. ✓ Break complex questions into parts
-4. ✓ Provide feedback (thumbs down) to improve
+**Problem:** "The assistant is taking forever to answer me."
+- **Solution:**
+  1. **Wait 10 seconds:** Sometimes the "brain" of the assistant is just busy reading a lot of documents.
+  2. **Refresh the page:** Click the reload button (⟳) to give everything a fresh start.
+  3. **Check your internet:** If your internet is weak, the assistant will be slow too.
 
 ---
 
-## Document Upload Issues
+## 📄 Upload Problems
 
-### Upload Fails
-
-**Solutions:**
-1. ✓ Check file size (under 25MB usually)
-2. ✓ Verify file type is supported
-3. ✓ Try different file format (convert to PDF)
-4. ✓ Check internet connection
-
-### "Cannot Read Document"
-
-**Solutions:**
-1. ✓ Ensure PDF is text-based (not scanned image)
-2. ✓ Remove password protection
-3. ✓ Try different file format
-4. ✓ Re-scan with better quality
+**Problem:** "I tried to send a file, but it failed."
+- **Solution:**
+  1. **Check the size:** If the file is giant (like a whole book with hundreds of photos), try sending a smaller piece of it.
+  2. **Check the format:** Make sure it's a normal file type like Word, PDF, or an image.
+  3. **Try again:** Sometimes the internet just "hiccups." Try sending it one more time.
 
 ---
 
-## Export Issues
+## ❓ The Answer is Wrong or Confusing
 
-### Can't Export / Download
-
-**Solutions:**
-1. ✓ Check browser allows downloads
-2. ✓ Try copy/paste instead
-3. ✓ Use different export format
-4. ✓ Refresh page and retry
-
-### Formatting Lost After Export
-
-**Solutions:**
-1. ✓ Use Excel format for tables
-2. ✓ Use Word for formatted text
-3. ✓ Manually reformat in destination app
+**Problem:** "I asked a question, but the answer doesn't make sense."
+- **Solution:**
+  1. **Ask in a different way:** Try using simpler words or giving more details.
+  2. **Check the document:** Make sure the document you sent actually has the answer to your question.
+  3. **Tell the assistant:** You can say, "That wasn't quite right, could you try again and be more specific?"
 
 ---
 
-## Performance Issues
-
-### Slow Loading
-
-**Solutions:**
-1. ✓ Check internet speed
-2. ✓ Close unused browser tabs
-3. ✓ Clear browser cache
-4. ✓ Try during off-peak hours
-
-### Session Expired
-
-**Solutions:**
-1. ✓ Log back in (normal after inactivity)
-2. ✓ Your work is auto-saved
-3. ✓ Request longer session timeout from admin
-
----
-
-## For Administrators
-
-### High API Costs
-
-**Solutions:**
-1. ✓ Review usage analytics
-2. ✓ Identify heavy users
-3. ✓ Implement daily limits
-4. ✓ Choose appropriate AI model tier
-
-### Users Report Errors
-
-**Solutions:**
-1. ✓ Check system health dashboard
-2. ✓ Verify API keys are valid
-3. ✓ Review error logs
-4. ✓ Test API connections
-
----
-
-## When to Contact Support
-
-**Contact IT/Admin if:**
-- Problem persists after trying solutions
-- System-wide outage
-- Security concerns
-- Data appears corrupted or lost
-
-**Include in your report:**
-- What you were doing
-- Error message (screenshot helpful)
-- Browser and version
-- When it started
-
----
-
-## Expected Result
-✅ Most issues resolved quickly  
-✅ Knowledge to troubleshoot independently  
-✅ Reduced downtime  
-
----
-
-## Next Steps
-- [Detailed error messages guide](error-messages.md)
-- [Performance troubleshooting](performance-issues.md)
-- [FAQ](faq.md)
+**Still stuck?** If these didn't work, check out our [When to Call Support](when-to-contact-support.md) guide!

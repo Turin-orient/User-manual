@@ -2,171 +2,47 @@
 sidebar_position: 5
 ---
 
-# When to Contact Support
+# When to ask for help
 
-Know when to troubleshoot yourself vs. when to contact IT support.
-
-## Purpose
-Escalate issues appropriately and provide helpful information.
-
-## Who Should Read This
-✅ All users
+We've tried to make Neurond Assistant very easy to use, but sometimes you might run into a problem that you just can't fix by yourself. Don't worry—there's a whole team of people ready to help you!
 
 ---
 
-## Try These First
+## 🚩 1. When should you call for help?
 
-**Before contacting support:**
-
-1. ✅ Check [Common Issues](common-issues.md)
-2. ✅ Try basic troubleshooting:
-   - Refresh page
-   - Clear cache
-   - Try different browser
-   - Wait a few minutes and retry
-3. ✅ Check [FAQ](faq.md)
-4. ✅ Ask a colleague if they're experiencing the same issue
+You should reach out to the IT team or your manager if:
+- **You can't log in:** You've tried your password multiple times and it's still not working.
+- **The screen is broken:** You see a big, scary error message that won't go away.
+- **Missing Information:** You know a certain document exists, but the assistant says it can't find it.
+- **Wrong Answers:** The assistant keeps giving you answers that are dangerous or completely incorrect.
 
 ---
 
-## Contact Support If...
+## 📝 2. What to do before you call
 
-### Critical Issues (Urgent)
-- 🔴 Cannot log in at all (after troubleshooting)
-- 🔴 System completely down
-- 🔴 Data appears lost or corrupted
-- 🔴 Security concern or breach suspected
-- 🔴 Error message saying "Contact Administrator"
+To help the support team fix your problem faster, try to gather these 3 things:
 
-### Important Issues (Same Day)
-- 🟠 Feature not working after trying fixes
-- 🟠 Consistent errors for >30 minutes
-- 🟠 Upload permanently failing
-- 🟠 Cannot export critical data
-- 🟠 Performance severely degraded
+### Step 1: Take a "Picture" (Screenshot)
+If you see an error on the screen, take a picture of it! 
+- **On Windows:** Press the **Windows Key + Shift + S** to take a snippet.
+- **On a phone:** Take a regular photo of the screen.
 
-### Non-Urgent Issues (1-2 Days)
-- 🟡 Feature request
-- 🟡 Minor usability question
-- 🟡 Documentation unclear
-- 🟡 Occasional minor errors
+### Step 2: Remember what you did
+Try to remember the exact steps you took before the problem happened.
+- *"I uploaded a PDF, asked a question, and then the screen turned white."*
+
+### Step 3: Check your internet
+Make sure your computer is still connected to the internet. Sometimes the "problem" is just a loose cable or weak Wifi!
 
 ---
 
-## How to Contact Support
+## 📞 3. How to contact us
 
-### Information to Provide
-
-**Always include:**
-1. **Your name and email**
-2. **What you were trying to do**
-3. **What happened instead**
-4. **Error message** (exact text or screenshot)
-5. **When it started**
-6. **What you've already tried**
-
-**Technical details (if known):**
-- Browser and version (e.g., "Chrome 120")
-- Operating system (Windows, Mac, etc.)
-- Time of occurrence
-- Frequency (once, ongoing, intermittent)
-
-### Example Good Support Request
-
-```
-Subject: Cannot upload PDF invoices
-
-Hi IT Team,
-
-I'm trying to upload PDF invoices to Neurond Assistant 
-but getting "Upload failed" error.
-
-Error message: "File upload failed - please try again"
-
-When: Started this morning around 9 AM
-Browser: Chrome version 120 on Windows 11
-What I tried: 
-- Refreshed page
-- Tried smaller file (same error)
-- Cleared cache
-- Tried Firefox (same problem)
-
-File details: PDF, 2.5 MB, not password protected
-
-Can you help?
-
-Thanks,
-[Your Name]
-```
-
-**Screenshot:**
-[Screenshot: Error message visible]
+Check your company's internal portal for the best way to get help. Usually, you can:
+- **Send an Email:** `support@yourcompany.com`
+- **Call the Help Desk:** Dial the internal number for IT.
+- **Chat:** Send a message to the IT support channel.
 
 ---
 
-## Don't Contact Support For...
-
-**Handle these yourself:**
-- ❌ "NA gave wrong answer" → Rephrase question, regenerate
-- ❌ "How do I use feature X?" → Check this user manual first
-- ❌ "Upload failed once" → Retry, check common issues
-- ❌ "Session expired" → Normal, just log back in
-- ❌ "Slow during lunch hour" → Peak time, expected
-
-**Still need guidance?** Ask a colleague or check documentation.
-
----
-
-## Support Contact Methods
-
-### Your Organization's IT Support
-
-**Email:** [Your IT help desk email]  
-**Phone:** [Your IT help desk phone]  
-**Portal:** [Your ticketing system URL]  
-**Hours:** [Your support hours]
-
-### Neurond AI (For Admins)
-
-**Email:** contact@neurond.com  
-**Website:** https://assistant.neurond.com/  
-**For:** Technical deployment issues, licensing, feature questions
-
----
-
-## Expected Response Times
-
-**Your organization's SLA:**
-- Critical: < 1 hour
-- Important: < 4 hours
-- Normal: < 24 hours
-
-*(Verify actual SLA with your IT department)*
-
----
-
-## Creating Effective Screenshots
-
-**Good screenshot includes:**
-- Error message clearly visible
-- URL in address bar
-- Timestamp (if possible)
-- Relevant part of interface
-
-**How to take screenshot:**
-- **Windows:** Windows key + Shift + S
-- **Mac:** Cmd + Shift + 4
-- **Full page:** Print Screen then paste in email
-
----
-
-## Expected Result
-✅ Issues escalated appropriately  
-✅ Support has information needed to help  
-✅ Faster problem resolution  
-
----
-
-## Next Steps
-- [Review FAQ](faq.md)
-- [Common issues self-help](common-issues.md)
+**Remember:** There are no "silly questions." We are here to make sure you can do your job with ease!
