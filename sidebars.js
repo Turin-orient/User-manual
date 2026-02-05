@@ -23,31 +23,21 @@ const sidebars = {
                 'introduction/key-features',
             ],
         },
+
         {
             type: 'category',
-            label: '2. Getting Started',
-            items: [
-                'getting-started/accessing-neurond',
-                'getting-started/logging-in',
-                'getting-started/dashboard-overview',
-                'getting-started/logging-out',
-            ],
-        },
-        {
-            type: 'category',
-            label: '3. User Manual (User & Admin Guide)',
+            label: '2. User Manual (User & Admin Guide)',
+
             items: [
                 {
                     type: 'category',
-                    label: 'User Guide',
+                    label: 'User Tips',
                     items: [
-                        'user-guide/using-chat-interface',
                         'user-guide/asking-questions',
                         'user-guide/uploading-documents',
                         'user-guide/knowledge-retrieval',
                         'user-guide/document-processing',
                         'user-guide/content-drafting',
-                        'user-guide/conversation-history',
                         'user-guide/exporting-results',
                         'user-guide/common-errors',
                     ],
@@ -61,6 +51,7 @@ const sidebars = {
                         'user-manual/prompt-gallery',
                         'user-manual/collection',
                         'user-manual/chat-ui',
+                        'user-manual/private-mode',
                         'user-manual/image-studio',
                         'user-guide/personalization',
                     ],
@@ -108,7 +99,8 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: '4. Troubleshooting & FAQ',
+            label: '3. Troubleshooting & FAQ',
+
             items: [
                 'troubleshooting/common-issues',
                 'troubleshooting/error-messages',

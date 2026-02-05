@@ -5,16 +5,25 @@ slug: /
 
 # Welcome to Neurond Assistant!
 
+![Welcome to Neurond Assistant](/img/introduction/welcome.png)
+
+
 Think of **Neurond Assistant** as your very own smart office helper. It's like having a friendly assistant who has read every single document in your company and is ready to help you with anything, 24/7.
 
 ---
 
 ## What can it do for you?
 
+![What can it do for you](/img/introduction/what_can_it_do.jpg)
+
+
 Imagine you have a giant pile of papers and you need to find one specific answer. Instead of digging through them yourself, you can just ask your assistant:
 - **"What is our policy on holiday leave?"**
 - **"Can you summarize this 50-page report for me?"**
 - **"Help me write a friendly email to a client."**
+
+![Example questions](/img/introduction/example_questions.jpg)
+
 
 It's here to save you time and make your work life much easier!
 
@@ -31,6 +40,9 @@ You don't need to be a "computer expert" to use it. If you know how to send a te
 ---
 
 ## Why use it?
+
+![Why use it](/img/introduction/why_use_it.png)
+
 
 - **It never sleeps:** Need help at 10 PM? It's there.
 - **It's lightning-fast:** It can read a book in seconds.

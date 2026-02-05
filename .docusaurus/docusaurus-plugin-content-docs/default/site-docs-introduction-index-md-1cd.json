@@ -1,7 +1,7 @@
 {
   "id": "introduction/index",
-  "title": "What is Neurond Assistant?",
-  "description": "Welcome to the Neurond Assistant User Manual. This guide will help you understand and use Neurond Assistant effectively in your daily work.",
+  "title": "Welcome to Neurond Assistant!",
+  "description": "Welcome to Neurond Assistant",
   "source": "@site/docs/introduction/index.md",
   "sourceDirName": "introduction",
   "slug": "/",
@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Who Should Use Neurond Assistant?",
+    "title": "Who can use Neurond Assistant?",
     "permalink": "/introduction/who-should-use"
   }
 }

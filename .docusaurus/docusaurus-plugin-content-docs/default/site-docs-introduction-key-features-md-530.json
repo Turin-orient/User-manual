@@ -1,7 +1,7 @@
 {
   "id": "introduction/key-features",
-  "title": "Key Features Overview",
-  "description": "This page provides an overview of the main features available in Neurond Assistant. Each feature is explained in simple terms with practical examples.",
+  "title": "What can Neurond Assistant do?",
+  "description": "Neurond Assistant has a few \"superpowers\" that make your daily work much smoother. Think of it as a multi-tool for your office tasks.",
   "source": "@site/docs/introduction/key-features.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/key-features",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Who Should Use Neurond Assistant?",
+    "title": "Who can use Neurond Assistant?",
     "permalink": "/introduction/who-should-use"
   },
   "next": {
-    "title": "Accessing Neurond Assistant",
-    "permalink": "/getting-started/accessing-neurond"
+    "title": "Asking Questions Effectively",
+    "permalink": "/user-guide/asking-questions"
   }
 }

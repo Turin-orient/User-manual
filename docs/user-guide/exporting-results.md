@@ -47,8 +47,6 @@ Download NA's work (tables, documents, summaries) to use in Excel, Word, present
 - File downloads to your computer
 - Open and use as needed
 
-[Screenshot: Export options on a message]
-
 ---
 
 ### Method 2: Export Entire Conversation
@@ -65,8 +63,6 @@ Download NA's work (tables, documents, summaries) to use in Excel, Word, present
 - Word (.docx)
 
 **4. Save the File**
-
-[Screenshot: Full conversation export dialog]
 
 ---
 
@@ -95,8 +91,6 @@ Download NA's work (tables, documents, summaries) to use in Excel, Word, present
 3. Download file
 4. Open in Excel
 5. Data is ready to use!
-
-[Screenshot: Excel file opened with exported data]
 
 ---
 
@@ -206,6 +200,7 @@ Double-check exported data for accuracy before using in reports or decisions.
 
 ## Next Steps
 
-- [Manage conversation history](conversation-history.md)
+- [Manage conversation history](../user-manual/chat-ui)
+
 - [Understand common errors](common-errors.md)
 - [Review troubleshooting guide](../troubleshooting/common-issues.md)

@@ -23,7 +23,7 @@ To start organizing your data, click the **+ (Create New Collection)** button. T
   src="/img/ui/collection/click_to-create_new_collection.png" 
   alt="Create New Collection Button"
   annotations={[
-    { type: 'circle', x: '50%', y: '50%', size: '90px', color: 'blue', label: 'New Collection' },
+    { type: 'border', x: '17.3%', y: '8.2%', width: '200px', height: '53px', color: 'blue', label: 'New Collection' },
     { type: 'cursor', x: '52%', y: '52%' }
   ]} 
 />

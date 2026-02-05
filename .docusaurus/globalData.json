@@ -90,29 +90,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "admin-guide/workspace-settings",
-              "path": "/admin-guide/workspace-settings",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "getting-started/accessing-neurond",
-              "path": "/getting-started/accessing-neurond",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "getting-started/dashboard-overview",
-              "path": "/getting-started/dashboard-overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "getting-started/logging-in",
-              "path": "/getting-started/logging-in",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "getting-started/logging-out",
-              "path": "/getting-started/logging-out",
-              "sidebar": "tutorialSidebar"
+              "path": "/getting-started/logging-out"
             },
             {
               "id": "introduction/index",
@@ -131,38 +110,31 @@
             },
             {
               "id": "system-setup/deployment-troubleshooting",
-              "path": "/system-setup/deployment-troubleshooting",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/deployment-troubleshooting"
             },
             {
               "id": "system-setup/environment-variables",
-              "path": "/system-setup/environment-variables",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/environment-variables"
             },
             {
               "id": "system-setup/overview",
-              "path": "/system-setup/overview",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/overview"
             },
             {
               "id": "system-setup/prerequisites",
-              "path": "/system-setup/prerequisites",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/prerequisites"
             },
             {
               "id": "system-setup/rollback",
-              "path": "/system-setup/rollback",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/rollback"
             },
             {
               "id": "system-setup/updating-deployment",
-              "path": "/system-setup/updating-deployment",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/updating-deployment"
             },
             {
               "id": "system-setup/vercel-deployment",
-              "path": "/system-setup/vercel-deployment",
-              "sidebar": "tutorialSidebar"
+              "path": "/system-setup/vercel-deployment"
             },
             {
               "id": "troubleshooting/authentication-issues",
@@ -196,39 +168,43 @@
             },
             {
               "id": "user-guide/asking-questions",
-              "path": "/user-guide/asking-questions"
+              "path": "/user-guide/asking-questions",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/common-errors",
-              "path": "/user-guide/common-errors"
+              "path": "/user-guide/common-errors",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/content-drafting",
-              "path": "/user-guide/content-drafting"
-            },
-            {
-              "id": "user-guide/conversation-history",
-              "path": "/user-guide/conversation-history"
+              "path": "/user-guide/content-drafting",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/document-processing",
-              "path": "/user-guide/document-processing"
+              "path": "/user-guide/document-processing",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/exporting-results",
-              "path": "/user-guide/exporting-results"
+              "path": "/user-guide/exporting-results",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/knowledge-retrieval",
-              "path": "/user-guide/knowledge-retrieval"
+              "path": "/user-guide/knowledge-retrieval",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-guide/personalization",
+              "path": "/user-guide/personalization",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-guide/uploading-documents",
-              "path": "/user-guide/uploading-documents"
-            },
-            {
-              "id": "user-guide/using-chat-interface",
-              "path": "/user-guide/using-chat-interface"
+              "path": "/user-guide/uploading-documents",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "user-manual/chat-ui",
@@ -248,6 +224,11 @@
             {
               "id": "user-manual/login",
               "path": "/user-manual/login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-manual/private-mode",
+              "path": "/user-manual/private-mode",
               "sidebar": "tutorialSidebar"
             },
             {

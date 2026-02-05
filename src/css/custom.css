@@ -206,9 +206,111 @@ ol>li {
   border: 6px solid transparent;
   border-bottom-color: rgba(0, 0, 0, 0.85);
 }
+
 /* Blur Effect */
 .marker-blur {
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
+}
+
+
+/* Ensure navbar doesn't clip the callout */
+.navbar {
+  overflow: visible !important;
+}
+
+/* Navbar Launch Button Enhancement */
+.navbar-launch-btn {
+  background-color: var(--ifm-color-primary);
+  color: white !important;
+  padding: 6px 16px !important;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none !important;
+  position: relative;
+}
+
+.navbar-launch-btn:hover {
+  background-color: var(--ifm-color-primary-dark);
+  box-shadow: 0 4px 15px rgba(46, 133, 85, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Playful Callout Bubble - Refined UI */
+.navbar-launch-btn::before {
+  content: "See what Neurond Assistant can do ✨";
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.85);
+  /* Glassmorphism Base */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--ifm-color-primary);
+  padding: 6px 14px;
+  border-radius: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(46, 133, 85, 0.3);
+  pointer-events: none;
+  animation: float-callout-refined 2.5s infinite ease-in-out;
+  z-index: 1000;
+}
+
+/* Pointing Arrow (Bottom-Up) - Refined */
+.navbar-launch-btn::after {
+  content: "▲";
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--ifm-color-primary);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  pointer-events: none;
+  animation: float-callout-refined 2.5s infinite ease-in-out;
+  z-index: 1001;
+}
+
+@keyframes float-callout-refined {
+
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+
+  50% {
+    transform: translate(-50%, -6px);
+  }
+}
+
+/* Dark Mode Refinements */
+[data-theme='dark'] .navbar-launch-btn {
+  box-shadow: 0 0 15px rgba(37, 194, 160, 0.2);
+}
+
+[data-theme='dark'] .navbar-launch-btn::before {
+  background: rgba(26, 26, 26, 0.85);
+  color: #25c2a0;
+  border-color: rgba(37, 194, 160, 0.4);
+}
+
+[data-theme='dark'] .navbar-launch-btn::after {
+  color: #25c2a0;
+}
+
+[data-theme='dark'] .navbar-launch-btn:hover {
+  box-shadow: 0 0 20px rgba(37, 194, 160, 0.5);
 }

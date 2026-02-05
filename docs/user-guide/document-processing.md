@@ -78,8 +78,6 @@ Transform unstructured documents (PDFs, images) into structured, usable data (ta
 
 **Result:** Candidate comparison table
 
-[Screenshot: Resume data comparison table]
-
 ---
 
 ### 4. Form Data Extraction
@@ -114,7 +112,6 @@ Transform unstructured documents (PDFs, images) into structured, usable data (ta
 - Copy table to Excel/Google Sheets
 - Or export as.xlsx file
 
-[Screenshot: Complete workflow from upload to export]
 
 ---
 
@@ -178,4 +175,5 @@ Transform unstructured documents (PDFs, images) into structured, usable data (ta
 
 - [Export your results](exporting-results.md)
 - [Draft content](content-drafting.md)
-- [View conversation history](conversation-history.md)
+- [View conversation history](../user-manual/chat-ui)
+

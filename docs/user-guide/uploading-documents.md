@@ -29,8 +29,6 @@ Upload documents for NA to read, analyze, extract data from, or summarize.
 - 🖼️ **JPEG** (.jpg, .jpeg)
 - 🖼️ **PNG** (.png)
 
-[Screenshot: Supported file type icons]
-
 ---
 
 ## File Size Limits
@@ -56,7 +54,8 @@ For files over the limit, try:
 - Look for 📎 (paperclip icon) in the chat input box
 - OR look for "Upload" or "Attach" button
 
-[Screenshot: Upload button highlighted]
+![Upload button highlighted](/img/user_guide/click_to_upload.png)
+
 
 **2. Click the Button**
 - Click the paperclip/upload icon
@@ -68,14 +67,11 @@ For files over the limit, try:
 - Hold Ctrl (Cmd on Mac) to select multiple files
 - Click "Open"
 
-[Screenshot: File browser window]
 
 **4. Wait for Upload**
 - Progress bar appears
 - File name shows in chat when complete
 - ✅ Green checkmark indicates success
-
-[Screenshot: Upload progress and completion]
 
 ---
 
@@ -93,7 +89,8 @@ For files over the limit, try:
 - Let go of the mouse button
 - Upload begins automatically
 
-[Screenshot: Drag and drop in action]
+![Drag and drop in action](/img/user_guide/drag_and_drop_upload.gif)
+
 
 ---
 
@@ -119,8 +116,6 @@ Once uploaded, tell NA what to do with the file:
 "According to this document, what is the project timeline?"
 ```
 
-[Screenshot: Document uploaded with instructions being typed]
-
 ---
 
 ## Working with Multiple Documents
@@ -145,8 +140,6 @@ Once uploaded, tell NA what to do with the file:
 "Create a table extracting invoice number, date, vendor,  
  and amount from all these invoices"
 ```
-
-[Screenshot: Multiple files uploaded]
 
 ---
 
@@ -277,4 +270,5 @@ NA cannot read password-protected or encrypted files. Remove protection before u
 
 - [Process and extract document data](document-processing.md)
 - [Export your results](exporting-results.md)
-- [Manage conversation history](conversation-history.md)
+- [Manage conversation history](../user-manual/chat-ui)
+

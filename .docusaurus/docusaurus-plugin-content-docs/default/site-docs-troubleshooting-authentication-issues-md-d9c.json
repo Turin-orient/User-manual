@@ -1,7 +1,7 @@
 {
   "id": "troubleshooting/authentication-issues",
-  "title": "Authentication Issues",
-  "description": "Troubleshoot login and authentication problems.",
+  "title": "Help with Logging In",
+  "description": "Sometimes \"opening the door\" to get into the app (logging in) can be a little tricky. Here is how to fix the most common issues so you can get back to work quickly.",
   "source": "@site/docs/troubleshooting/authentication-issues.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/authentication-issues",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Performance Issues",
+    "title": "Why is the app running slow?",
     "permalink": "/troubleshooting/performance-issues"
   },
   "next": {
-    "title": "When to Contact Support",
+    "title": "When to ask for help",
     "permalink": "/troubleshooting/when-to-contact-support"
   }
 }

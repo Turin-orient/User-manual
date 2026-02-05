@@ -14,5 +14,14 @@
   "sidebarPosition": 8,
   "frontMatter": {
     "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Content Drafting",
+    "permalink": "/user-guide/content-drafting"
+  },
+  "next": {
+    "title": "Common User Errors and Fixes",
+    "permalink": "/user-guide/common-errors"
   }
 }

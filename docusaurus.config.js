@@ -66,13 +66,15 @@ const config = {
                 title: 'User Manual',
                 logo: {
                     alt: 'Neurond Assistant Logo',
-                    src: 'img/neruond_logo.png',
+                    src: 'img/logo.svg',
+                    srcDark: 'img/logo-dark.svg',
                 },
                 items: [
                     {
                         href: 'https://assistant.neurond.com/',
-                        label: 'Neurond Assistant',
+                        label: 'Neurond Assistant →',
                         position: 'right',
+                        className: 'navbar-launch-btn',
                     },
                 ],
             },
@@ -84,11 +86,11 @@ const config = {
                         items: [
                             {
                                 label: 'Getting Started',
-                                to: '/getting-started/accessing-neurond',
+                                to: '/user-manual/login',
                             },
                             {
                                 label: 'User Guide',
-                                to: '/user-guide/using-chat-interface',
+                                to: '/user-manual/chat-ui',
                             },
                             {
                                 label: 'Admin Guide',

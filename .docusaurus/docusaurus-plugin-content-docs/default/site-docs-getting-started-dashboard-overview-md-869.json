@@ -1,7 +1,7 @@
 {
   "id": "getting-started/dashboard-overview",
-  "title": "Dashboard Overview",
-  "description": "After logging in, you'll see the Neurond Assistant Dashboard - your main workspace. This guide explains each part of the interface so you can navigate confidently.",
+  "title": "A Tour of Your Dashboard",
+  "description": "Welcome to your new digital office! When you first log in, it might look a little empty, but don't worry—you'll soon fill it with helpful conversations and important documents.",
   "source": "@site/docs/getting-started/dashboard-overview.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/dashboard-overview",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Logging In",
+    "title": "How to Log In",
     "permalink": "/getting-started/logging-in"
   },
   "next": {
-    "title": "Logging Out",
+    "title": "How to Log Out Safely",
     "permalink": "/getting-started/logging-out"
   }
 }

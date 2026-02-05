@@ -14,5 +14,14 @@
   "sidebarPosition": 9,
   "frontMatter": {
     "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exporting Results",
+    "permalink": "/user-guide/exporting-results"
+  },
+  "next": {
+    "title": "Login",
+    "permalink": "/user-manual/login"
   }
 }

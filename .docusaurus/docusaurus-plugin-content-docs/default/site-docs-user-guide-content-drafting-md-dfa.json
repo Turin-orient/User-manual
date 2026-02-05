@@ -14,5 +14,14 @@
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Document Processing",
+    "permalink": "/user-guide/document-processing"
+  },
+  "next": {
+    "title": "Exporting Results",
+    "permalink": "/user-guide/exporting-results"
   }
 }

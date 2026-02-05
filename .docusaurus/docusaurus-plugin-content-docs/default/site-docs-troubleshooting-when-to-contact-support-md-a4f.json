@@ -1,7 +1,7 @@
 {
   "id": "troubleshooting/when-to-contact-support",
-  "title": "When to Contact Support",
-  "description": "Know when to troubleshoot yourself vs. when to contact IT support.",
+  "title": "When to ask for help",
+  "description": "We've tried to make Neurond Assistant very easy to use, but sometimes you might run into a problem that you just can't fix by yourself. Don't worry—there's a whole team of people ready to help you!",
   "source": "@site/docs/troubleshooting/when-to-contact-support.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/when-to-contact-support",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Authentication Issues",
+    "title": "Help with Logging In",
     "permalink": "/troubleshooting/authentication-issues"
   },
   "next": {

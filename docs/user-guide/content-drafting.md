@@ -266,4 +266,5 @@ NA learns your company's communication style from the documents in its knowledge
 
 - [Export drafts](exporting-results.md)
 - [Process more documents](document-processing.md)
-- [Manage your conversations](conversation-history.md)
+- [Manage your conversations](../user-manual/chat-ui)
+

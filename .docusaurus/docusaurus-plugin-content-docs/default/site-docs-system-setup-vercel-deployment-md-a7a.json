@@ -14,14 +14,5 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Prerequisites",
-    "permalink": "/system-setup/prerequisites"
-  },
-  "next": {
-    "title": "Environment Variables",
-    "permalink": "/system-setup/environment-variables"
   }
 }

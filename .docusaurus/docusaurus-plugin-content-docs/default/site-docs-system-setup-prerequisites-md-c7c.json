@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "System Setup Overview",
-    "permalink": "/system-setup/overview"
-  },
-  "next": {
-    "title": "Vercel Deployment Guide",
-    "permalink": "/system-setup/vercel-deployment"
   }
 }

@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "System Health",
-    "permalink": "/admin-guide/system-health"
-  },
-  "next": {
-    "title": "Prerequisites",
-    "permalink": "/system-setup/prerequisites"
   }
 }

@@ -14,14 +14,5 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Vercel Deployment Guide",
-    "permalink": "/system-setup/vercel-deployment"
-  },
-  "next": {
-    "title": "Updating and Redeploying",
-    "permalink": "/system-setup/updating-deployment"
   }
 }

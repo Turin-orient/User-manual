@@ -1,7 +1,7 @@
 {
   "id": "admin-guide/workspace-settings",
-  "title": "Workspace Settings",
-  "description": "Customize workspace-specific settings and preferences.",
+  "title": "Workspace Management",
+  "description": "Customize and manage workspace-specific settings, collaboration, and knowledge base.",
   "source": "@site/docs/admin-guide/workspace-settings.md",
   "sourceDirName": "admin-guide",
   "slug": "/admin-guide/workspace-settings",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Environment Configuration",
-    "permalink": "/admin-guide/environment-configuration"
+    "title": "AI Management",
+    "permalink": "/admin-guide/ai-management"
   },
   "next": {
-    "title": "Usage Monitoring",
-    "permalink": "/admin-guide/usage-monitoring"
+    "title": "Governance",
+    "permalink": "/admin-guide/governance"
   }
 }

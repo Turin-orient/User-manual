@@ -1,7 +1,7 @@
 {
   "id": "troubleshooting/error-messages",
-  "title": "Error Messages Explained",
-  "description": "Common error messages and what they mean in plain language.",
+  "title": "Understanding Error Messages",
+  "description": "Sometimes the screen might show a message that sounds a bit strange or scary. Don't worry! These messages are just the computer's way of telling you it needs a little help. Here is how to understand them in plain English.",
   "source": "@site/docs/troubleshooting/error-messages.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/error-messages",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Common Issues and Solutions",
+    "title": "Common Problems and Easy Solutions",
     "permalink": "/troubleshooting/common-issues"
   },
   "next": {
-    "title": "Performance Issues",
+    "title": "Why is the app running slow?",
     "permalink": "/troubleshooting/performance-issues"
   }
 }

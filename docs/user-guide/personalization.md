@@ -194,4 +194,4 @@ Revisit these settings anytime as your role or preferences change.
 
 - [Data Controls](../user-guide/data-controls.md) - Manage your data privacy
 - [Security Settings](../user-guide/security.md) - Configure security options
-- [Account Management](../user-guide/account.md) - Update account details
+- [Account Management](../user-manual/chat-ui) - Update account details

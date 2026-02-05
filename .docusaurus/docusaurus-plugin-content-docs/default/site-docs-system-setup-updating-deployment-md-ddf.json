@@ -14,14 +14,5 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Environment Variables",
-    "permalink": "/system-setup/environment-variables"
-  },
-  "next": {
-    "title": "Rollback Procedures",
-    "permalink": "/system-setup/rollback"
   }
 }

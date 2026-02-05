@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Workspace Settings",
-    "permalink": "/admin-guide/workspace-settings"
+    "title": "Environment Configuration",
+    "permalink": "/admin-guide/environment-configuration"
   },
   "next": {
     "title": "System Health",

@@ -1,7 +1,7 @@
 {
   "id": "troubleshooting/performance-issues",
-  "title": "Performance Issues",
-  "description": "Troubleshoot slow response times and performance problems.",
+  "title": "Why is the app running slow?",
+  "description": "Sometimes you might notice the assistant is taking a bit longer to answer, or the page itself is taking a while to load. Don't worry, it's usually a very simple fix! Here are a few things you can check.",
   "source": "@site/docs/troubleshooting/performance-issues.md",
   "sourceDirName": "troubleshooting",
   "slug": "/troubleshooting/performance-issues",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Error Messages Explained",
+    "title": "Understanding Error Messages",
     "permalink": "/troubleshooting/error-messages"
   },
   "next": {
-    "title": "Authentication Issues",
+    "title": "Help with Logging In",
     "permalink": "/troubleshooting/authentication-issues"
   }
 }

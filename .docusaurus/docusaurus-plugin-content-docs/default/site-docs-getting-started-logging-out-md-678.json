@@ -1,7 +1,7 @@
 {
   "id": "getting-started/logging-out",
-  "title": "Logging Out",
-  "description": "This guide explains how to safely log out of Neurond Assistant to protect your account and data.",
+  "title": "How to Log Out Safely",
+  "description": "When you are finished using Neurond Assistant for the day, it's a good idea to \"lock the door\" by logging out. This keeps your company's information safe and private.",
   "source": "@site/docs/getting-started/logging-out.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/logging-out",
@@ -14,14 +14,5 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Dashboard Overview",
-    "permalink": "/getting-started/dashboard-overview"
-  },
-  "next": {
-    "title": "Login",
-    "permalink": "/user-manual/login"
   }
 }

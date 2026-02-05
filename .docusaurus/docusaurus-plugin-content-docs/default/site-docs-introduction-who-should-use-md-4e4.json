@@ -1,7 +1,7 @@
 {
   "id": "introduction/who-should-use",
-  "title": "Who Should Use Neurond Assistant?",
-  "description": "Neurond Assistant is designed for everyone in your organization. This page helps you understand how different roles can benefit from using NA.",
+  "title": "Who can use Neurond Assistant?",
+  "description": "Who can use Neurond Assistant",
   "source": "@site/docs/introduction/who-should-use.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/who-should-use",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "What is Neurond Assistant?",
+    "title": "Welcome to Neurond Assistant!",
     "permalink": "/"
   },
   "next": {
-    "title": "Key Features Overview",
+    "title": "What can Neurond Assistant do?",
     "permalink": "/introduction/key-features"
   }
 }

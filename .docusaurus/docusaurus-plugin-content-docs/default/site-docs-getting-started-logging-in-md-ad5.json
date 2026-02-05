@@ -1,7 +1,7 @@
 {
   "id": "getting-started/logging-in",
-  "title": "Logging In",
-  "description": "This guide walks you through the complete login process for Neurond Assistant, from your first login to understanding your user dashboard.",
+  "title": "How to Log In",
+  "description": "Logging in is like \"opening the door\" to your assistant's office. Once you're in, the assistant will remember who you are and save all your work for you.",
   "source": "@site/docs/getting-started/logging-in.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/logging-in",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accessing Neurond Assistant",
+    "title": "How to open Neurond Assistant",
     "permalink": "/getting-started/accessing-neurond"
   },
   "next": {
-    "title": "Dashboard Overview",
+    "title": "A Tour of Your Dashboard",
     "permalink": "/getting-started/dashboard-overview"
   }
 }
