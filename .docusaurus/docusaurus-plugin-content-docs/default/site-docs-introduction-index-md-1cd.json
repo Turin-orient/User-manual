@@ -1,7 +1,7 @@
 {
   "id": "introduction/index",
   "title": "Welcome to Neurond Assistant!",
-  "description": "Welcome to Neurond Assistant",
+  "description": "Think of Neurond Assistant as your very own smart office helper. It's like having a friendly assistant who has read every single document in your company and is ready to help you with anything, 24/7.",
   "source": "@site/docs/introduction/index.md",
   "sourceDirName": "introduction",
   "slug": "/",

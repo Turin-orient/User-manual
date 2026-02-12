@@ -1,6 +1,7 @@
 export default {
   "00169d11": [() => import(/* webpackChunkName: "00169d11" */ "@site/docs/user-guide/asking-questions.md"), "@site/docs/user-guide/asking-questions.md", require.resolveWeak("@site/docs/user-guide/asking-questions.md")],
   "03c29d68": [() => import(/* webpackChunkName: "03c29d68" */ "@site/docs/user-guide/personalization.md"), "@site/docs/user-guide/personalization.md", require.resolveWeak("@site/docs/user-guide/personalization.md")],
+  "04ac931e": [() => import(/* webpackChunkName: "04ac931e" */ "@site/docs/introduction/interactive-demo.md"), "@site/docs/introduction/interactive-demo.md", require.resolveWeak("@site/docs/introduction/interactive-demo.md")],
   "0a9d82b8": [() => import(/* webpackChunkName: "0a9d82b8" */ "@site/docs/admin-guide/system-health.md"), "@site/docs/admin-guide/system-health.md", require.resolveWeak("@site/docs/admin-guide/system-health.md")],
   "101da60a": [() => import(/* webpackChunkName: "101da60a" */ "@site/docs/admin-guide/permissions-and-roles.md"), "@site/docs/admin-guide/permissions-and-roles.md", require.resolveWeak("@site/docs/admin-guide/permissions-and-roles.md")],
   "1126b608": [() => import(/* webpackChunkName: "1126b608" */ "@site/docs/system-setup/overview.md"), "@site/docs/system-setup/overview.md", require.resolveWeak("@site/docs/system-setup/overview.md")],

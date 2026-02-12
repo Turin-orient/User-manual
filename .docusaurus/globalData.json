@@ -99,6 +99,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "introduction/interactive-demo",
+              "path": "/introduction/interactive-demo"
+            },
+            {
               "id": "introduction/key-features",
               "path": "/introduction/key-features",
               "sidebar": "tutorialSidebar"
